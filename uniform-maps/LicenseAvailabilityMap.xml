@@ -31,7 +31,7 @@
         <variant value="Free access" />
         <variant value="frei verfügbar" />        
         <variant value="http://www.europeana.eu/rights/orphan-work-eu/" />
-        <variant value="http://rightsstatements.org/vocab/InC-OW-EU/1.0/​" />
+        <variant value="http://rightsstatements.org/vocab/InC-OW-EU/1.0/" />
         <variant value="https://lindat.mff.cuni.cz/repository/xmlui/page/licence-UD-1.3" />        
         <variant value="Open" />
         <variant value="open" />
@@ -451,7 +451,7 @@
         <variant value="Free to use for research and teaching purposes" />        
         <variant value="free; Free for academic use." />        
         <variant value="free; Free for research purposes." />
-        <variant value="http://rightsstatements.org/vocab/InC-EDU/1.0/​" />
+        <variant value="http://rightsstatements.org/vocab/InC-EDU/1.0/" />
         <variant value="ree available for science" />
         <variant value="research use only" />
         <variant value="Vrij beschikbaar voor dialectologisch, fonetisch, historisch of ander onderzoek. Onderzoekers wordt gevraagd bij publicatie als bron deze website te vermelden. Neem voor andersoortig gebruik contact op met het Meertens Instituut" />

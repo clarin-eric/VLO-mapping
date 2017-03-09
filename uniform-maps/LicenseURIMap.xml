@@ -838,5 +838,38 @@
 	<mapping>
 		<normalizedValue value="http://www.europeana.eu/rights/rr-p/" />
 		<variant value="https://www.europeana.eu/rights/rr-p/" />
-	</mapping>        
+	</mapping>       
+	<mapping>
+		<normalizedValue value="http://rightsstatements.org/vocab/NoC-NC/1.0/" />
+		<variant value="https://rightsstatements.org/vocab/NoC-NC/1.0/" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="http://rightsstatements.org/vocab/NoC-OKLR/1.0/" />
+		<variant value="https://rightsstatements.org/vocab/NoC-OKLR/1.0/" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="http://rightsstatements.org/vocab/InC/1.0/" />
+		<variant value="https://rightsstatements.org/vocab/InC/1.0/" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="http://rightsstatements.org/vocab/InC-EDU/1.0/" />
+		<variant value="https://rightsstatements.org/vocab/InC-EDU/1.0/" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="http://rightsstatements.org/vocab/InC-OW-EU/1.0/" />
+		<variant value="https://rightsstatements.org/vocab/InC-OW-EU/1.0/" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="http://www.europeana.eu/rights/orphan-work-eu/" />
+		<variant value="https://www.europeana.eu/rights/orphan-work-eu/" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="http://rightsstatements.org/vocab/CNE/1.0/" />
+		<variant value="https://rightsstatements.org/vocab/CNE/1.0/" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="http://www.europeana.eu/rights/out-of-copyright-non-commercial/" />
+		<variant value="https://www.europeana.eu/rights/out-of-copyright-non-commercial/" />
+	</mapping>
+
 </mappings>
