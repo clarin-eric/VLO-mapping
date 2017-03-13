@@ -35,7 +35,7 @@ public class MappingSyntaxTest {
 
     @Test
     public void validateMapping() throws SAXException, IOException, ParserConfigurationException {
-        System.out.println("\nTesting resource " + mappingResource);
+        System.out.println("\nChecking XML resource " + mappingResource);
         final InputStream resourceStream = getClass().getClassLoader().getResourceAsStream(mappingResource);
         assertNotNull("Resource " + mappingResource + " should exist", resourceStream);
         try {
