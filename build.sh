@@ -23,4 +23,4 @@ else
 	    fi
     fi
 fi
-mvn ${MVN_GOAL} -B $@
+mvn ${MVN_GOAL} $@

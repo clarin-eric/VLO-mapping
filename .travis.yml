@@ -1,7 +1,7 @@
 language: java
 jdk:
   - oraclejdk8
-script: ./build.sh --settings .maven-settings.xml
+script: ./build.sh -B --settings .maven-settings.xml
 before_deploy:
   - export RELEASE_JAR_FILE=$(ls target/vlo-mapping-*.jar)
   - echo "Deploying $RELEASE_JAR_FILE (if tag)"
