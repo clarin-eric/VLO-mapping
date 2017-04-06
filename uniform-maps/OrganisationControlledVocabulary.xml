@@ -1673,7 +1673,7 @@
    <mapping>
       <normalizedValue value="Institut für Finnougristik &amp; Uralistik, University of Hamburg"/>
       <variant value="University of Hamburg, Institut für Finnougristik/Uralistik"/>
-   </mapping>
+   </mapping>   
    <mapping>
       <normalizedValue value="NTC Publishing"/>
       <variant value="NTC Publication Group"/>
@@ -1682,6 +1682,10 @@
    <mapping>
       <normalizedValue value="University of Hamburg"/>
       <variant value="University of Hmaburg"/>
+   </mapping>
+   <mapping>
+      <normalizedValue value="Hamburg Centre for Language Corpora"/>
+      <variant value="Hamburger Zentrum für Sprachkorpora"/>
    </mapping>
    <mapping>
       <normalizedValue value="Niue Centre, University of the South Pacific"/>
@@ -2050,6 +2054,9 @@
       <variant value="Max Planck Institute for Evolutionary Anthropology / MPG"/>
       <variant value="MPI for Evolutionary Anthropology"/>
       <variant value="Max Planck Institute for Evolutionary Anthropology"/>
+      <variant value="Max-Planck-Institute for Evolutionary Anthropology"/>
+      <variant value="MPI for Evolutionary Anthropology"/>
+      <variant value="MPI for Evolutionary Anthropology,"/>
    </mapping>
    <mapping>
       <normalizedValue value="Leiden University"/>
