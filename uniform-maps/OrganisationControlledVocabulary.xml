@@ -1639,6 +1639,8 @@
       <normalizedValue value="University of Oslo"/>
       <variant value="University of Oslo, NO2014"/>
       <variant value="NO2014, University of Oslo"/>
+      <variant value="Universitetet i Oslo"/>
+      <variant value="Oslo University"/>
    </mapping>
    <mapping>
       <normalizedValue value="Pergamon Press"/>
