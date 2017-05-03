@@ -49,6 +49,9 @@
                 <concept>http://www.isocat.org/datcat/DC-2545</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227</concept>
                     <!-- resource title -->
+
+		<concept>http://hdl.handle.net/11459/CCR_C-6850_88e029a4-bc0a-8476-e3a4-e8db1e2acc64</concept>
+                    <!-- resource title -->
                  
                 <concept>http://www.isocat.org/datcat/DC-2544</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5</concept>
@@ -60,6 +63,12 @@
                 <concept>http://www.isocat.org/datcat/DC-6119</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-6119_ea4226b5-8d55-e71e-730f-2a02e3adbeb4</concept>
 		<!-- title of work -->
+		<concept>http://hdl.handle.net/11459/CCR_C-6350_c3b14b9f-6b12-da13-36b7-9315e2974ddd</concept>
+                    <!-- publication title -->
+		<concept>http://hdl.handle.net/11459/CCR_C-5206_5f7eb6e2-c035-b10f-b4d2-18af4ff22075</concept>
+                    <!-- session title -->
+		<concept>http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779</concept>
+                    <!-- generic title -->
 		<concept>http://www.loc.gov/standards/mods/userguide/titleinfo.html#title</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-5129_3243b897-d5b0-f5b0-a446-2e5de627b1e4</concept>
 		<!-- originalIncipit -->
