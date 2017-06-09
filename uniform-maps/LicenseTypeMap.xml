@@ -9,6 +9,9 @@
         A fallback mechanism in the importer logic assigns values to this field
         from the 'availability' field if no mapping can be achieved using the
         definition below.
+        
+        Also see <https://github.com/clarin-eric/VLO/issues/39> and
+        <https://github.com/clarin-eric/VLO/issues/55>.
     -->
     
     <mapping>
