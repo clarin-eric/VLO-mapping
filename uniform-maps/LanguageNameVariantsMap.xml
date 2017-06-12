@@ -1,4 +1,45 @@
 <mappings field="languageCode">
+	<!-- 
+		Common non-English language names (and/or broken values) 
+		See <https://github.com/clarin-eric/VLO-mapping/issues/6>
+	-->
+	
+	<!-- Spanish: see "Spanish; Castilian" -->
+
+    <mapping>
+      <normalizedValue value="Dutch"/>
+      <variant value="Niederländisch"/>
+      <variant value="Nederlands"/>
+      <variant value="Dutch, Flemish"/>
+      <variant value="Flemish"/>
+   </mapping>
+    <mapping>
+      <normalizedValue value="English"/>
+      <variant value="Anglais"/>
+      <variant value="Englisch"/>
+      <variant value="ISO 639-3: eng"/>
+      <variant value="ISO639:en"/>
+   </mapping>
+   <mapping>
+      <normalizedValue value="French"/>
+      <variant value="Français"/>
+      <variant value="français"/>
+      <variant value="Francés"/>
+      <variant value="Französish"/>
+   </mapping>
+    <mapping>
+      <normalizedValue value="German"/>
+      <variant value="Deutsch"/>
+      <variant value="Allemand"/>
+   </mapping>
+    <mapping>
+      <normalizedValue value="Italian"/>
+      <variant value="Italien"/>
+      <variant value="Italienisch"/>
+      <variant value="Italiano"/>
+   </mapping>
+   
+   <!-- Language names with standardised variants -->
    <mapping>
       <normalizedValue value="Abkhazian; Abkhaz"/>
       <variant value="Abkhazian"/>
@@ -315,6 +356,11 @@
       <variant value="Spanish"/>
       <variant value="Castilian"/>
       <variant value="Spanish, Castilian"/>
+      <!-- Non-English variations -->
+      <variant value="Espagnol"/>
+      <variant value="espagnol"/>
+      <variant value="Español"/>
+      <variant value="Espanol"/>
    </mapping>
    <mapping>
       <normalizedValue value="Swazi; Swati; Siswati"/>
