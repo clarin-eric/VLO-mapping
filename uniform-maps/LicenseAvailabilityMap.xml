@@ -186,6 +186,8 @@
     <mapping>
         <normalizedValue value="PUB;NC" />
         <variant value="Freely available for non-commercial use" />
+        <variant value="Free for non commercial use" />
+        <variant value="free_for_non_commercial_use" />
         <variant value="http://rightsstatements.org/vocab/NoC-NC/1.0/" />
         <variant value="http://www.europeana.eu/rights/out-of-copyright-non-commercial/" />
     </mapping>
@@ -467,6 +469,7 @@
         <variant value="Free for use in research in teaching." />
         <variant value="Registrierung erforderlich, eingeschränkte Nutzung für nicht- akademische und kommerzielle Nutzung" />
         <variant value="Vrij beschikbaar voor dialectologisch, fonetisch, historisch of ander onderzoek. Onderzoekers wordt gevraagd bij publicatie als bron deze website te vermelden. Neem voor andersoortig gebruik contact op met het Meertens Instituut" />
+        <variant value="L'exploitation des données est limitée à des fins scientifiques. Les personnes utilisant le corpus s'engagent à ne pas utiliser le corpus en dehors de leur travail scientifique et à ne pas diffuser le corpus." />
     </mapping>
     <mapping>
         <normalizedValue value="ACA;META;NC;SA" />
