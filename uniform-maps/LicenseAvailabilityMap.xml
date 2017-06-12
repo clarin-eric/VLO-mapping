@@ -189,7 +189,8 @@
         <variant value="Free for non commercial use" />
         <variant value="free_for_non_commercial_use" />
         <variant value="http://rightsstatements.org/vocab/NoC-NC/1.0/" />
-        <variant value="http://www.europeana.eu/rights/out-of-copyright-non-commercial/" />
+        <!-- e.g. http://www.europeana.eu/rights/out-of-copyright-non-commercial/2029-08-04 -->
+        <variant value="https?://www.europeana.eu/rights/out-of-copyright-non-commercial/.*" isRegExp="true" />
     </mapping>
     <mapping>
         <normalizedValue value="PUB;BY;NC" />
