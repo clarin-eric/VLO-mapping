@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mappings field="licenseType">    
+
+    <!-- 
+        Note: this mapping should ONLY map to the values PUB/ACA/RES in
+        accordance with concept <http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229>
+        and e.g. component <https://catalog.clarin.eu/ds/ComponentRegistry#/?itemId=clarin.eu%3Acr1%3Ac_1345561703649&registrySpace=public>
+        
+        A fallback mechanism in the importer logic assigns values to this field
+        from the 'availability' field if no mapping can be achieved using the
+        definition below.
+        
+        Also see <https://github.com/clarin-eric/VLO/issues/39> and
+        <https://github.com/clarin-eric/VLO/issues/55>.
+    -->
+    
+    <mapping>
+        <normalizedValue value="PUB" />
+        <variant value="public" />
+        <variant value="Public" />
+        <variant value="CLARIN PUB" />
+        <variant value="CLARIN-PUB" />
+        <variant value="CLARIN_PUB" />
+        <variant value="HZSK-PUB" />
+    </mapping>
+	
+    <mapping>
+        <normalizedValue value="ACA" />
+        <variant value="academic" />
+        <variant value="Academic" />
+        <variant value="CLARIN ACA" />
+        <variant value="CLARIN_ACA" />
+        <variant value="CLARIN-ACA" />
+        <variant value="HZSK-ACA" />
+    </mapping>
+    
+    <mapping>
+        <normalizedValue value="RES" />
+        <variant value="restricted" />
+        <variant value="Restricted" />
+        <variant value="CLARIN RES" />
+        <variant value="CLARIN-RES" />
+        <variant value="CLARIN_RES" />
+        <variant value="HZSK-RES" />
+    </mapping>
+    
+</mappings>
