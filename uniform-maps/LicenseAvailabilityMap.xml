@@ -551,7 +551,10 @@
         <variant value="upon request" />
         <variant value="Use of this resource is restricted in some manner. Usually this means that it is available for non-commercial use only with prior permission of the depositor and on condition that this header is included in its entirety with any copy distributed." />
         <variant value="with user license (license form online accessible); for non-academic use please contact Erhard Hinrichs" />
-        
+        <variant value="restricted" />
+        <variant value="restricted 2009" />
+        <variant value="Restricted" />
+        <variant value="restricted - only available for licence owners" />
     </mapping>
     <mapping>
         <normalizedValue value="RES;BY;NC;PRIV" />
@@ -604,10 +607,6 @@
     <mapping>
         <normalizedValue value="Other" />        
         <variant value="part is open" />
-        <variant value="restricted" />
-        <variant value="restricted 2009" />
-        <variant value="Restricted" />
-        <variant value="restricted - only available for licence owners" />
         <variant value="restringido/restricted" />
         <variant value="some concept definitions are open" />
         <variant value="special license" />
