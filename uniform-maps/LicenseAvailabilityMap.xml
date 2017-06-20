@@ -102,26 +102,14 @@
 		
 		<!-- CC-BY -->
 		
-		<variant value="Creative_Commons-BY" />
-		<variant value="CC-BY" />
-		
-		<variant value="Creative Commons Attribution 1.0" /> <!-- full name -->
-		<variant value="CC-BY-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by\/1\.0\/.*" isRegExp="true" />
-		
-		<variant value="Creative Commons Attribution 2.0" /> <!-- full name -->
-		<variant value="CC-BY-2.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by\/2\.0\/.*" isRegExp="true" />
+        <variant value="CC-by" />
+		<variant value="CC[ -]BY([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by\/.*" isRegExp="true" />
+		<variant value="Creative Commons Attribution( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
+
+		<variant value="Creative_Commons-BY" />		
 		<variant value="Creative Common License: http://creativecommons.org/licenses/by/2.0/" />
 		<variant value="Creative Common License:                         http://creativecommons.org/licenses/by/2.0/" />
-
-		<variant value="Creative Commons Attribution 2.5" /> <!-- full name -->
-		<variant value="CC-BY-2.5" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by\/2\.5\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution 3.0" /> <!-- full name -->
-		<variant value="CC-BY-3.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by\/3\.0\/.*" isRegExp="true" />
 		<variant value="Creative Commons Attribution 3.0 Unported Licence" />
 		<variant value="This work is licensed under a Creative Commons Attribution 3.0 Unported License.   * CC-BY 3.0:   * You are free:   *     to Share — to copy, distribute and transmit the work   *     to Remix — to adapt the work   *     to make commercial use of the work   * Under the following conditions:   *     Attribution — You must attribute the work in the manner specified by the   *        author or licensor (but not in any way that suggests that they    *        endorse you or your use of the work).    *****************************************************************************   * Please cite this paper if you use the data:   * Wiltrud Kessler and Jonas Kuhn (2014)   * A Corpus of Comparisons in Product Reviews.    * In Proceedings of the 9th Language Resources and Evaluation Conference (LREC 2014),   * Reykjavik, Iceland, 28-30. May 2014." />
 		<variant value="***************************************************************************** * This work is licensed under a Creative Commons Attribution 3.0 Unported License. * CC-BY 3.0: * You are free: * to Share — to copy, distribute and transmit the work * to Remix — to adapt the work * to make commercial use of the work * Under the following conditions: * Attribution — You must attribute the work in the manner specified by the * author or licensor (but not in any way that suggests that they * endorse you or your use of the work). ***************************************************************************** * * Please cite this paper if you use these constructions: * Wiltrud Kessler and Hinrich Schütze (2012) * Classification of Inconsistent Sentiment Words Using Syntactic Constructions. * In Proceedings of the 24th International Conference on Computational Linguistics * (COLING 2012) * Mumbai, India, 10.-14. December 2012. * *****************************************************************************" />
@@ -134,10 +122,7 @@
 		<variant value="Creative Commons Attribution 3.0 Unported (CC BY 3.0) http://creativecommons.org/licenses/by/3.0/" />
 		<variant value="Rights holders of this corpus are: Thierry Chanier ; Ciara R Wigham                         ; licence = http://creativecommons.org/licenses/by/3.0/" />
 
-		<variant value="Creative Commons Attribution 4.0" /> <!-- full name -->
-		<variant value="CC-BY-4.0" /> <!-- ID -->
 		<variant value="CC-BY 4.0" />
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by\/4\.0\/.*" isRegExp="true" />
 		<variant value="CC BY 4.0; https://creativecommons.org/licenses/by/4.0/" />
 		<variant value="CreativeCommons Attribution 4.0 International (CC BY 4.0)" />
 		<variant value="freely available under the CC BY 4.0 licence, https://creativecommons.org/licenses/by/4.0/" />
@@ -146,33 +131,18 @@
 	
     <mapping>
         <normalizedValue value="PUB;BY;SA" />
-		<variant value="Creative Commons Attribution Share Alike 1.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/1\.0\/.*" isRegExp="true" />
-		
-		<variant value="Creative Commons Attribution Share Alike 2.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-2.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/2\.0\/.*" isRegExp="true" />
-		
-		<variant value="Creative Commons Attribution Share Alike 2.5" /> <!-- full name -->
-		<variant value="CC-BY-SA-2.5" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/2\.5\/.*" isRegExp="true" />
-		
-		<variant value="Creative Commons Attribution Share Alike 3.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-3.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/3\.0\/.*" isRegExp="true" />
-		<variant value="CC BY-SA 3.0" />
-		<variant value="Creative Commons Attribution-ShareAlike 3.0" />
+
+        <variant value="CC-by-sa" />
+		<variant value="CC[ -]BY-SA([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/.*" isRegExp="true" />
+		<variant value="Creative Commons Attribution[ -]Share ?Alike( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
+
 		<variant value="Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
 		<variant value="Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
 		<variant value="Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE)" />
 		<variant value="The SaCoCo Contemporary Corpus is released under a Creative Commons Attribution - Share Alike 3.0 Unported License. (CC BY SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/" />
 		<variant value="This resource is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-sa/3.0/). The availability status of the resource is: 'available-unrestrictedUse'." />
 		
-		<variant value="Creative Commons Attribution Share Alike 4.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-4.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/4\.0\/.*" isRegExp="true" />
-		<variant value="CC BY-SA 4.0" />
 		<variant value="Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" />
 		<variant value="Free access under Attribution-ShareAlike 4.0 International License" />
 		<variant value="HZSK-ACA (Text) / CC-by-sa-4.0 (Annotation)" />		
@@ -200,37 +170,21 @@
         <variant value="CC BY-NC" />
 		
 		<!-- CC-BY-NC-->
-		<variant value="Creative Commons Attribution Non Commercial 1.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc\/1\.0\/.*" isRegExp="true" />
+        <variant value="CC-by-nc" />
+		<variant value="CC[ -]BY-NC([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc\/.*" isRegExp="true" />
+		<variant value="Creative Commons Attribution[ -]Non[ -]Commercial( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
 
-		<variant value="Creative Commons Attribution Non Commercial 2.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-2.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc\/2\.0\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution Non Commercial 2.5" /> <!-- full name -->
-		<variant value="CC-BY-NC-2.5" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc\/2\.5\/\.*" isRegExp="true" />
-		
-
-		<variant value="Creative Commons Attribution Non Commercial 3.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-3.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc\/3\.0\/.*" isRegExp="true" />
 		<variant value="Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)" />
 		<variant value="Creative Commons CC BY-NC 3.0 DE, http://creativecommons.org/licenses/by-nc/3.0/de/" />
-		<variant value="CC BY-NC 3.0" />
 		<variant value="CC BY-NC 3.0 DE" />
 		<variant value="Creative Commons Attribution-NonCommercial 3.0 Unported License" />
 		<variant value="This resource is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (http://creativecommons.org/licenses/by-nc/3.0/). The availability status of the resource is: 'available-restrictedUse'." />
 		
 		<variant value="Creative Commons Attribution Non Commercial 4.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-4.0" /> <!-- ID -->
-		<variant value="CC BY-NC 4.0" />
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc\/4\.0\/.*" isRegExp="true" />
 		<variant value="Dit werk is valt onder een Creative Commons Naamsvermelding-NietCommercieel 4.0 Internationaal-licentie.(http://creativecommons.org/licenses/by-nc/4.0/)" />
 		<variant value="Dit werk is valt onder een Creative Commons Naamsvermelding-NietCommercieel 4.0 Internationaal-licentie(http://creativecommons.org/licenses/by-nc/4.0/)" />
 		<variant value="Free access under Attribution-NonCommercial 4.0 International License" />
-		
     </mapping>
     
 	<mapping>
@@ -266,7 +220,7 @@
 		<!-- CC-BY-NC-SA -->
 		
         <variant value="CC-by-nc-sa" />
-		<variant value="CC[ -]BY[ -]NC[ -]SA(-[1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="CC[ -]BY[ -]NC[ -]SA([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/.*" isRegExp="true" />
 		<variant value="Creative Commons Attribution Non Commercial Share Alike [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
 
@@ -308,7 +262,7 @@
 		<!-- CC-BY-ND -->
         <variant value="CC-by-nd" />
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/.*" isRegExp="true" />
-		<variant value="CC[ -]BY[ -]ND(-[1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="CC[ -]BY[ -]ND([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
 		<variant value="Creative Commons Attribution[ -]No Derivatives [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
     </mapping>
     <mapping>
@@ -321,7 +275,7 @@
 
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/.*" isRegExp="true" />
 		
-		<variant value="CC[ -]BY[ -]SA(-[1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="CC[ -]BY[ -]SA([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
 
 		<variant value="Creative Commons Attribution[ -]Share Alike [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
 		
