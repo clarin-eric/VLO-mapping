@@ -4,7 +4,7 @@
         <normalizedValue value="PUB" />
 		<variant value="Creative Commons Zero v1.0 Universal" /> <!-- full name -->
 		<variant value="CC0-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/publicdomain\/zero\/1\.0\/.*" isRegExp="true" />
+		<variant value="http(s?):\/\/creativecommons\.org\/publicdomain\/zero\/.*" isRegExp="true" />
 		<variant value="CC-ZERO" />
 		<variant value="CC0" />
 		
@@ -265,18 +265,14 @@
         <normalizedValue value="PUB;BY;NC;SA" />		
 		<!-- CC-BY-NC-SA -->
 		
-		<variant value="CC-BY-NC-SA" />
         <variant value="CC-by-nc-sa" />
-		
-		<variant value="Creative Commons Attribution Non Commercial Share Alike 1.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-SA-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/1\.0\/.*" isRegExp="true" />
+		<variant value="CC[ -]BY[ -]NC[ -]SA(-[1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/.*" isRegExp="true" />
+		<variant value="Creative Commons Attribution Non Commercial Share Alike [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
 
-		<variant value="Creative Commons Attribution Non Commercial Share Alike 2.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-SA-2.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/2\.0\/.*" isRegExp="true" />
-		<variant value="Creative Common License: http://creativecommons.org/licenses/by-nc-sa/2.0/" />
-		<variant value="Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic license." />
+		<variant value="Creative Common License: Creative Common License: http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/.*" isRegExp="true"/>
+		<variant value="Creative Commons Attribution-NonCommercial-ShareAlike .\.. Generic license." isRegExp="true"/>
+	
 		<variant value="Creative Common License:                         http://creativecommons.org/licenses/by-nc-sa/2.0/" />
 		<variant value="open access after registration ; rightsHolder = Thierry                         Chanier ; Christophe Reffay ; Marie-Laure betbeder ; Maud Ciekanski ;                         Marie-Noelle Lamy ;licence =                         http://creativecommons.org/licenses/by-nc-sa/2.0/" />
 		<variant value="Rights holders of this corpus are: Thierry Chanier ; Ciara R Wigham                         ; licence = http://creativecommons.org/licenses/by-nc-sa/2.0/" />
@@ -284,13 +280,8 @@
 		<variant value="open access after registration ; rightsHolder = Thierry                         Chanier ; Christophe Reffay ; Marie-Laure Betbeder ; Maud Ciekanski ;                         Marie-Noelle Lamy ; licence =                         http://creativecommons.org/licenses/by-nc-sa/2.0/" />
 		<variant value="Rights holders of this corpus are: Thierry Chanier ; Dagmar                         Abendroth-Timmer; Maud Ciekanski ; Mark Bechtel ; Laurent Mario ; licence =                         http://creativecommons.org/licenses/by-nc-sa/2.0/" />
 
-		<variant value="Creative Commons Attribution Non Commercial Share Alike 2.5" /> <!-- full name -->
-		<variant value="CC-BY-NC-SA-2.5" /> <!-- ID -->
+		
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/2\.5\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution Non Commercial Share Alike 3.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-SA-3.0" /> <!-- ID -->
-		<variant value="CC BY-NC-SA 3.0" />
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/3\.0\/.*" isRegExp="true" />
 		<variant value="Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)" />
 		<variant value="Attribution-NonCommercial-ShareAlike 3.0 Unported Licence" />
@@ -306,8 +297,6 @@
 		<variant value="The SaCoCo Diachronic Corpus as a whole is released under a Creative Commons Attribution - Non Commercial - Share Alike 3.0 Unported License. (CC BY NC SA 3.0) http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 		<variant value="The recipes belonging to Knopf 1800, Franckfurt 1789 and Gräz 1686 contained in the SaCoCo Historical Corpus are released under a Creative Commons Attribution - Non Commercial - Share Alike 3.0 Unported License. (CC BY NC SA 3.0) http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 
-		<variant value="Creative Commons Attribution Non Commercial Share Alike 4.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-SA-4.0" /> <!-- ID -->
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/4\.0\/.*" isRegExp="true" />
 		<variant value="Distributed by the University of Oxford under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License." />
 		<variant value="Distributed by the University of Oxford under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License." />
@@ -317,52 +306,25 @@
         <normalizedValue value="PUB;BY;ND" />
 		
 		<!-- CC-BY-ND -->
-        <variant value="CC-BY-ND" />
-		
-		<variant value="Creative Commons Attribution No Derivatives 1.0" /> <!-- full name -->
-		<variant value="CC-BY-ND-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/1\.0\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution No Derivatives 2.0" /> <!-- full name -->
-		<variant value="CC-BY-ND-2.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/2\.0\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution No Derivatives 2.5" /> <!-- full name -->
-		<variant value="CC-BY-ND-2.5" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/2\.5\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution No Derivatives 3.0" /> <!-- full name -->
-		<variant value="CC-BY-ND-3.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/3\.0\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution No Derivatives 4.0" /> <!-- full name -->
-		<variant value="CC-BY-ND-4.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/4\.0\/.*" isRegExp="true" />
-		
+        <variant value="CC-by-nd" />
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/.*" isRegExp="true" />
+		<variant value="CC[ -]BY[ -]ND(-[1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="Creative Commons Attribution[ -]No Derivatives [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
     </mapping>
     <mapping>
         <normalizedValue value="PUB;BY;SA" />
 		<variant value="by-sa" />
 		
 		<!-- CC-BY-SA-->        
-		<variant value="CC-BY-SA" />       
+		<variant value="CC-BY-SA" />
+        <variant value="CC-by-sa" />
+
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/.*" isRegExp="true" />
 		
-		<variant value="Creative Commons Attribution Share Alike 1.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/1\.0\/.*" isRegExp="true" />
+		<variant value="CC[ -]BY[ -]SA(-[1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
 
-		<variant value="Creative Commons Attribution Share Alike 2.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-2.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/2\.0\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution Share Alike 2.5" /> <!-- full name -->
-		<variant value="CC-BY-SA-2.5" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/2\.5\/.*" isRegExp="true" />
-
-		<variant value="Creative Commons Attribution Share Alike 3.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-3.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/3\.0\/.*" isRegExp="true" />
-		<variant value="CC BY-SA 3.0" />
+		<variant value="Creative Commons Attribution[ -]Share Alike [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
+		
 		<variant value="Creative Commons Attribution-ShareAlike 3.0" />		
 		<variant value="Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
 		<variant value="Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
@@ -370,10 +332,6 @@
 		<variant value="The SaCoCo Contemporary Corpus is released under a Creative Commons Attribution - Share Alike 3.0 Unported License. (CC BY SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/" />
 		<variant value="This resource is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-sa/3.0/). The availability status of the resource is: 'available-unrestrictedUse'." />
 
-		<variant value="Creative Commons Attribution Share Alike 4.0" /> <!-- full name -->
-		<variant value="CC-BY-SA-4.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/4\.0\/.*" isRegExp="true" />
-		<variant value="CC BY-SA 4.0" />
 		<variant value="Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" />
 		<variant value="Free access under Attribution-ShareAlike 4.0 International License" />
 		<variant value="HZSK-ACA (Text) / CC-by-sa-4.0 (Annotation)" />
