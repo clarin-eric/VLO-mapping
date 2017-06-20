@@ -135,7 +135,7 @@
         <variant value="CC-by-sa" />
 		<variant value="CC[ -]BY-SA([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/.*" isRegExp="true" />
-		<variant value="Creative Commons Attribution[ -]Share ?Alike( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
+		<variant value="Creative Commons Attribution[ -]Share[ -]?Alike( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
 
 		<variant value="Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
 		<variant value="Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
@@ -200,9 +200,10 @@
 		<!-- CC-BY-NC-SA -->
 		
         <variant value="CC-by-nc-sa" />
+        
 		<variant value="CC[ -]BY[ -]NC[ -]SA([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/.*" isRegExp="true" />
-		<variant value="Creative Commons Attribution Non Commercial Share Alike [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
+		<variant value="Creative Commons Attribution[ -]Non Commercial[ -]Share[ -]?Alike( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
 
 		<variant value="Creative Common License: Creative Common License: http(s?):\/\/creativecommons\.org\/licenses\/by-nc-sa\/.*" isRegExp="true"/>
 		<variant value="Creative Commons Attribution-NonCommercial-ShareAlike .\.. Generic license." isRegExp="true"/>
@@ -241,9 +242,9 @@
 		
 		<!-- CC-BY-ND -->
         <variant value="CC-by-nd" />
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/.*" isRegExp="true" />
 		<variant value="CC[ -]BY[ -]ND([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
-		<variant value="Creative Commons Attribution[ -]No Derivatives [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd\/.*" isRegExp="true" />
+		<variant value="Creative Commons Attribution[ -]No Derivatives( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
     </mapping>
     <mapping>
         <normalizedValue value="PUB;BY;SA" />
@@ -253,13 +254,10 @@
 		<variant value="CC-BY-SA" />
         <variant value="CC-by-sa" />
 
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/.*" isRegExp="true" />
-		
 		<variant value="CC[ -]BY[ -]SA([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-sa\/.*" isRegExp="true" />
+		<variant value="Creative Commons Attribution[ -]Share[ -]?Alike( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
 
-		<variant value="Creative Commons Attribution[ -]Share Alike [1-9]\.[0-9]" isRegExp="true"/> <!-- full name -->
-		
-		<variant value="Creative Commons Attribution-ShareAlike 3.0" />		
 		<variant value="Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
 		<variant value="Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" />
 		<variant value="Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE)" />
