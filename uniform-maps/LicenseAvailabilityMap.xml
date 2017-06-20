@@ -165,22 +165,18 @@
     <mapping>
         <normalizedValue value="PUB;BY;NC" />
 		
-		<variant value="CC-BY-NC" />
-        <variant value="CC - BY - NC" />
-        <variant value="CC BY-NC" />
-		
 		<!-- CC-BY-NC-->
         <variant value="CC-by-nc" />
-		<variant value="CC[ -]BY-NC([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="CC[ -]BY[ -]NC([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
 		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc\/.*" isRegExp="true" />
 		<variant value="Creative Commons Attribution[ -]Non[ -]Commercial( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
 
+        <variant value="CC - BY - NC" />
 		<variant value="Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)" />
 		<variant value="Creative Commons CC BY-NC 3.0 DE, http://creativecommons.org/licenses/by-nc/3.0/de/" />
 		<variant value="CC BY-NC 3.0 DE" />
 		<variant value="Creative Commons Attribution-NonCommercial 3.0 Unported License" />
 		<variant value="This resource is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (http://creativecommons.org/licenses/by-nc/3.0/). The availability status of the resource is: 'available-restrictedUse'." />
-		
 		<variant value="Creative Commons Attribution Non Commercial 4.0" /> <!-- full name -->
 		<variant value="Dit werk is valt onder een Creative Commons Naamsvermelding-NietCommercieel 4.0 Internationaal-licentie.(http://creativecommons.org/licenses/by-nc/4.0/)" />
 		<variant value="Dit werk is valt onder een Creative Commons Naamsvermelding-NietCommercieel 4.0 Internationaal-licentie(http://creativecommons.org/licenses/by-nc/4.0/)" />
@@ -189,29 +185,13 @@
     
 	<mapping>
         <normalizedValue value="PUB;BY;NC;ND" />
-        <variant value="CC-BY-NC-ND" />
-		
-		<variant value="Creative Commons Attribution Non Commercial No Derivatives 1.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-ND-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nd-nc\/1\.0\/.*" isRegExp="true" />
+        <variant value="CC-by-nc-nd" />
+		<variant value="CC[ -]BY[ -]NC[ -]ND([ -][1-9]\.[0-9])?" isRegExp="true"/> <!-- ID -->
+		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-nd\/.*" isRegExp="true" />
+		<variant value="Creative Commons Attribution[ -]Non Commercial[ -]No Derivatives( [1-9]\.[0-9])?" isRegExp="true"/> <!-- full name -->
 
-		<variant value="Creative Commons Attribution Non Commercial No Derivatives 2.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-ND-2.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-nd\/2\.0\/.*" isRegExp="true" />
 		<variant value="Creative Commons Attribution-Noncommercial-No Derivative Works 2.0 Germany - http://creativecommons.org/licenses/by-nc-nd/2.0/de/deed.en" />
-
-		<variant value="Creative Commons Attribution Non Commercial No Derivatives 2.5" /> <!-- full name -->
-		<variant value="CC-BY-NC-ND-2.5" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-nd\/2\.5\/.*" isRegExp="true" />
-		
-		<variant value="Creative Commons Attribution Non Commercial No Derivatives 3.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-ND-3.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-nd\/3\.0\/.*" isRegExp="true" />
-		<variant value="Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" />
-		
-		<variant value="Creative Commons Attribution Non Commercial No Derivatives 4.0" /> <!-- full name -->
-		<variant value="CC-BY-NC-ND-4.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/licenses\/by-nc-nd\/4\.0\/.*" isRegExp="true" />
+		<variant value="Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" />	
 		<variant value="Distributed by the University of Oxford under a Attribution-NonCommercial-NoDerivatives 4.0 International License." />
     </mapping>
 	
