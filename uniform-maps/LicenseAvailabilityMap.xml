@@ -419,6 +419,7 @@
         <variant value="free for academic use, request required" />
         <variant value="free; External users must prove they have licensed the original taz data." />
         <variant value="http://www.europeana.eu/rights/rr-f/" />
+        <variant value="http://rightsstatements.org/vocab/InC/1.0/" />
         <variant value="HZSK-RES" />
         <variant value="info:eu-repo/semantics/embargoedAccess" />
         <variant value="internal" />
@@ -650,7 +651,6 @@
 		<variant value="Diverse (zie draaiboek)." />
 		<variant value="Mixed (check individual items)" />
 		<variant value="Access granted: none" />
-		<variant value="http://rightsstatements.org/vocab/InC/1.0/" />
 		<variant value="http://rightsstatements.org/vocab/CNE/1.0/" />
     </mapping>   
 -->
