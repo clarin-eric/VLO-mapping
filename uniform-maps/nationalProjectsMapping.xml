@@ -27,7 +27,7 @@
    </mapping>
    <mapping>
       <normalizedValue value="CLARIN-IT"/>
-      <variant value="ILC.*" isRegExp="true"/>
+      <variant value="ILC .*" isRegExp="true"/>
    </mapping>
    <mapping>
       <normalizedValue value="CLARIN-NL"/>
