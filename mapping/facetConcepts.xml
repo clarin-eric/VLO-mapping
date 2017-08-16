@@ -189,6 +189,7 @@
 		<!--language (TEI) - MENZO: added for CLARIN-DK -->
 
 		<concept>http://purl.org/dc/terms/language</concept>
+		<concept>http://purl.org/dc/elements/1.1/language</concept>
 		<concept>http://www.loc.gov/standards/mods/userguide/language.html#languageterm</concept>
 
                 <acceptableContext includeAny="true" includeEmpty="true"/>
