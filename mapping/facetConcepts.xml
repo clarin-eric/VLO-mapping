@@ -275,10 +275,10 @@
 		
 		<!-- TEI header availability attributes -->
  		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:availability/@status</pattern>
- 		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:availability/cmdp:ab/@type</pattern>
 	</facetConcept>
         <facetConcept name="licenseType" description="Distribution and/or licence class (public, academic or restricted)" definition="A rights-based classification of language resources and tools, indicating the scope of the target audience">
             <concept>http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229</concept>
+	 		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:availability/cmdp:ab/@type</pattern>
         </facetConcept>
         <facetConcept name="license" allowMultipleValues="true" description="The licensing conditions for the resource or tool" definition="The name of the license or a very brief description of the licensing conditions under which the resource or tool can be used.">
 		<!-- URL of the license -->
