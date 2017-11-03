@@ -237,11 +237,14 @@
 		<!-- IMS c:LexicalResourceProfile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:MultimodalCorpus/cmdp:DocumentationLanguages</blacklistPattern>
 		<!-- IMS c:MultimodalCorpus -->
-                <blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:DocumentationURL/@lang</blacklistPattern>
-                <!-- BAS cmdp:media-corpus-profile -->
-                <blacklistPattern>/cmd:CMD/cmd:Components/cmdp:Soundbites/cmdp:Description/cmdp:Description/@LanguageID</blacklistPattern>
-                <!-- Meertens cmdp:Soundbites -->
-                <derivedFacet>_languageName</derivedFacet>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:DocumentationURL/@lang</blacklistPattern>
+		<!-- BAS cmdp:media-corpus-profile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:Soundbites/cmdp:Description/cmdp:Description/@LanguageID</blacklistPattern>
+		<!-- Meertens cmdp:Soundbites -->
+		<derivedFacet>_languageName</derivedFacet>
+	</facetConcept>
+	<facetConcept name="_languageName" description="Language name" definition="">
+		<!-- No mapping, values derived from 'languageCode' -->
 	</facetConcept>
     <facetConcept name="availability" description="The usage conditions for the resource or tool" definition="A rough description of the conditions under which the resource or tool can be used.">
 		<concept>http://www.isocat.org/datcat/DC-2457</concept>
