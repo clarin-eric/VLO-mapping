@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="crossfacet-mappings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="origin-facet"  minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="origin-facet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="condition" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="condition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cross-facet" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="ifvalue" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cross-facet">
+    <xs:complexType>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="setvalue" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

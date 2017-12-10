@@ -11,6 +11,7 @@
       <variant value="Niederländisch"/>
       <variant value="Nederlands"/>
       <variant value="Dutch, Flemish"/>
+      <variant value="Dutch; Flemish"/>
       <variant value="Flemish"/>
    </mapping>
     <mapping>
@@ -25,6 +26,7 @@
       <variant value="Français"/>
       <variant value="français"/>
       <variant value="Francés"/>
+      <variant value="Französisch"/>
       <variant value="Französish"/>
    </mapping>
     <mapping>
