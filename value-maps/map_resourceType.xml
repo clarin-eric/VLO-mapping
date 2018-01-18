@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<value-mappings>
+<origin-facet name="resourceclass">
+  <value-map>
+    <target-value-set>
+        <target-value>annotatedText; corpus</target-value>
+        <source-value>AnnotatedTextCorpus </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>audioRecording</target-value>
+<target-value> corpus</target-value>
+        <source-value>OralCorpus </source-value>
+        <source-value>SongsAnthologiesLinguistic corporaCorpus </source-value>
+        <source-value>SpeechCorpus </source-value>
+        <source-value>Spoken Corpus </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>plainText</target-value>
+<target-value> corpus</target-value>
+        <source-value>AnthologiesDevotional literature </source-value>
+        <source-value>AnthologiesLinguistic corporaCorpus </source-value>
+        <source-value>Anthology </source-value>
+        <source-value>Bible storiesLinguistic corporaCorpus </source-value>
+        <source-value>Fairy talesAnthologies </source-value>
+        <source-value>FolkloreAnthologies </source-value>
+        <source-value>Linguistic corpora </source-value>
+        <source-value>Linguistic corporaCorpus </source-value>
+        <source-value>Linguistic corporaCorpusAnthologies </source-value>
+        <source-value>Linguistic corporaCorpusLetters </source-value>
+        <source-value>Linguistic corporaCorpusLettersAnthologies </source-value>
+        <source-value>Linguistic corporaCorpusNewspapersAnthologies </source-value>
+        <source-value>Linguistic corporaCorpusPeriodicals -- Italy -- 20th Century </source-value>
+        <source-value>NovelsAnthologiesLinguistic corporaCorpus</source-value>
+        <source-value>RomancesLinguistic corporaCorpus </source-value>
+        <source-value>UnannotatedTextCorpus </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>tool</target-value>
+<target-value>service</target-value>
+        <source-value>ToolService </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>annotatedText</target-value>
+        <source-value>Bilingual </source-value>
+        <source-value>Medical formularies </source-value>
+        <source-value>TextAnnotation </source-value>
+        <source-value>Transcription </source-value>
+        <source-value>Transcription: IPA </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>audioRecording</target-value>
+        <source-value>Audio </source-value>
+        <source-value>Dialogue </source-value>
+        <source-value>Dialogues </source-value>
+        <source-value>Instrumental music </source-value>
+        <source-value>Music </source-value>
+        <source-value>Radio </source-value>
+        <source-value>Read </source-value>
+        <source-value>Session </source-value>
+        <source-value>Songs </source-value>
+        <source-value>Sound </source-value>
+        <source-value>Speech </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>collection</target-value>
+        <source-value>Collection </source-value>
+        <source-value>Volume </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>corpus</target-value>
+        <source-value>Anthologies </source-value>
+        <source-value>CorporaCorpus</source-value>
+        <source-value>Corpus </source-value>
+        <source-value>MultimodalCorpus </source-value>
+        <source-value>MultiVolumeWork </source-value>
+        <source-value>NewspapersLinguistic corporaCorpus </source-value>
+        <source-value>Parallel </source-value>
+        <source-value>Written Corpus </source-value>
+        <source-value>WrittenCorpus </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>database</target-value>
+        <source-value>Scientific Information Service </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>grammar</target-value>
+        <source-value>Grammars </source-value>
+        <source-value>Grammar</source-value>
+        <source-value>GrammarsAnthologies </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>image</target-value>
+        <source-value>Image </source-value>
+        <source-value>StillImage </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>lexicalResource</target-value>
+        <source-value>Annotation: Affixes </source-value>
+        <source-value>Annotation: Chinese_glosses </source-value>
+        <source-value>Annotation: English_glosses </source-value>
+        <source-value>BilingualDictionary </source-value>
+        <source-value>Description/inflectional morphology </source-value>
+        <source-value>Dictionaries </source-value>
+        <source-value>LanguageDescription </source-value>
+        <source-value>LexicalConceptualResource </source-value>
+        <source-value>LexicalResource </source-value>
+        <source-value>Lexicon </source-value>
+        <source-value>Lexicon: Lexical_categories </source-value>
+        <source-value>Machine readable dictionary </source-value>
+        <source-value>Monolingual </source-value>
+        <source-value>MonolinugalDictionary </source-value>
+        <source-value>Multilingual </source-value>
+        <source-value>Treebank</source-value>
+        <source-value>Wordbooks </source-value>
+        <source-value>WordNet </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>other</target-value>
+        <source-value>Economics </source-value>
+        <source-value>Games </source-value>
+        <source-value>Niet van toepassing </source-value>
+        <source-value>No value given </source-value>
+        <source-value>Other </source-value>
+        <source-value>Overig </source-value>
+        <source-value>Politics </source-value>
+        <source-value>-- Germany</source-value>
+        <source-value>Xxx -- xxx -- xxx</source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>physicalObject</target-value>
+        <source-value>Phrase books </source-value>
+        <source-value>PhysicalObject </source-value>
+        <source-value>Scores </source-value>
+        <source-value>Scroll </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>plainText</target-value>
+        <source-value>Academic dissertations </source-value>
+        <source-value>Addresses </source-value>
+        <source-value>AddressesAnthologiesLinguistic corporaCorpus </source-value>
+        <source-value>Aligned_sentence </source-value>
+        <source-value>Alter Druck </source-value>
+        <source-value>Ancient religious texts </source-value>
+        <source-value>Annals </source-value>
+        <source-value>Autobiographies </source-value>
+        <source-value>Bibles </source-value>
+        <source-value>Bibliographies </source-value>
+        <source-value>Biographies </source-value>
+        <source-value>Catechisms </source-value>
+        <source-value>Charter </source-value>
+        <source-value>Chronicals </source-value>
+        <source-value>Chronicles </source-value>
+        <source-value>Commentaries </source-value>
+        <source-value>Commentaries -- Italy -- 17th century </source-value>
+        <source-value>CommentariesGazetteers </source-value>
+        <source-value>Comparable </source-value>
+        <source-value>Confessions </source-value>
+        <source-value>Constitutions </source-value>
+        <source-value>Conversion narratives </source-value>
+        <source-value>Correspondence </source-value>
+        <source-value>Courtesy books </source-value>
+        <source-value>Data Provider </source-value>
+        <source-value>Devotional literature </source-value>
+        <source-value>Devotional material </source-value>
+        <source-value>Diaries </source-value>
+        <source-value>Early book </source-value>
+        <source-value>Early printed book (1501-1800)</source-value>
+        <source-value>Electronic publications </source-value>
+        <source-value>Electronic publications -- Great Britain -- 20th century </source-value>
+        <source-value>Electronic publications -- Indonesia -- 20th century </source-value>
+        <source-value>Electronic publications -- Japan -- 20th centuryDatabases -- Japan -- 20th century </source-value>
+        <source-value>Electronic publications -- United States -- 20th century </source-value>
+        <source-value>English drama -- Restoration, 1660-1700 </source-value>
+        <source-value>English literature -- Middle English, 1100-1500 </source-value>
+        <source-value>Epics </source-value>
+        <source-value>Essays </source-value>
+        <source-value>Ethics </source-value>
+        <source-value>Etiquette books </source-value>
+        <source-value>Exploration literature </source-value>
+        <source-value>Fairy tales </source-value>
+        <source-value>Fiction </source-value>
+        <source-value>Field Notes </source-value>
+        <source-value>Fieldwork Material </source-value>
+        <source-value>Folk tales </source-value>
+        <source-value>Formularies </source-value>
+        <source-value>Fragment </source-value>
+        <source-value>Gazeta </source-value>
+        <source-value>Geometry </source-value>
+        <source-value>Gesta </source-value>
+        <source-value>Handbooks </source-value>
+        <source-value>Herbals -- England -- 17th century </source-value>
+        <source-value>Historical fiction </source-value>
+        <source-value>Indexes </source-value>
+        <source-value>Inscriptions </source-value>
+        <source-value>Juvenile literature </source-value>
+        <source-value>Juvenilia </source-value>
+        <source-value>Książka </source-value>
+        <source-value>Laws </source-value>
+        <source-value>Legal Works </source-value>
+        <source-value>Legal works </source-value>
+        <source-value>Legislative proceedingsConstitutionsAnthologies </source-value>
+        <source-value>Letters </source-value>
+        <source-value>Libretti </source-value>
+        <source-value>Literary criticism </source-value>
+        <source-value>Literature of prejudice </source-value>
+        <source-value>Local Histories </source-value>
+        <source-value>Local histories </source-value>
+        <source-value>Local historiesNovels </source-value>
+        <source-value>Manuals </source-value>
+        <source-value>Manuals  (Handbooks)</source-value>
+        <source-value>Manuscript </source-value>
+        <source-value>Masques </source-value>
+        <source-value>Memoirs </source-value>
+        <source-value>Military histories </source-value>
+        <source-value>Military manuals </source-value>
+        <source-value>Monograph </source-value>
+        <source-value>Monologue </source-value>
+        <source-value>Mystery and detective fiction </source-value>
+        <source-value>Myths and legends </source-value>
+        <source-value>Myths and legends--13th century </source-value>
+        <source-value>NewpapersAnthologiesLinguistic corporaCorpus </source-value>
+        <source-value>Newspapers </source-value>
+        <source-value>Notebooks </source-value>
+        <source-value>Novels </source-value>
+        <source-value>Novels -- France -- 19th century </source-value>
+        <source-value>Parables </source-value>
+        <source-value>ParodiesFables </source-value>
+        <source-value>Patristic texts -- 1st-5th century period </source-value>
+        <source-value>Patristic texts -- England -- 6th-10th century period </source-value>
+        <source-value>Patristic texts -- England -- 6th-10th century periodScripture commentaries -- England -- 6th-10th century period </source-value>
+        <source-value>Patristic texts -- Italy -- 6th-10th century period </source-value>
+        <source-value>Periodicals </source-value>
+        <source-value>PeriodicalsAnthologies </source-value>
+        <source-value>Petitions </source-value>
+        <source-value>Philosophical texts </source-value>
+        <source-value>Philosophical texts -- Great Britain -- 18th century </source-value>
+        <source-value>Philosophical texts -- Great Britain -- 19th century </source-value>
+        <source-value>Philosophical works </source-value>
+        <source-value>Plays </source-value>
+        <source-value>Plays -- England -- 17th century </source-value>
+        <source-value>PlaysAnthologies </source-value>
+        <source-value>PlaysAnthologiesLinguistic corporaCorpus </source-value>
+        <source-value>Poems </source-value>
+        <source-value>PoemsAnthologies </source-value>
+        <source-value>PoemsDevotional literature </source-value>
+        <source-value>Poetry </source-value>
+        <source-value>Primers </source-value>
+        <source-value>Protest literature </source-value>
+        <source-value>Proverbs </source-value>
+        <source-value>Romances </source-value>
+        <source-value>Sacred texts </source-value>
+        <source-value>Sacred texts -- India -- B.C. </source-value>
+        <source-value>Sacred texts -- United States -- 19th century </source-value>
+        <source-value>Satires </source-value>
+        <source-value>Scientific Journal </source-value>
+        <source-value>Sermons </source-value>
+        <source-value>Short stories </source-value>
+        <source-value>Short stories, Italian -- 19th century </source-value>
+        <source-value>Spontaneous </source-value>
+        <source-value>Starodruk </source-value>
+        <source-value>Stary druk </source-value>
+        <source-value>Text </source-value>
+        <source-value>Textbooks </source-value>
+        <source-value>Tragedies </source-value>
+        <source-value>Translation </source-value>
+        <source-value>Travel literature </source-value>
+        <source-value>Utopian literature </source-value>
+        <source-value>Virtual_manuscript </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>software</target-value>
+        <source-value>Software </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>structured data</target-value>
+        <source-value>Databases </source-value>
+        <source-value>Dataset </source-value>
+        <source-value>Experimental Data </source-value>
+        <source-value>FrequencyList </source-value>
+        <source-value>Genealogies </source-value>
+        <source-value>Info:eu-repo/semantics/dataset </source-value>
+        <source-value>Languages </source-value>
+        <source-value>Lectures </source-value>
+        <source-value>Legal formularies </source-value>
+        <source-value>LemmaList </source-value>
+        <source-value>Linguistic data </source-value>
+        <source-value>NamedEntitiesList </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>teachingMaterial</target-value>
+        <source-value>Mathematics </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>tool</target-value>
+        <source-value>Local/desktop </source-value>
+        <source-value>Tool </source-value>
+        <source-value>Tools </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>videoRecording</target-value>
+        <source-value>Amateurfilm </source-value>
+        <source-value>Ballad operas </source-value>
+        <source-value>Bioscoop </source-value>
+        <source-value>Buddhism </source-value>
+        <source-value>Comedies </source-value>
+        <source-value>Internet </source-value>
+        <source-value>&quot;Internet; mobiele telefoon &quot;</source-value>
+        <source-value>Mobile telephone</source-value>
+        <source-value>Moving image </source-value>
+        <source-value>MovingImage </source-value>
+        <source-value>Televisie </source-value>
+        <source-value>Video </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>webApplication</target-value>
+        <source-value>Web application </source-value>
+        <source-value>Website </source-value>
+    </target-value-set>
+    <target-value-set>
+        <target-value>webService</target-value>
+        <source-value>Catalogues </source-value>
+        <source-value>Service </source-value>
+        <source-value>Web service </source-value>
+        <source-value>WebService </source-value>
+    </target-value-set>
+  </value-map>
+</origin-facet>
+</value-mappings>
