@@ -1,0 +1,61 @@
+profileName	COUNT	NORMALIZED_VALUE	RESOURCECLASS
+Song 	155403	Song	structured data	
+imdi-profile-instance 	95148	imdi-profile-instance	
+ArthurianFiction 	59393	ArthurianFiction	plainText	
+talkbank-session 	51748	talkbank-session	audioRecording	
+SongScan 	28448	SongScan	image	
+media-session-profile 	23579	media-session-profile	audioRecording	
+SourceScan 	21256	SourceScan	image	
+Source 	16519	Source	structured data	
+imdi-corpus 	14593	imdi-corpus	collection	
+IDSAGD_Speaker 	7997	IDSAGD_Speaker	structured data	
+SongAudio 	7961	SongAudio	audioRecording	
+IDSAGD_Event 	7710	IDSAGD_Event	structured data	
+SymbolicMusicNotation 	7557	SymbolicMusicNotation	
+Text 	4417	Text	plainText	
+Soundbites-recording 	2465	Soundbites-recording	audioRecording	
+teiHeader 	2238	teiHeader	annotatedText	
+Performer 	1530	Performer	
+DiscAn_Case 	1456	DiscAn_Case	
+Etstoel 	998	Etstoel	
+SL-IPROSLA 	976	SL-IPROSLA	
+OralHistoryInterviewDANS 	957	OralHistoryInterviewDANS	audioRecording	
+GTRP_sub_location 	613	GTRP_sub_location	
+JacobsstafVerhaal 	583	JacobsstafVerhaal	
+GBA-derived_sub_municipality 	443	GBA-derived_sub_municipality 	
+Communication_Transcript 	399	Communication_Transcript	annotatedText	
+ToponymProfile 	399	ToponymProfile	
+Communication_Recording 	397	Communication_Recording	audioRecording	
+DGDEvent 	392	DGDEvent	
+resourceInfo 	345	resourceInfo	
+DIDDD_sub_location 	333	DIDDD_sub_location	
+DynaSAND_sub_location 	267	DynaSAND_sub_location	
+UserSubmission 	161	UserSubmission	
+WebLichtWebService 	133	WebLichtWebService	webservice	
+singlePaperPackage 	107	singlePaperPackage	
+CRM 	95	CRM	
+LINDAT_CLARIN 	67	LINDAT_CLARIN	
+Fesli 	55	Fesli	
+GBA-derived_sub_coroparea 	40	GBA-derived_sub_coroparea	
+OLAC-DcmiTerms 	39	OLAC-DcmiTerms	
+PhotoSinger 	38	PhotoSinger	
+EMITX 	29	EMITX	
+wnd_subcollection_core_data 	28	wnd_subcollection_core_data	
+GBA-derived_sub_dialectarea 	24	GBA-derived_sub_dialectarea	
+VK-book 	19	VK-book	
+GBA-derived_sub_province 	12	GBA-derived_sub_province	
+textCorpusProfile 	8	textCorpusProfile	
+LexicalResourceProfile 	7	LexicalResourceProfile	lexicalResource	
+VirtualCollection 	3	VirtualCollection	
+TextCorpusProfile 	2	TextCorpusProfile	collection	
+CenterProfile 	1	CenterProfile	
+collection 	1	collection	collection	
+CorpusSample 	1	CorpusSample	collection	
+CRMCollection 	1	CRMCollection	
+DcmiTerms 	1	DcmiTerms	
+DGDCorpus 	1	DGDCorpus	
+EtstoelCollection 	1	EtstoelCollection	
+FesliCollection 	1	FesliCollection	
+TextProfile 	1	TextProfile	
+VK-semantic 	1	VK-semantic	
+Website 	1	Website	
