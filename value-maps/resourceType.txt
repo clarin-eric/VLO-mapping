@@ -1,0 +1,262 @@
+RESOURCECLASS	COUNT	NORMALIZED_VALUE	GENRE	SUBJECT	LANGUAGECODE	MODALITY	COUNTRY	TEMPORALCOVERAGE	Media	Remarks
+Academic dissertations 	18	text	academia	dissertations						Jan's uses Genre differenty
+Addresses 	11	text	public speaking	address						
+AddressesAnthologiesLinguistic corporaCorpus 	1	text	public speaking	address						Fixed in a batch
+Aligned_sentence 	3	text	annotation	aligned sentence						Jan uses annotation facet, a new facet
+Alter Druck 	5	text	old print							Jan does not translate to English
+Amateurfilm 	12	videoRecording	film	amature film						
+Ancient religious texts 	3	text	history	religion						
+Annals 	4	text	history							
+AnnotatedTextCorpus 	3	annotation; collection; text								
+Annotation: Affixes 	1	lexicalResource								
+Annotation: Chinese_glosses 	1	lexicalResource		gloss	Chinese					Why does Jan assign type = structured data here but not to other glosses
+Annotation: English_glosses 	1	lexicalResource		gloss	English					
+Anthologies 	30	corpus	anthology							
+AnthologiesDevotional literature 	1	text; collection	anthology	devotional literature						
+AnthologiesLinguistic corporaCorpus 	2	text; collection	anthology							
+Anthology 	1	text; collection	anthology							
+Audio 	39	audioRecording								
+Autobiographies 	4	text	autobiography							
+Ballad operas 	1	videoRecording	opera	ballad opera		performance				check resource: audioRecording and text also possible
+Bible storiesLinguistic corporaCorpus 	1	"text; collection"	religion	bible						
+Bibles 	1	text	religion	bible						
+Bibliographies 	1	text	bibliography							checked: dcmi:type=LexicalResource
+Bilingual 	5	lexicalResource								
+BilingualDictionary 	1	lexicalResource								
+Biographies 	13	text	personal text	biography						
+Bioscoop 	2956	videoRecording	cinema	film	Dutch					
+Buddhism 	2	videoRecording	religon	Buddhism						
+Catalogues 	1	webService	bibliography	catalogue						
+Catechisms 	1	text	religion	catechism						
+Charter 	2	text	law							
+Chronicals 	1	text	history							Spelling error
+Chronicles 	2	text	history							
+Collection 	79	collection								
+Comedies 	4	videoRecording	drama	comedy		perfomance				Alt. RT = text
+Commentaries 	3	text	commentary							
+Commentaries -- Italy -- 17th century 	1	text	commentary				Italy	17th century		
+CommentariesGazetteers 	1	structured data	commentary							
+Comparable 	1	text	comparative literature							"Check resource: Jan: Type = text; genre = comparable"
+Confessions 	4	text		confession						
+Constitutions 	1	text	legal texts	constitution						check resource
+Conversion narratives 	1	text	religion	conversion narrative						check resource
+CorporaCorpus		"text;collection"								
+Corpus 	781	"text;collection"								
+Correspondence 	1	text	correspondence	letters						
+Courtesy books 	1	text	book	courtesy book						
+Data Provider 	5885	structured data								"corpus of sentences by Leipzig (LCC); Jan proposes: Linguistic Annotation/Orthographic/Sentence Separators as genre"
+Databases 	1	structuredData								
+Dataset 	150	structuredData								
+Description/inflectional morphology 	2	lexicalResource		"morphology;inflectional description"						
+Devotional literature 	24	text	religious texts	devotional literature						
+Devotional material 	1	text	religious texts	devotional literature						
+Dialogue 	4	audioRecording	dialogue							
+Dialogues 	1	audioRecording	dialogue							
+Diaries 	2	text	personal text	diary						
+Dictionaries 	19	lexicalResource								
+Early book 	1	text	book	early printed book						
+Early printed book (1501-1800)	6	text	book	early printed book						
+Economics 	2	other	economics							Check resource
+Electronic publications 	3	text	electronic publication							
+Electronic publications -- Great Britain -- 20th century 	1	text	electronic publication				Great Britain	20th century		
+Electronic publications -- Indonesia -- 20th century 	1	text	electronic publication				Indonesia	20th century		
+Electronic publications -- Japan -- 20th centuryDatabases -- Japan -- 20th century 	1	text	electronic publication				Japan	20th century		
+Electronic publications -- United States -- 20th century 	2	text	electronic publication				United States	20th century		
+English drama -- Restoration, 1660-1700 	1	text	drama				England	1660-1700		
+English literature -- Middle English, 1100-1500 	1	text	literature	middle english			England	1100-1500		
+Epics 	1	text	literature	epic poetry						
+Essays 	15	text	literature	essay						
+Ethics 	2	text	ethics							
+Etiquette books 	2	text	book	ettiquette						
+Experimental Data 	2	structuredData								
+Exploration literature 	1	text	literature	exploration						
+Fairy tales 	2	text	literature	folklore						
+Fairy talesAnthologies 	1	"text; collection"	literature	folklore						
+Fiction 	12	text	literature	fiction						
+Field Notes 	2	text	field notes							
+Fieldwork Material 	1	text								
+Folk tales 	1	text	literature	folklore						
+FolkloreAnthologies 	1	"text; collection"	literature	folklore						
+Formularies 	1	structuredData	medicine	"historic medicine; formulary"						check
+Fragment 	12	text	fragment							
+FrequencyList 	2	structuredData	statistic data							
+Games 	1	other	games							"check resource; could be service/tool"
+Gazeta 	1	text	newspaper		Polish					
+Genealogies 	1	structuredData	geneology							check resource
+Geometry 	1	text	mathematics	geometry						check resource
+Gesta 	7	text	chronicle					medieval period		
+Grammars 	3	grammar								
+Grammar	3	grammar								
+GrammarsAnthologies 	1	grammar								
+Handbooks 	1	text	manual	handbook						
+Herbals -- England -- 17th century 	1	text		medicine			England	17th century		
+Historical fiction 	2	text	literature	historic fiction						
+Image 	1152	image								
+Indexes 	1	text	index							
+Info:eu-repo/semantics/dataset 	253	structuredData								
+Inscriptions 	1	text	inscription							
+Instrumental music 	335	audioRecording	music	instrumental music		performance				
+Internet 	1	videoRecording								checked: project RADAR
+"Internet; mobiele telefoon "	182	videoRecording								checked: project WISEBITS - series of short films, published on internet
+Juvenile literature 	3	text	literature	jeuvenile literature						
+Juvenilia 	1	text	literature	jeuvenile literature						
+Książka 	1	text	book							
+LanguageDescription 	19	lexicalResource	description	language						
+Languages 	2	structuredData	language							
+Laws 	1	text	legal texts							
+
+Lectures 	4	structuredData	lecture			speech				check resource
+Legal formularies 	2	structuredData	legal texts							
+
+Legal Works 	1	text	legal texts							
+Legal works 	2	text	legal texts							
+Legislative proceedingsConstitutionsAnthologies 	1	text	legal texts							
+LemmaList 	2	structuredData								
+
+Letters 	22	text	correspondence							
+LexicalConceptualResource 	198	lexicalResource								
+LexicalResource 	20	lexicalResource								
+Lexicon 	7	lexicalResource								
+Lexicon: Lexical_categories 	1	lexicalResource								
+Libretti 	1	text	music	opera						
+Linguistic corpora 	37	"text; collection"								
+Linguistic corporaCorpus 	23	"text; collection"								
+Linguistic corporaCorpusAnthologies 	3	"text; collection"								
+Linguistic corporaCorpusLetters 	1	"text; collection"	correspondence							
+Linguistic corporaCorpusLettersAnthologies 	1	"text; collection"	correspondence							
+Linguistic corporaCorpusNewspapersAnthologies 	1	"text; collection"	newspaper							
+Linguistic corporaCorpusPeriodicals -- Italy -- 20th Century 	1	"text; collection"	newspaper				Italy	20th Century		
+Linguistic data 	3	structuredData								check resources
+Literary criticism 	1	text		literary criticism						
+Literature of prejudice 	2	text	literature	literature of prejudice						
+Local Histories 	1	text		local history						
+Local histories 	14	text		local history						
+Local historiesNovels 	1	text	novel	local history						
+Local/desktop 	10	software								
+Machine readable dictionary 	2	lexicalResource								
+Manuals 	1	text	manual							
+Manuals  (Handbooks)	3	text	manual							
+Manuscript 	1270	text	manuscript							
+//Masques 	1									"Masques' is just a keyword; see: http://ota.ox.ac.uk/desc/0078"
+//Mathematics 	1			mathematics						check
+Medical formularies 	5	structuredData	formularies	medicine						
+Memoirs 	6	text	autobiography	memoires						
+Military histories 	1	text	"military; history"	military history						
+Military manuals 	1	text	military	military handbooks						
+Mobile telephone		videoRecording	mobile phone						mobile phone	check resource
+Monograph 	1689	text	monograph							
+Monolingual 	22	lexicalResource	monolingual							
+MonolinugalDictionary 	3	lexicalResource	dictionary							
+Monologue 	1	text	drama	monologue						check resource
+Moving image 	1	videoRecording	moving image							
+MovingImage 	494	videoRecording	moving image							spelling mistake
+Multilingual 	7	lexicalResource								
+MultimodalCorpus 	5	"annotation;collection"				multimodal				
+MultiVolumeWork 	720	corpus								
+Music 	1	audioRecording	music							
+Mystery and detective fiction 	1	text	literature	"mystery; detective fiction"						
+Myths and legends 	5	text	literature	folklore						
+Myths and legends--13th century 	1	text	literature	folklore				13th century		
+NamedEntitiesList 	1	structuredData		named entities						
+NewpapersAnthologiesLinguistic corporaCorpus 	1	text	newspaper		English					
+Newspapers 	2	text	newspaper							
+NewspapersLinguistic corporaCorpus 	1	corpus	newspaper							
+Niet van toepassing 	1185	other								
+No value given 	15	other								
+Notebooks 	1	text								
+Novels 	166	text	novel							
+Novels -- France -- 19th century 	1	text	novel				France	19th century		
+NovelsAnthologiesLinguistic corporaCorpus	1	"text; collection"	novel							
+OralCorpus 	13	"audioRecording; corpus"	speech			speech				
+Other 	18	other								
+Overig 	408	other								
+Parables 	2	text	literature	parables						
+Parallel 	1	corpus	literature	comparative literature						
+ParodiesFables 	1	text	literature	"parodies; fables"						
+Patristic texts -- 1st-5th century period 	4	text	religious texts	patristic theology				1-5th centuries		
+Patristic texts -- England -- 6th-10th century period 	4	text	religious texts	patristic theology			England	6-10th centuries		
+Patristic texts -- England -- 6th-10th century periodScripture commentaries -- England -- 6th-10th century period 	1	text	religious texts	patristic theology			England	6-10th centuries		2 description stuck together
+Patristic texts -- Italy -- 6th-10th century period 	1	text	religious texts	patristic theology			Italy	6-10th centuries		
+Periodicals 	5	text	periodical							
+PeriodicalsAnthologies 	1	text	periodical							collection
+Petitions 	1	text	petition	politics						
+Philosophical texts 	3	text		philosophy						
+Philosophical texts -- Great Britain -- 18th century 	1	text		philosophy			Great Britain	18th century		
+Philosophical texts -- Great Britain -- 19th century 	1	text		phlosophy			Great Britain	19th century		
+Philosophical works 	5	text		philosophy						
+Phrase books 	1	text	book	"phrases; colloquial language"						
+PhysicalObject 	10697	physicalObject								
+Plays 	216	text	drama			performance				Alternative RT= videoRecording or session
+Plays -- England -- 17th century 	1	text	drama				England	17th century		
+PlaysAnthologies 	1	text	drama							collection
+PlaysAnthologiesLinguistic corporaCorpus 	1	text	drama							collection
+Poems 	170	text	poetry							
+PoemsAnthologies 	1	text	poetry							collection
+PoemsDevotional literature 	1	text	religion	"devotional literature; devotional poems"						
+Poetry 	2	text	poetry							
+Politics 	13	other	politics							check resource
+Primers 	1	text								
+Protest literature 	2	text	politics	protest literature						
+Proverbs 	2	text	literature	proverbs						
+Radio 	504	audioRecording	radio	radio					radio	
+Read 	2	audioRecording	reading	read		speech				
+Romances 	13	text	romance							
+RomancesLinguistic corporaCorpus 	1	"text; collection"	romance							
+Sacred texts 	11	text	sacred literature	religion						
+Sacred texts -- India -- B.C. 	1	text	sacred literature	religion			India	BC		
+Sacred texts -- United States -- 19th century 	1	text	sacred literature	religion			USA	19th century		
+Satires 	8	text	literature	satires						
+Scientific Information Service 	122	structuredData								check resource
+Scientific Journal 	82	text	periodical							
+Scores 	1	physicalObject	"musical sheet; score"	scores						
+Scroll 	3	physicalObject	scroll							
+Sermons 	15	text	religion	sermons						
+Service 	168	webService								
+Session 	2520	audioRecording								
+Short stories 	22	text	"literature; short stories"							
+Short stories, Italian -- 19th century 	1	text	"literature; short stories"				Italy	19th century		
+Software 	106	software								
+Songs 	3	audioRecording	songs							
+SongsAnthologiesLinguistic corporaCorpus 	1	"audioRecording; corpus"	songs							
+Sound 	18533	audioRecording								
+Speech 	1	audioRecording	speech			speech				check resource
+SpeechCorpus 	9	"audioRecording; corpus"	speech			speech				
+Spoken Corpus 	2	"audioRecording; corpus"	speech			speech				
+Spontaneous 	3	text	spontaneous							check
+Starodruk 	87	text	old print		Polish					
+Stary druk 	1	text	old print		Polish					
+StillImage 	361	image	stilll image							
+Televisie 	41000	videoRecording	television						television	
+Text 	133965	text								
+TextAnnotation 	20050	"text;annotation"								
+Textbooks 	2	text								
+Tool 	95	software								
+Tools 	1	software								
+
+
+ToolService 	295	"tool;service"								
+Tragedies 	3	text	"drama; tragedy"							
+Transcription 	35	annotatedText	transcription							
+Transcription: IPA 	1	annotatedText	transcription							
+Translation 	22	text	translation							check resouce
+Travel literature 	6	text	travel literature							
+Treebank	1	lexicalResource								
+UnannotatedTextCorpus 	1	"text; collection"								
+Utopian literature 	1	text	literature							
+Video 	5	videoRecording								
+Virtual_manuscript 	3	text	manuscript							
+Volume 	2076	text	historic texts							checked: same provider: GEI_historic_German_textbooks
+Web application 	6	interactiveResource								
+
+
+Web service 	9	webService								
+WebService 	47	webService								
+Website 	1	interactiveResource								
+Wordbooks 	1	"audioRecording;text"							 	"checked: one collection: Archive of the Indigenous Languages of Latin America (mp3 + ram + pdf files; however broken links -  #847)"
+
+
+WordNet 	2	lexicalResource								
+Written Corpus 	56	"text;collection"								
+WrittenCorpus 	14	"text;collection"								
+-- Germany	1	other								check resource
+Xxx -- xxx -- xxx	8	other								check resource
