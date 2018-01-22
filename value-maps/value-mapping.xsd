@@ -18,19 +18,9 @@
   <xs:element name="value-map">
     <xs:complexType>
       <xs:sequence>
-        <xs:choice>
-          <xs:element ref="target-default"/>
-          <xs:element ref="target-facet"/>
-        </xs:choice>
-        <xs:element maxOccurs="unbounded" ref="target-value-set"/>
+        <xs:element ref="target-facet" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="target-value-set"/>
       </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="target-default">
-    <xs:complexType>
-      <xs:attribute name="facet" use="required" type="xs:NCName"/>
-      <xs:attribute name="overrideExistingValues" use="optional" type="xs:boolean"/>
-      <xs:attribute name="removeSourceValue" use="optional" type="xs:boolean"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="target-facet">
