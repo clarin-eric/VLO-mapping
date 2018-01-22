@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="value-mappings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="origin-facet"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="origin-facet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="value-map"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="value-map">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="target-default"/>
+          <xs:element ref="target-facet"/>
+        </xs:choice>
+        <xs:element maxOccurs="unbounded" ref="target-value-set"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="target-default">
+    <xs:complexType>
+      <xs:attribute name="facet" use="required" type="xs:NCName"/>
+      <xs:attribute name="overrideExistingValues" use="optional" type="xs:boolean"/>
+      <xs:attribute name="removeSourceValue" use="optional" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="target-facet">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="overrideExistingValues" use="optional" type="xs:boolean"/>
+      <xs:attribute name="removeSourceValue" use="optional" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="target-value-set">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="source-value"/>
+        <xs:element ref="target-value"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="source-value">
+    <xs:complexType mixed="true">
+      <xs:attribute name="caseSensitive" use="optional" type="xs:boolean"/>
+      <xs:attribute name="isRegex" use="optional" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="target-value">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="facet" type="xs:NCName"/>
+          <xs:attribute name="overrideExistingValues" type="xs:boolean"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
