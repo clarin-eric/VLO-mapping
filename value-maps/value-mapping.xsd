@@ -32,10 +32,12 @@
   </xs:element>
   <xs:element name="target-value-set">
     <xs:complexType mixed="true">
-      <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element ref="source-value"/>
-        <xs:element ref="target-value"/>
-      </xs:choice>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="source-value"/>
+          <xs:element ref="target-value"/>
+        </xs:choice>
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="source-value">
