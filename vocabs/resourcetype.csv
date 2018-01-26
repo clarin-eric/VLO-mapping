@@ -1,0 +1,18 @@
+RESOURCETYPE;
+"collection";
+"text";
+"structuredData";
+.;"lexicalResource"
+.;"grammar"
+.;"database"
+.;"annotation"
+"image";
+"audio / audioRecording";
+"video / videoRecording";
+"speech";
+"software";
+"interactiveResource";
+.;"website";
+.;"webservice";
+.;"application";
+"physicalObject";
