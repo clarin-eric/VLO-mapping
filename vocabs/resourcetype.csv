@@ -1,18 +1,18 @@
 RESOURCETYPE;
-"collection";
-"text";
+"collection";"An aggregation of items. The term collection means that the resource is described as a group; its parts may be separately described and navigated.";"source: DCMI";
+"text";"written sequence of human language"; 
 "structuredData";
-.;"lexicalResource"
+.;"lexicalResource";"list of structured items describing/defining various aspects of lexical units (words, multi-word expressions)";
 .;"grammar"
-.;"database"
+.;"database";"structured dataset";
 .;"annotation"
 "image";
 "audio / audioRecording";
 "video / videoRecording";
 "speech";
-"software";
+"software";"an artefact that can be executed on a computer to perform specific operations";"source: CRMdig:D14Software";
 "interactiveResource";
-.;"website";
-.;"webservice";
-.;"application";
+.;"website";"meant for human interaction, available online, accessible via web browser";
+.;"webservice";"meant for machine interaction, available online, accessible via defined protocol";
+.;"client application";"meant for human interaction, has to be executed on local computer";
 "physicalObject";
