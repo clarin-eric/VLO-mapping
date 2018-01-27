@@ -11,6 +11,8 @@ RESOURCETYPE;
 "video / videoRecording";
 "speech";
 "software";"an artefact that can be executed on a computer to perform specific operations";"source: CRMdig:D14Software";
+.;"source code";"code in human readable form in one or multiple programming languages";
+.;"binaries";"compiled code executable on a computer"
 "interactiveResource";
 .;"website";"meant for human interaction, available online, accessible via web browser";
 .;"webservice";"meant for machine interaction, available online, accessible via defined protocol";
