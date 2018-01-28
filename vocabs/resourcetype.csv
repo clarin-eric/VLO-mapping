@@ -1,20 +1,19 @@
 RESOURCETYPE;
 "collection";"An aggregation of items. The term collection means that the resource is described as a group; its parts may be separately described and navigated.";"source: DCMI";
-"text";"written sequence of human language"; 
-"structuredData";
-.;"lexicalResource";"list of structured items describing/defining various aspects of lexical units (words, multi-word expressions)";
-.;"grammar"
-.;"database";"structured dataset";
-.;"annotation"
-"image";
-"audio / audioRecording";
-"video / videoRecording";
-"speech";
-"software";"an artefact that can be executed on a computer to perform specific operations";"source: CRMdig:D14Software";
-.;"source code";"code in human readable form in one or multiple programming languages";
-.;"binaries";"compiled code executable on a computer"
-"interactiveResource";
-.;"website";"meant for human interaction, available online, accessible via web browser";
-.;"webservice";"meant for machine interaction, available online, accessible via defined protocol";
-.;"client application";"meant for human interaction, has to be executed on local computer";
-"physicalObject";
+"text";"written sequence of human language";"source: Durco"; 
+"lexicalResource";"list of structured items describing/defining various aspects of lexical units (words, multi-word expressions)";"source: Durco";
+"grammar";"formalized description of the structure of a language";"source: Durco";
+"database";"structured dataset ??";"source: Durco";
+"annotation";"additional/secondary structured information explicating certain aspects of the original resource. (Which could be of any type: text, audio, video, image, ...)";"source: Durco";
+"image";"static digital visual representation";"source: Durco";
+"audio / audioRecording";"Resource whose content is primarily intended to be perceived acoustically.";"source: based on: DCMI, adapted: Durco";
+"video / videoRecording";"Resource consisting of a series of images  imparting an impression of motion when shown in succession, mostly accompanied by an synchronized audio signal; primarily intended to be perceived visually and acoustically.";"source: based on: DCMI, adapted: Durco";
+"speech";"??";
+"software";"an artefact that can be executed on a computer to perform specific operations";"source: CRMdig:D14Software";"source: Durco";
+.;"source code";"algorithmic processing instructions in human readable form in one or multiple programming languages";"source: Durco";
+.;"binaries";"algorithmic processing instructions in machine readable form executable on a computer";"source: Durco";
+"interactiveResource";"A resource requiring interaction from the user to be understood, executed, or experienced.";"source: DCMI";
+.;"website";"interactive resource meant for human interaction, available online, accessible via web browser";"source: Durco";
+.;"webservice";"meant for machine interaction, available online, accessible via defined protocol";"source: Durco";
+.;"clientApplication";"meant for human interaction, has to be executed on local computer";"source: Durco";
+"physicalObject";" All persistent physical items with a relatively stable form, man-made or natural";"source: CIDOC-CRM: Physical Thing";
