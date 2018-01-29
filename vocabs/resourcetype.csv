@@ -16,4 +16,4 @@ RESOURCETYPE,Definition,Source,
 ". website","interactive resource meant for human interaction, available online, accessible via web browser","source: Durco",
 ". webservice","meant for machine interaction, available online, accessible via defined protocol","source: Durco",
 ". clientApplication","meant for human interaction, has to be executed on local computer","source: Durco",
-"physicalObject"," All persistent physical items with a relatively stable form, man-made or natural","source: CIDOC-CRM: Physical Thing"
+"physicalObject"," All persistent physical items with a relatively stable form, man-made or natural","source: CIDOC-CRM: Physical Thing",
