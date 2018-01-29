@@ -1,8 +1,8 @@
-profileName,resourceClass,
-AnnotatedCorpusProfile,"annotation;text;corpus",
-BASWebService,"web service",
+profileName,resourceClass
+AnnotatedCorpusProfile,"annotation;text;corpus"
+BASWebService,"web service"
 BatImageBundle,
-BilingualDictionaryProfile,"lexicalResource",
+BilingualDictionaryProfile,"lexicalResource"
 CRM,
 CRMCollection,
 CommunicationProfile,
@@ -39,8 +39,7 @@ LCC_CorpusProfile,
 LCC_DataProviderProfile,
 LESLLA,
 LINDAT_CLARIN,
-LexicalResourceProfile,"lexicalResource",
-LexicalResourceProfile-DLU,
+LexicalResourceProfile,"lexicalResource"
 MeertensCollection,
 MonolingualDictionaryProfile,
 MultimodalCorpus,
