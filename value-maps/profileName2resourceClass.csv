@@ -1,100 +1,101 @@
-Song;
-teiHeader;
-OLAC-DcmiTerms;
-lat-session;
-mods;
-talkbank-session;
-DcmiTerms;
-SongScan;
-media-session-profile;
-SourceScan;
-Source;
-lat-corpus;
-DGDEvent;
-IDSAGD_Speaker;
-IDSAGD_Event;
-SongAudio;
-SymbolicMusicNotation;
-LCC_DataProviderProfile;
-Text;
-Soundbites-recording;
-lucea;
-collection;
-CommunicationProfile;
-lat-SL-session;
-Performer;
-DiscAn_Case;
-VALID;
-data;
-Etstoel;
-SL-IPROSLA;
-OLAC-DcmiTerms-ref-DWR;
-OLAC-DcmiTerms-ref;
-GTRP_sub_location;
-JacobsstafVerhaal;
-MeertensCollection;
-resourceInfo;
-GBA-derived_sub_municipality;
-ToponymProfile;
-Communication_Transcript;
-Communication_Recording;
-DIDDD_sub_location;
-WebLichtWebService;
-DynaSAND_sub_location;
-corpusProfile;
-LESLLA;
-LINDAT_CLARIN;
-UserSubmission;
-singlePaperPackage;
-SL-TLA;
-CRM;
-DiaryCollection;
-Fesli;
-ToolProfile;
-media-corpus-profile;
-GBA-derived_sub_coroparea;
-TextCorpusProfile;
-PhotoSinger;
-LCC_CorpusProfile;
-ReadingReport;
-SpokenCorpusProfile;
-wnd_subcollection_core_data;
-lexicalProfile;
-GBA-derived_sub_dialectarea;
-DGDCorpus;
-LexicalResourceProfile;
-GBA-derived_sub_province;
-Dictionary;
-DiscAn_TextCorpus;
-IDSAGD_Corpus;
-textCorpusProfile;
-AnnotatedCorpusProfile;
-BatImageBundle;
-VirtualCollection;
-SpeechCorpus;
-TreebankProfile;
-MonolingualDictionaryProfile;
-ResourceBundle;
-TextProfile;
-WebApplication;
-BASWebService;
-BilingualDictionaryProfile;
-CRMCollection;
-DIDDD;
-DiscAn_Project;
-DynaSAND;
-EtstoelCollection;
-FesliCollection;
-GBA-derived;
-GTRP;
-LexicalResourceProfile-DLU;
-MultimodalCorpus;
-Soundbites;
-SpeechCorpusWithParticipants;
-ToolComponentProfile;
-ToolService;
-VU-DNC-profile-20111101;
-WBD;
-WLD;
-Website;
-WordNetProfile;
+profileName,resourceClass,
+Song, ,
+teiHeader, ,
+OLAC-DcmiTerms, ,
+lat-session, ,
+mods, ,
+talkbank-session, ,
+DcmiTerms, ,
+SongScan, ,
+media-session-profile, ,
+SourceScan, ,
+Source, ,
+lat-corpus, ,
+DGDEvent, ,
+IDSAGD_Speaker, ,
+IDSAGD_Event, ,
+SongAudio, ,
+SymbolicMusicNotation, ,
+LCC_DataProviderProfile, ,
+Text, ,
+Soundbites-recording, ,
+lucea, ,
+collection, ,
+CommunicationProfile, ,
+lat-SL-session, ,
+Performer, ,
+DiscAn_Case, ,
+VALID, ,
+data, ,
+Etstoel, ,
+SL-IPROSLA, ,
+OLAC-DcmiTerms-ref-DWR, ,
+OLAC-DcmiTerms-ref, ,
+GTRP_sub_location, ,
+JacobsstafVerhaal, ,
+MeertensCollection, ,
+resourceInfo, ,
+GBA-derived_sub_municipality, ,
+ToponymProfile, ,
+Communication_Transcript, ,
+Communication_Recording, ,
+DIDDD_sub_location, ,
+WebLichtWebService, ,
+DynaSAND_sub_location, ,
+corpusProfile, ,
+LESLLA, ,
+LINDAT_CLARIN, ,
+UserSubmission, ,
+singlePaperPackage, ,
+SL-TLA, ,
+CRM, ,
+DiaryCollection, ,
+Fesli, ,
+ToolProfile, ,
+media-corpus-profile, ,
+GBA-derived_sub_coroparea, ,
+TextCorpusProfile, ,
+PhotoSinger, ,
+LCC_CorpusProfile, ,
+ReadingReport, ,
+SpokenCorpusProfile, ,
+wnd_subcollection_core_data, ,
+lexicalProfile, ,
+GBA-derived_sub_dialectarea, ,
+DGDCorpus, ,
+LexicalResourceProfile, ,
+GBA-derived_sub_province, ,
+Dictionary, ,
+DiscAn_TextCorpus, ,
+IDSAGD_Corpus, ,
+textCorpusProfile, ,
+AnnotatedCorpusProfile, ,
+BatImageBundle, ,
+VirtualCollection, ,
+SpeechCorpus, ,
+TreebankProfile, ,
+MonolingualDictionaryProfile, ,
+ResourceBundle, ,
+TextProfile, ,
+WebApplication, ,
+BASWebService, ,
+BilingualDictionaryProfile, ,
+CRMCollection, ,
+DIDDD, ,
+DiscAn_Project, ,
+DynaSAND, ,
+EtstoelCollection, ,
+FesliCollection, ,
+GBA-derived, ,
+GTRP, ,
+LexicalResourceProfile-DLU, ,
+MultimodalCorpus, ,
+Soundbites, ,
+SpeechCorpusWithParticipants, ,
+ToolComponentProfile, ,
+ToolService, ,
+VU-DNC-profile-20111101, ,
+WBD, ,
+WLD, ,
+Website, ,
+WordNetProfile, ,
