@@ -1,118 +1,118 @@
 "RESOURCECLASS",RESOURCECLASS
-"-- Germany",""""
-"Academic dissertations",""
-"Addresses",""
-"AddressesAnthologiesLinguistic corpora",""
-"Aikataulut",""
-"Alter Druck",""
-"Amateurfilm",""
-"Analytic",""
-"Analytic serial",""
-"Ancient religious texts",""
-"Annals",""
-"AnnotatedTextCorpus",""
-"Annotation: Affixes",""
-"Annotation: Chinese_glosses",""
-"Annotation: English_glosses",""
-"Anthologies",""
-"AnthologiesDevotional literature",""
-"AnthologiesLinguistic corpora",""
-"Anthology",""
-"Archives sonores",""
-"Argumentation",""
-"Artikkelit",""
-"Audio",""
-"Autobiographies",""
-"Autograph",""
-"Ballad operas",""
-"Bavardage",""
-"Bible storiesLinguistic corpora",""
-"Bibles",""
-"Bibliographies",""
-"Bilingual",""
-"BilingualDictionary",""
-"Biographies",""
-"Bioscoop",""
-"Boek",""
-"Boeken",""
-"Book",""
-"Buddhism",
-"Catalogues",
-"Catechisms",
-"Chanson",
-"Chansons",
-"Charter",
-"Chronicals",
-"Chronicles",
-"Collection",
-"Comedies",
-"Commentaries",
-"Commentaries -- Italy -- 17th century",
-"CommentariesGazetteers",
-"Comparable",
-"Confessions",
-"Congrès et conférences",
-"Constitutions",
-"Conte",
-"Conte, entretien",
-"Conte, récit d'expériences vécues",
-"Conte, récit d'expériences vécues, entretien",
-"Contes",
-"Conversation",
-"Conversion narratives",
-"Corpus",
-"Correspondence",
-"Courtesy books",
-"DFG",
-"DFG ; Eigenprojekt",
-"Data Provider",
-"Database",
-"Databases",
-"Dataset",
-"Devinettes et énigmes",
-"Devotional literature",
-"Devotional material",
-"Diachronic Corpus",
-"Dialogue",
-"Dialogues",
-"Diaries",
+"-- Germany","!"
+"Academic dissertations","text"
+"Addresses","text"
+"AddressesAnthologiesLinguistic corpora","text;corpus"
+"Aikataulut","text"
+"Alter Druck","text"
+"Amateurfilm","video"
+"Analytic","dataset"
+"Analytic serial","dataset"
+"Ancient religious texts","text"
+"Annals","text;collection"
+"AnnotatedTextCorpus","text;annotation;corpus"
+"Annotation: Affixes","annotation"
+"Annotation: Chinese_glosses","annotation"
+"Annotation: English_glosses","annotation"
+"Anthologies","text;collection"
+"AnthologiesDevotional literature","text"
+"AnthologiesLinguistic corpora","text;corpus"
+"Anthology","text"
+"Archives sonores","audio"
+"Argumentation","text"
+"Artikkelit","text"
+"Audio","audio"
+"Autobiographies","text"
+"Autograph","text"
+"Ballad operas","text"
+"Bavardage","session;audio"
+"Bible storiesLinguistic corpora","text;corpus"
+"Bibles","text"
+"Bibliographies","text"
+"Bilingual","!"
+"BilingualDictionary","lexicalResource"
+"Biographies","text"
+"Bioscoop","video"
+"Boek","text"
+"Boeken","text"
+"Book","text"
+"Buddhism","!"
+"Catalogues","text"
+"Catechisms","text"
+"Chanson","audio;text"
+"Chansons","audio;text"
+"Charter","text"
+"Chronicals","text"
+"Chronicles","text"
+"Collection","collection"
+"Comedies","text"
+"Commentaries","text"
+"Commentaries -- Italy -- 17th century","text"
+"CommentariesGazetteers","text"
+"Comparable","!"
+"Confessions","text"
+"Congrès et conférences","!"
+"Constitutions","text"
+"Conte","audio"
+"Conte, entretien","audio"
+"Conte, récit d'expériences vécues","audio"
+"Conte, récit d'expériences vécues, entretien","audio"
+"Contes","audio"
+"Conversation","session;audio"
+"Conversion narratives","text"
+"Corpus","corpus"
+"Correspondence","text"
+"Courtesy books","text"
+"DFG","!"
+"DFG ; Eigenprojekt","!"
+"Data Provider","!"
+"Database","database"
+"Databases","database"
+"Dataset","dataset"
+"Devinettes et énigmes","audio"
+"Devotional literature","text"
+"Devotional material","text"
+"Diachronic Corpus","corpus"
+"Dialogue","session"
+"Dialogues","text"
+"Diaries","text"
 "Dictionaries","lexicalResource"
-"Discours",
-"Discours vernaculaire",
-"Discussion",
-"Document",
-"Early book",
-"Early printed book (1501-1800)",
-"Economics",
-"Eigenprojekt",
-"Eigenprojekt ; gefördert von Ministerium für Kinder, Familie und Soziales Rheinland-Pfalz",
-"Electronic publications",
-"Electronic publications -- Great Britain -- 20th century",
-"Electronic publications -- Indonesia -- 20th century",
-"Electronic publications -- Japan -- 20th centuryDatabases -- Japan -- 20th century",
-"Electronic publications -- United States -- 20th century",
-"English drama -- Restoration, 1660-1700",
-"English literature -- Middle English, 1100-1500",
-"Enquêtes linguistiques",
-"Entretien",
-"Entretien,",
-"Entretien, conte",
-"Entretien, interaction entre pairs",
-"Entretien, récit d'expériences vécues",
-"Entretien, récit d'expériences vécues, conte",
-"Entretiens",
-"Epics",
-"Esitteet",
-"Essays",
-"Ethics",
-"Etiquette books",
-"Experimental Data",
-"Exploration literature",
+"Discours","session"
+"Discours vernaculaire","session"
+"Discussion","session"
+"Document","text"
+"Early book","text"
+"Early printed book (1501-1800)","text"
+"Economics","!"
+"Eigenprojekt","!"
+"Eigenprojekt ; gefördert von Ministerium für Kinder, Familie und Soziales Rheinland-Pfalz","!"
+"Electronic publications","text"
+"Electronic publications -- Great Britain -- 20th century","text"
+"Electronic publications -- Indonesia -- 20th century","text"
+"Electronic publications -- Japan -- 20th centuryDatabases -- Japan -- 20th century","text"
+"Electronic publications -- United States -- 20th century","text"
+"English drama -- Restoration, 1660-1700","text"
+"English literature -- Middle English, 1100-1500","text"
+"Enquêtes linguistiques","session"
+"Entretien","session"
+"Entretien,","session"
+"Entretien, conte","session"
+"Entretien, interaction entre pairs","session"
+"Entretien, récit d'expériences vécues","session"
+"Entretien, récit d'expériences vécues, conte","session"
+"Entretiens","session"
+"Epics","text"
+"Esitteet","text"
+"Essays","text"
+"Ethics","text"
+"Etiquette books","text"
+"Experimental Data","dataset"
+"Exploration literature","text"
 "Fables",
-"Fairy tales",
+"Fairy tales","text"
 "Fairy talesAnthologies",
 "Fiction",
-"Field Notes",
+"Field Notes","dataset"
 "Fieldwork Material",
 "Folk tales",
 "FolkloreAnthologies",
@@ -321,27 +321,27 @@
 "ToolService",
 "Tools",
 "Tragedies",
-"Transcription",
-"Transcription: IPA",
-"Translation",
+"Transcription","!"
+"Transcription: IPA","!"
+"Translation",""
 "Travel literature","text"
 "Treebank","text;annotation"
-"Trilogue",
-"Unknown",
+"Trilogue","!"
+"Unknown","!"
 "Utopian literature","text"
-"Vedute",
-"Verbundprojekt",
+"Vedute","!"
+"Verbundprojekt","!"
 "Video","video"
-"Virtual_manuscript",
-"Volume",
-"Web application","interactiveResource;website"
-"Web service","interactiveResource;webservice"
-"WebService", "interactiveResource;webservice"
+"Virtual_manuscript","image;text;manuscript"
+"Volume","!"
+"Web application","web application"
+"Web service","web service"
+"WebService", "web service"
 "WordList","lexicalResource"
 "WordNet","lexicalResource"
 "Wordbooks","lexicalResource"
 "Written Corpus","text;corpus"
-"WrittenCorpus",
-"Xxx -- xxx -- xxx",
-"Zemljevidi",
+"WrittenCorpus","text;corpus"
+"Xxx -- xxx -- xxx","!"
+"Zemljevidi","image;map"
 "Znanstveno časopisje","text"
