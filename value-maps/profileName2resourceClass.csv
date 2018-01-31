@@ -54,7 +54,7 @@ SL-IPROSLA,
 SL-TLA,
 Song,"audio;textImage"
 SongAudio,
-SongScan,
+SongScan,"image"
 Soundbites,
 Soundbites-recording,
 Source,
