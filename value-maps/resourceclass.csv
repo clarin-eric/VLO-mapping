@@ -321,27 +321,27 @@
 "ToolService",
 "Tools",
 "Tragedies",
-"Transcription",
-"Transcription: IPA",
-"Translation",
+"Transcription","!"
+"Transcription: IPA","!"
+"Translation",""
 "Travel literature","text"
 "Treebank","text;annotation"
-"Trilogue",
-"Unknown",
+"Trilogue","!"
+"Unknown","!"
 "Utopian literature","text"
-"Vedute",
-"Verbundprojekt",
+"Vedute","!"
+"Verbundprojekt","!"
 "Video","video"
-"Virtual_manuscript",
-"Volume",
-"Web application","interactiveResource;website"
-"Web service","interactiveResource;webservice"
-"WebService", "interactiveResource;webservice"
+"Virtual_manuscript","image;text;manuscript"
+"Volume","!"
+"Web application","web application"
+"Web service","web service"
+"WebService", "web service"
 "WordList","lexicalResource"
 "WordNet","lexicalResource"
 "Wordbooks","lexicalResource"
 "Written Corpus","text;corpus"
-"WrittenCorpus",
-"Xxx -- xxx -- xxx",
-"Zemljevidi",
+"WrittenCorpus","text;corpus"
+"Xxx -- xxx -- xxx","!"
+"Zemljevidi","image;map"
 "Znanstveno časopisje","text"
