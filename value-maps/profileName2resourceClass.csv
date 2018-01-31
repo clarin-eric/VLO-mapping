@@ -86,7 +86,7 @@ corpusProfile,"text,corpus"
 data,
 lat-SL-session,
 lat-corpus,
-lat-session,
+lat-session,"audio;video;annotation"
 lexicalProfile,"lexicalResource"
 lucea,
 media-corpus-profile,
