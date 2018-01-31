@@ -37,7 +37,7 @@ IDSAGD_Speaker,
 JacobsstafVerhaal,
 LCC_CorpusProfile,"text;corpus"
 LCC_DataProviderProfile,
-LESLLA,
+LESLLA,"audio;annotation"
 LINDAT_CLARIN,
 LexicalResourceProfile,"lexicalResource"
 MeertensCollection,"collection"
