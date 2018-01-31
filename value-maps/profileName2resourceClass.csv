@@ -43,7 +43,7 @@ LexicalResourceProfile,"lexicalResource"
 MeertensCollection,"collection"
 MonolingualDictionaryProfile,
 MultimodalCorpus,
-OLAC-DcmiTerms,
+OLAC-DcmiTerms,""
 OLAC-DcmiTerms-ref,
 OLAC-DcmiTerms-ref-DWR,
 Performer,
@@ -86,7 +86,7 @@ corpusProfile,"text;corpus"
 data,
 lat-SL-session,
 lat-corpus,"corpus"
-lat-session,"audio;video;annotation"
+lat-session,"session"
 lexicalProfile,"lexicalResource"
 lucea,"audio"
 media-corpus-profile,"audio"
@@ -95,6 +95,7 @@ mods,
 resourceInfo,
 singlePaperPackage,
 talkbank-session,"session"
+talkbank-license-session,"session;audio;annotation"
 teiHeader,"text"
 textCorpusProfile,"text;corpus"
 wnd_subcollection_core_data,
