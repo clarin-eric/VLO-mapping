@@ -432,6 +432,10 @@
 		<!-- IDS IDSAGD_Corpus -->
 
 		<blacklistPattern>/cmdp:HZSKAssociatedFile/cmdp:Type</blacklistPattern>
+		<blacklistPattern>/cmdp:SpokenCorpusProfile/cmdp:CorpusInfo/cmdp:Content/cmdp:AnnotationTypes/cmdp:AnnotationType/cmdp:Descriptions/</blacklistPattern>
+		<blacklistPattern>/cmdp:SpokenCorpusProfile/cmdp:GeneralInfo/cmdp:Project/cmdp:Descriptions/</blacklistPattern>
+		<blacklistPattern>/cmdp:SpokenCorpusProfile/cmdp:CorpusInfo/cmdp:Content/cmdp:SegmentationUnits/cmdp:Descriptions/</blacklistPattern>
+		<blacklistPattern>/cmdp:TextCorpusProfile/cmdp:Documentation/cmdp:Descriptions/</blacklistPattern>
 		<!--  HZSK -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:IDSAGD_Speaker/cmdp:LinguisticBackground</blacklistPattern>
 		<!-- IDS IDSAGD_Speaker -->
