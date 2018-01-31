@@ -73,46 +73,46 @@
 "Devotional literature","text"
 "Devotional material","text"
 "Diachronic Corpus","corpus"
-"Dialogue","
-"Dialogues",
-"Diaries",
+"Dialogue","session"
+"Dialogues","text"
+"Diaries","text"
 "Dictionaries","lexicalResource"
-"Discours",
-"Discours vernaculaire",
-"Discussion",
-"Document",
-"Early book",
-"Early printed book (1501-1800)",
-"Economics",
-"Eigenprojekt",
-"Eigenprojekt ; gefördert von Ministerium für Kinder, Familie und Soziales Rheinland-Pfalz",
-"Electronic publications",
-"Electronic publications -- Great Britain -- 20th century",
-"Electronic publications -- Indonesia -- 20th century",
-"Electronic publications -- Japan -- 20th centuryDatabases -- Japan -- 20th century",
-"Electronic publications -- United States -- 20th century",
-"English drama -- Restoration, 1660-1700",
-"English literature -- Middle English, 1100-1500",
-"Enquêtes linguistiques",
-"Entretien",
-"Entretien,",
-"Entretien, conte",
-"Entretien, interaction entre pairs",
-"Entretien, récit d'expériences vécues",
-"Entretien, récit d'expériences vécues, conte",
-"Entretiens",
-"Epics",
-"Esitteet",
-"Essays",
-"Ethics",
-"Etiquette books",
-"Experimental Data",
-"Exploration literature",
+"Discours","session"
+"Discours vernaculaire","session"
+"Discussion","session"
+"Document","text"
+"Early book","text"
+"Early printed book (1501-1800)","text"
+"Economics","!"
+"Eigenprojekt","!"
+"Eigenprojekt ; gefördert von Ministerium für Kinder, Familie und Soziales Rheinland-Pfalz","!"
+"Electronic publications","text"
+"Electronic publications -- Great Britain -- 20th century","text"
+"Electronic publications -- Indonesia -- 20th century","text"
+"Electronic publications -- Japan -- 20th centuryDatabases -- Japan -- 20th century","text"
+"Electronic publications -- United States -- 20th century","text"
+"English drama -- Restoration, 1660-1700","text"
+"English literature -- Middle English, 1100-1500","text"
+"Enquêtes linguistiques","session"
+"Entretien","session"
+"Entretien,","session"
+"Entretien, conte","session"
+"Entretien, interaction entre pairs","session"
+"Entretien, récit d'expériences vécues","session"
+"Entretien, récit d'expériences vécues, conte","session"
+"Entretiens","session"
+"Epics","text"
+"Esitteet","text"
+"Essays","text"
+"Ethics","text"
+"Etiquette books","text"
+"Experimental Data","dataset"
+"Exploration literature","text"
 "Fables",
-"Fairy tales",
+"Fairy tales","text"
 "Fairy talesAnthologies",
 "Fiction",
-"Field Notes",
+"Field Notes","dataset"
 "Fieldwork Material",
 "Folk tales",
 "FolkloreAnthologies",
