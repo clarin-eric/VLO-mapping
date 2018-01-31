@@ -58,7 +58,7 @@ SongScan,"image"
 Soundbites,
 Soundbites-recording,
 Source,
-SourceScan,
+SourceScan,"image"
 SpeechCorpus,"speech;corpus"
 SpeechCorpusWithParticipants,"speech;corpus"
 SpokenCorpusProfile,"speech;corpus"
@@ -89,7 +89,7 @@ lat-corpus,
 lat-session,"audio;video;annotation"
 lexicalProfile,"lexicalResource"
 lucea,
-media-corpus-profile,
+media-corpus-profile,"audio"
 media-session-profile,"session"
 mods,
 resourceInfo,
