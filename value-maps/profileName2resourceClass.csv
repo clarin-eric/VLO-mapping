@@ -52,23 +52,23 @@ ReadingReport,
 ResourceBundle,
 SL-IPROSLA,
 SL-TLA,
-Song,"audio;textImage"
+Song,"audio;text;image;song"
 SongAudio,
 SongScan,"image"
 Soundbites,
 Soundbites-recording,
 Source,
 SourceScan,"image"
-SpeechCorpus,"speech;corpus"
-SpeechCorpusWithParticipants,"speech;corpus"
-SpokenCorpusProfile,"speech;corpus"
+SpeechCorpus,"audio;corpus"
+SpeechCorpusWithParticipants,"audio;corpus"
+SpokenCorpusProfile,"audio;corpus"
 SymbolicMusicNotation,
 Text,"text"
 TextCorpusProfile,"text;corpus"
 TextProfile,
-ToolComponentProfile,"interactiveResource"
-ToolProfile,"interactiveResource"
-ToolService,"interactiveResource"
+ToolComponentProfile,"tool service"
+ToolProfile,"tool service"
+ToolService,"tool service"
 ToponymProfile,
 TreebankProfile,
 UserSubmission,
@@ -77,12 +77,12 @@ VU-DNC-profile-20111101,
 VirtualCollection,
 WBD,
 WLD,
-WebApplication,"interactiveResource,website"
-WebLichtWebService,"interactiveResource;webservice"
-Website,"interactiveResource;website"
+WebApplication,"web-application"
+WebLichtWebService,"web service"
+Website,"web application"
 WordNetProfile,"lexicalResource"
-collection,
-corpusProfile,"text,corpus"
+collection,"collection"
+corpusProfile,"text;corpus"
 data,
 lat-SL-session,
 lat-corpus,
