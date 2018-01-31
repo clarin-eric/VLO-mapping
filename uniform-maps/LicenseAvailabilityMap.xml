@@ -446,6 +446,8 @@
         <variant value="restricted 2009" />
         <variant value="Restricted" />
         <variant value="restricted - only available for licence owners" />
+	<variant value="CineMedia; Teleac/NOT" />
+        <variant value="Voor informatie over het gebruik van archiefmateriaal kunt u contact opnemen met de Klantenservice van het Nederlands Instituut voor Beeld en Geluid: klantenservice@beeldengeluid.nl" />
     </mapping>
     <mapping>
         <normalizedValue value="RES;BY;NC;PRIV" />
