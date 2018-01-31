@@ -52,7 +52,7 @@ ReadingReport,
 ResourceBundle,
 SL-IPROSLA,
 SL-TLA,
-Song,
+Song,"audio;textImage"
 SongAudio,
 SongScan,
 Soundbites,
