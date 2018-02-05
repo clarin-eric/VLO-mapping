@@ -550,10 +550,11 @@
 		<concept>http://hdl.handle.net/11459/CCR_C-5424_3200a38b-344e-41de-e539-f71f80c38df8</concept>
 		<concept>http://www.isocat.org/datcat/DC-3786</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-3786_21c37142-994f-63a8-5a5b-a9fce07681a7</concept>
-		
-                <concept>http://hdl.handle.net/11459/CCR_C-6582_2ab1561d-1162-08fd-f7c2-2a706e8c65f9</concept>
-                
-		<pattern>/cmd:CMD/cmd:Components/cmdp:LrtInventoryResource/cmdp:LrtCommon/cmdp:ResourceType/text()</pattern>
+
+    <!-- Meta-Share resource type -->
+		<concept>http://hdl.handle.net/11459/CCR_C-6582_2ab1561d-1162-08fd-f7c2-2a706e8c65f9</concept>
+
+    <pattern>/cmd:CMD/cmd:Components/cmdp:LrtInventoryResource/cmdp:LrtCommon/cmdp:ResourceType/text()</pattern>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:OLAC-DcmiTerms/cmdp:type/text()</pattern>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:typeOfResource/text()</pattern>
 
