@@ -117,7 +117,7 @@ ToolService,"tool service","","",364,11,"CLARIN Centres |44| # CLARIN-PL digital
 Transcription,"text,speech","","records are for transcription of speech -- which RT applies here?",35,1,"Archive of the Indigenous Languages of Latin America |35|"
 Translation,"audio,text","","",22,1,"Archive of the Indigenous Languages of Latin America |22|"
 Treebank,"text,annotation","","",5,1,"TST-Centrale |5|"
-Trilogue,"audio?","","no resource, format, mimetype-information; only 1 record",1,1,"ORTOLANG Repository |1|"
+Trilogue,"audio","","no resource, format, mimetype-information; only 1 record",1,1,"ORTOLANG Repository |1|"
 Vedute,"image","","",2,1,"92068_Ag_Slovenia_ETravel |2|"
 Verbundprojekt,"","","not found in VLO",1,1,"AGD |1|"
 Video,"video","","",106,2,"AGD |101| # Bavarian Archive for Speech Signals (BAS) |5|"
