@@ -866,5 +866,7 @@
 		<!-- e.g. http://www.europeana.eu/rights/out-of-copyright-non-commercial/2029-08-04 -->
 		<variant value="https?://www.europeana.eu/rights/out-of-copyright-non-commercial/.*" isRegExp="true" />
 	</mapping>
-
+	<mapping>
+		<normalizedValue value="https://lindat.mff.cuni.cz/repository/xmlui/page/licence-hamledt-3.0" />
+	</mapping>
 </mappings>
