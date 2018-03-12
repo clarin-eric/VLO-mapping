@@ -35,7 +35,7 @@ IDSAGD_Corpus,"","not-applicable","various resource types possible",3,1,"Institu
 IDSAGD_Event,"text","","documentation of audio recording",8108,1,"Institut für Deutsche Sprache, CLARIN-D Zentrum, Mannheim |8108|"
 IDSAGD_Speaker,"text","","documentation of speaker in audio recording",8509,1,"Institut für Deutsche Sprache, CLARIN-D Zentrum, Mannheim |8509|"
 JacobsstafVerhaal,"text","","mimetype is: application/pdf",583,1,"Meertens collections: PILNAR |583|"
-LCC_CorpusProfile,"text,corpus","","",2,1,"Leipzig Corpora Collection |2|"
+LCC_CorpusProfile,"text, corpus","","",2,1,"Leipzig Corpora Collection |2|"
 LCC_DataProviderProfile,"text","","",41,1,"Leipzig Corpora Collection |41|"
 LESLLA,"audio, annotation","","",225,1,"CLARIN NL : leslla |225|"
 LINDAT_CLARIN,"","not-applicable","various resource types",92,4,"CLARIN.SI data & tools |2| # CLARINO Bergen Centre |1| # LINDAT / CLARIN Data & Tools |52|"
