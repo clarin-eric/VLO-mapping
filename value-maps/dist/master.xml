@@ -10,4 +10,9 @@
 		href="profileName2resourceClass_tf-extended_noResourceClassProfiles.xml" 
 	  	xpointer="element(/1/1)" />
 
+	<!-- `resourceClass` to `resourceClass` -->
+	<xi:include 
+		href="resourceClass_tf-extended.xml" 
+	  	xpointer="element(/1/1)" />
+
 </value-mappings>

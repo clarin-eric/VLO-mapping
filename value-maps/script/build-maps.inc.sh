@@ -12,4 +12,5 @@
 #			built, provide 'mymap'
 #
 
+vlo_mapping resourceClass_tf-extended
 vlo_mapping profileName2resourceClass_tf-extended_noResourceClassProfiles
