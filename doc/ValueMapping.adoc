@@ -1,0 +1,74 @@
+= Value mapping parameters: scenarios
+
+|===
+
+2.3+| &nbsp; 2+|*Origin == target*          2+|*Origin ≠ target*
+
+      2+|*Remove source?*            2+|*Remove source?*
+
+        |*false*            |*true*      |*false*  |*true*
+
+1.2+|*Override existing values?*
+|*false*
+|V,O -> V,O,N +
+Addition/enrichment
+|V, O -> V, N +
+Correction
+|O \| V -> O \| V, N +
+Additive projection
+|O \| V -> - \| V,N +
+Additive extraction
+
+|*true*
+|V,O -> O,N +
+[No use case?]
+|V, O -> N +
+Aggressive correction
+|O \| V -> O \| N +
+Destructive projection
+|O \| V -> - \| N +
+Destructive extraction
+
+|===
+
+O::
+  old (origin value)
+N::
+  new value (target value)
+V::
+  existing value in target which is not considered in map
+O | V::
+  Origin value in origin facet and existing value in target (any other values in the origin facet are not affected)
+
+== Use cases
+
+* Origin == target (within facet value mapping)
+** *"Addition/enrichment"* (don’t remove source, don’t override existing)
+*** Add one or more values based on existing values in the facet
+*** Useful in case one value implies another value, and both are valid facet values
+*** _Example:_ a subgenre value can be expanded to also include the ‘super-genre’
+** V,O -> O,N (don’t remove source, override existing)
+*** ??
+** *"Correction"* (remove source, don’t override existing)
+*** The origin value is replaced but other values are left untouched
+*** Most common value harmonisation use case
+*** Implements decomposition in case of multiple values
+*** _Example:_ fixing a typo or spelling variation
+** *"Aggressive correction"* (remove source, override existing)
+*** Any existing values should be discarded in favour of the target value
+*** Might be useful for values that act as an override
+*** But perhaps we can only be sure enough if we know the conceptual context!
+*** _Example:_ a more restrictive availability level overrides all more permissive values
+* Origin != target (cross-facet mapping)
+** *"Additive projection"*
+*** Value from origin facet implies another value to be added to another facet
+*** _Example:_ a certain collection or profile might imply a subject but not exclude other explicitly stated subjects.
+** *"Destructive projection"*
+*** Value from origin facet implies another value that excludes other options in another fact.
+*** _Example:_ an explicit availability statement should override any other (derived) availability information.
+** *"Additive extraction"*
+*** A value is ‘extracted’ from the origin value and injected into the target facet (possibly in an altered form), without touching existing values in the target facet.
+*** _Example:_ A value in the ‘genre’ facet actually describes a subject so this value is moved out of the origin facet into the target facet (adding to any subject value already present)
+** *"Destructive extraction"*
+*** Extraction from origin and injection into target facet, replacing all existing values.
+*** _Example:_ Mapping from OAI endpoint to "national project" could safely get defined this way - assuming there are no other concept or value mappings to "national project" and each record only has one value for "national project"
