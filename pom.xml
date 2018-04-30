@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.clarin.cmdi</groupId>
     <artifactId>vlo-mapping</artifactId>
-    <version>1.2.1-SNAPSHOT</version>
+    <version>1.2.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     
     <name>VLO mapping definitions</name>
@@ -21,6 +21,7 @@
                 <includes>
                     <include>mapping/**</include>
                     <include>uniform-maps/**</include>
+                    <include>value-maps/**</include>
                 </includes>
             </resource>
         </resources>
