@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Value mapping master definition. Use this to include value maps that are to be
+	processed by the VLO.
+-->
+<value-mappings xmlns:xi="http://www.w3.org/2001/XInclude">
+
+	<!-- `_componentProfile` to `resourceClass` -->
+	<xi:include 
+		href="profileName2resourceClass_tf-extended_noResourceClassProfiles.xml" 
+	  	xpointer="element(/1/1)" />
+
+	<!-- `resourceClass` to `resourceClass` -->
+	<xi:include 
+		href="resourceClass_tf-extended.xml" 
+	  	xpointer="element(/1/1)" />
+	  	
+	<!-- `collection` to `collection` -->
+	<xi:include 
+		href="collection.xml" 
+	  	xpointer="element(/1/1)" />
+
+</value-mappings>

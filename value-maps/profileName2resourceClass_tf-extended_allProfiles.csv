@@ -1,4 +1,4 @@
-_COMPONENTPROFILE,RESOURCECLASS,TF-COUNT,TF-pivot-count:collection,TF-pivot-members:collection
+_componentProfile,resourceClass,TF-COUNT,TF-pivot-count:collection,TF-pivot-members:collection
 AnnotatedCorpusProfile-DLU,"",11,1,"TST-Centrale |11|"
 BASWebService,"web service",1,1,"Bavarian Archive for Speech Signals (BAS) |1|"
 BatImageBundle,"",11,1,"MPI corpora : Neurogenetics of Vocal Communication |11|"
