@@ -25,7 +25,7 @@ MODALITY,MODALITY,TF-applicability,TF-note,TF-COUNT,TF-pivot-count:collection,TF
 "display of material culture","exhibition;multimodal","","",2,1,"DoBeS archive : Bayso and Haro |2|"
 "drawing","image","","",1,1,"DoBeS archive : Cashinahua project |1|"
 "ear-to-ear","conversation;multimodal","","",1,1,"Archiv für Gesprochenes Deutsch |1|"
-"ear-to-ear ; face-to-face ; fernsehen ; telefon","conversation;speech;broadcasting;multimodal","","",2,1,"AGD |2|"
+"ear-to-ear ; face-to-face ; fernsehen ; telefon","conversation;broadcasting;multimodal;speech","","",2,1,"AGD |2|"
 "edited version of recorded oral narrative","speech","","",40,1,"DoBeS archive : Teop |40|"
 "elicitation","!","","",1,1,"DoBeS archive : Tofa team |1|"
 "emotional-state","!","","",27,3,"Bavarian Archive for Speech Signals (BAS) |25| # DoBeS archive : Semang |1| # DoBeS archive : Tangsa, Tai, Singpho in North East India |1|"
