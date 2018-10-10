@@ -73,16 +73,19 @@
 	</mapping>
 	<mapping>
 		<normalizedValue value="https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinEulaAca" />
+		<variant value="http(s)?:\/\/kitwiki.csc.fi\/twiki\/bin\/view\/FinCLARIN\/ClarinEulaAca(.*)" isRegExp="true" />
 		<variant value="CLARIN_ACA" />
 		<variant value="CLARIN_ACA-NC" />
 		<variant value="CLARIN ACA" />
 	</mapping>
 	<mapping>
 		<normalizedValue value="https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinEulaPub" />
+		<variant value="http(s)?:\/\/kitwiki.csc.fi\/twiki\/bin\/view\/FinCLARIN\/ClarinEulaPub(.*)" isRegExp="true" />
 		<variant value="CLARIN_PUB" />
 	</mapping>
 	<mapping>
 		<normalizedValue value="https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinEulaRes" />
+		<variant value="http(s)?:\/\/kitwiki.csc.fi\/twiki\/bin\/view\/FinCLARIN\/ClarinEulaRes(.*)" isRegExp="true" />
 		<variant value="CLARIN_RES" />
 	</mapping>
 	<mapping>
