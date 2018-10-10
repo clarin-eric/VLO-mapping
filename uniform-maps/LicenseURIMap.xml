@@ -72,12 +72,18 @@
 		<variant value="MS-C-NoReD-ND-FF" />
 	</mapping>
 	<mapping>
-		<normalizedValue value="https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinEULA" />
+		<normalizedValue value="https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinEulaAca" />
 		<variant value="CLARIN_ACA" />
 		<variant value="CLARIN_ACA-NC" />
-		<variant value="CLARIN_PUB" />
-		<variant value="CLARIN_RES" />
 		<variant value="CLARIN ACA" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinEulaPub" />
+		<variant value="CLARIN_PUB" />
+	</mapping>
+	<mapping>
+		<normalizedValue value="https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinEulaRes" />
+		<variant value="CLARIN_RES" />
 	</mapping>
 	<mapping>
 		<normalizedValue value="https://creativecommons.org/licenses/by/1.0/"/>
