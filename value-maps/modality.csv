@@ -1,4 +1,4 @@
-MODALITY,MODALITY,GENRE,TF-applicability,TF-note,TF-COUNT,TF-pivot-count:collection,TF-pivot-members:collection
+MODALITY,modality,genre,TF-applicability,TF-note,TF-COUNT,TF-pivot-count:collection,TF-pivot-members:collection
 act-out,performance,,,,4,3,MPI corpora : Language and Cognition : Gesture Projects : Allen |1| # MPI corpora : Language and Cognition : Gesture Projects : Kita |1| # MPI corpora : Language and Cognition : Gesture Projects : Ozyurek |2|
 action,!,,,performance/activity?,14,2,DoBeS archive : Iwaidja team |13| # MPI corpora : Language and Cognition : oceania : Papua New Guinea : Kilivila |1|
 active lexicon elicitation,!,,,,1,1,DoBeS archive : Tofa team |1|
