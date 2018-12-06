@@ -20,4 +20,9 @@
 		href="collection.xml" 
 	  	xpointer="element(/1/1)" />
 
+	<!-- `collection` to `collection` -->
+	<xi:include 
+		href="modality.xml" 
+	  	xpointer="element(/1/1)" />
+
 </value-mappings>
