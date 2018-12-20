@@ -1,0 +1,24 @@
+Modality,Definition,Source,TF-NOTES,TF-EXPERT-INPUT-REQ
+performance,,VLO-WG recommendation,"in VLO-WG proposal as ""actOut / performance / demonstration""; Label needs to be determined. Note: activity is not a modality",Yes
+dance,,VLO-WG recommendation,,Yes
+eyeGaze,,VLO-WG recommendation,Merge with/subtype of facial expresion?,Yes
+facialExpressions,,VLO-WG recommendation,,
+gestures,,VLO-WG recommendation,,
+pointingGestures,,VLO value,Discussed in meeting 6.12.2018,
+co-speech,,VLO-WG recommendation,"previously ""gestures -- coSpeech""",
+image,,VLO-WG recommendation,discouraged value,Yes
+image -- painting / drawing,,VLO-WG recommendation,e.g. sand drawings,Yes
+music,,VLO-WG recommendation,,
+music -- instrumental,,VLO-WG recommendation,,
+song,,VLO-WG recommendation,"previously ""music -- singing""
+",
+speech,,VLO-WG recommendation,,
+writing,,VLO-WG recommendation,,
+unspecified,,VLO-WG recommendation,Discouraged value,
+multimodal,,VLO-WG recommendation,Discouraged value,
+signs,,VLO value,Discussed in meeting 6.12.2018; Distinct from language-like gestures,
+vocal,,VLO value,"Useful to have value for vocalisation that is neither spoken or sung, or undermined. Discouraged for being too general, prefer specific (spoken, song)",Yes
+haptic,,VLO value,,Yes
+drum-signals,,VLO value,Fits larger category?,Yes
+body movement,,VLO value,Very unspecific,Yes
+whistling,,VLO value,,
