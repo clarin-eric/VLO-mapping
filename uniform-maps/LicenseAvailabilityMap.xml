@@ -32,7 +32,8 @@
         <variant value="frei verfügbar" />        
         <variant value="http://www.europeana.eu/rights/orphan-work-eu/" />
         <variant value="http://rightsstatements.org/vocab/InC-OW-EU/1.0/" />
-        <variant value="https://lindat.mff.cuni.cz/repository/xmlui/page/licence-UD-1.3" />        
+        <variant value="https://lindat.mff.cuni.cz/repository/xmlui/page/licence-UD-1.3" />
+        <variant value="https://cst.ku.dk/projekter/dannet/license.txt" />       
         <variant value="Open" />
         <variant value="open" />
         <variant value="open 2009" />
