@@ -1,6 +1,8 @@
-"RESOURCECLASS",RESOURCECLASS
+"RESOURCECLASS","RESOURCECLASS"
 "-- Germany","!"
+"<other>",""
 "Academic dissertations","text"
+"Acceptability judgments",""
 "Addresses","text"
 "AddressesAnthologiesLinguistic corpora","text;corpus"
 "Aikataulut","text"
@@ -18,10 +20,13 @@
 "AnthologiesDevotional literature","text"
 "AnthologiesLinguistic corpora","text;corpus"
 "Anthology","text"
+"Applications",""
 "Archives sonores","audio"
 "Argumentation","text"
 "Artikkelit","text"
 "Audio","audio"
+"Audio recordings ",""
+"Audiovisual",""
 "Autobiographies","text"
 "Autograph","text"
 "Ballad operas","text"
@@ -61,10 +66,11 @@
 "Conversation","session;audio"
 "Conversion narratives","text"
 "Corpus","corpus"
+"Corpus data",""
+"Corpus of Proceedings of the European Parliament",""
 "Correspondence","text"
 "Courtesy books","text"
-"DFG","!"
-"DFG ; Eigenprojekt","!"
+"Data",""
 "Data Provider","!"
 "Database","database"
 "Databases","database"
@@ -72,6 +78,8 @@
 "Devinettes et énigmes","audio"
 "Devotional literature","text"
 "Devotional material","text"
+"DFG","!"
+"DFG ; Eigenprojekt","!"
 "Diachronic Corpus","corpus"
 "Dialogue","session"
 "Dialogues","text"
@@ -106,221 +114,246 @@
 "Essays","text"
 "Ethics","text"
 "Etiquette books","text"
+"Event",""
+"Experiment",""
+"Experimental",""
 "Experimental Data","dataset"
+"Experimental data (psycholinguistic)",""
 "Exploration literature","text"
-"Fables",
+"Fables",""
 "Fairy tales","text"
-"Fairy talesAnthologies",
-"Fiction",
+"Fairy talesAnthologies",""
+"Fiction",""
 "Field Notes","dataset"
-"Fieldwork Material",
-"Folk tales",
-"FolkloreAnthologies",
-"Formularies",
-"Fotografije",
-"Fragment",
-"Games",
-"Gazeta",
-"Gedruckte Periodika",
-"Genealogies",
-"Geometry",
-"Gesta",
-"Grammar",
-"Grammars",
-"GrammarsAnthologies",
-"Hakemistot",
-"Handbooks",
-"Herbals -- England -- 17th century",
-"Historical fiction",
-"IMAGE",
-"Image",
-"Indexes",
-"Info:eu-repo/semantics/dataset",
-"Inscriptions",
-"Instrumental music",
-"Interaction entre pairs",
-"Interaction entre pairs (asymétrique)",
-"Interaction entre pairs (stimulé)",
-"Interaction entre pairs, récit",
-"Internet",
-"Internet; mobiele telefoon",
-"Interview, récit d'expériences vécues",
-"Juhlajulkaisut",
-"Juvenile literature",
-"Juvenilia",
-"Kartat",
-"Kirjat",
-"Knjige",
-"Korpuserstellung",
-"Kortit",
-"Książka",
-"LanguageDescription",
-"Languages",
-"Langue parlée en interaction",
-"Laws",
-"Lecture à haute voix",
-"Lectures",
-"Legal Works",
-"Legal formularies",
-"Legal works",
-"Legislative proceedingsConstitutionsAnthologies",
-"LemmaList",
-"Letters",
-"LexicalConceptualResorce",
-"LexicalConceptualResource",
+"Fieldwork",""
+"Fieldwork Material",""
+"Folk tales",""
+"FolkloreAnthologies",""
+"Formularies",""
+"Fotografije",""
+"Fragment",""
+"Games",""
+"Gazeta",""
+"Gedruckte Periodika",""
+"GEI-contributions",""
+"Genealogies",""
+"Geometry",""
+"Gesta",""
+"Grammar",""
+"grammar",""
+"Grammars",""
+"GrammarsAnthologies",""
+"Hakemistot",""
+"Handbooks",""
+"Herbals -- England -- 17th century",""
+"Historical corpus data",""
+"Historical fiction",""
+"IMAGE",""
+"Image",""
+"Indexes",""
+"Info:eu-repo/semantics/dataset",""
+"Inscriptions",""
+"Instrumental music",""
+"Interaction entre pairs",""
+"Interaction entre pairs (asymétrique)",""
+"Interaction entre pairs (stimulé)",""
+"Interaction entre pairs, récit",""
+"Internet",""
+"Internet; mobiele telefoon",""
+"Interview, récit d'expériences vécues",""
+"Juhlajulkaisut",""
+"Juvenile literature",""
+"Juvenilia",""
+"Kartat",""
+"Kirjat",""
+"Knjige",""
+"Korpuserstellung",""
+"Kortit",""
+"Książka",""
+"LanguageDescription",""
+"Languages",""
+"Langue parlée en interaction",""
+"Laws",""
+"Lecture à haute voix",""
+"Lectures",""
+"Legal formularies",""
+"Legal Works",""
+"Legal works",""
+"Legislative proceedingsConstitutionsAnthologies",""
+"LemmaList",""
+"Letters",""
+"LexicalConceptualResorce",""
+"LexicalConceptualResource",""
 "LexicalResource","lexicalResource"
 "Lexicon","lexicalResource"
 "Lexicon: Lexical_categories","lexicalResource"
-"Libretti",
-"Linguistic corpora",
-"Linguistic corporaAnthologies",
-"Linguistic corporaLetters",
-"Linguistic corporaLettersAnthologies",
-"Linguistic corporaNewspapersAnthologies",
-"Linguistic corporaPeriodicals -- Italy -- 20th Century",
-"Linguistic corporaSpeech--Research",
-"Linguistic data",
-"Literary criticism",
-"Literature of prejudice",
-"Local Histories",
-"Local histories",
-"Local historiesNovels",
-"Local/desktop",
-"Lomakkeet",
-"Luettelot",
-"Luvat",
-"Machine readable dictionary",
-"Mainokset",
-"Manuals",
-"Manuals (Handbooks)",
+"Libretti",""
+"Linguistic corpora",""
+"Linguistic corporaAnthologies",""
+"Linguistic corporaLetters",""
+"Linguistic corporaLettersAnthologies",""
+"Linguistic corporaNewspapersAnthologies",""
+"Linguistic corporaPeriodicals -- Italy -- 20th Century",""
+"Linguistic corporaSpeech--Research",""
+"Linguistic data",""
+"Literary criticism",""
+"Literature of prejudice",""
+"Local Histories",""
+"Local histories",""
+"Local historiesNovels",""
+"Local/desktop",""
+"Lomakkeet",""
+"Luettelot",""
+"Luvat",""
+"Machine readable dictionary",""
+"Mainokset",""
+"Manuals",""
+"Manuals (Handbooks)",""
 "Manuscript","text"
 "Manuscrit","text"
-"Masques",
-"Mathematics",
-"Matkailumainokset",
-"Medical formularies",
-"Memoirs",
-"Military histories",
-"Military manuals",
-"Monograph",
-"Monolingual",
+"Masques",""
+"Mathematics",""
+"Matkailumainokset",""
+"Medical formularies",""
+"Memoirs",""
+"Military histories",""
+"Military manuals",""
+"Modules",""
+"Monograph",""
+"Monolingual",""
 "MonolinugalDictionary","lexicalResource"
 "MovingImage","video"
-"MultiVolumeWork",
-"Multilingual",
+"Multilingual",""
 "MultimodalCorpus","corpus"
-"Music",
-"Musique instrumentale",
-"Mystery and detective fiction",
-"Mythe",
-"Myths and legends",
-"Myths and legends--13th century",
-"Narration",
-"NewpapersAnthologiesLinguistic corpora",
+"MultiVolumeWork",""
+"Music",""
+"Musique instrumentale",""
+"Mystery and detective fiction",""
+"Mythe",""
+"Myths and legends",""
+"Myths and legends--13th century",""
+"n/a",""
+"Narration",""
+"NewpapersAnthologiesLinguistic corpora",""
 "Newspaper","text"
-"Newspaper Issue",
-"Newspaper Title",
-"Newspapers",
+"Newspaper Issue",""
+"Newspaper Title",""
+"Newspapers",""
 "NewspapersLinguistic corpora","text;corpus"
-"Nicht dokumentiert",
-"Niet van toepassing",
-"Notebooks",
+"Nicht dokumentiert",""
+"Niet van toepassing",""
+"Notebooks",""
 "Novels","text"
 "Novels -- France -- 19th century","text"
-"NovelsAnthologiesLinguistic corpora",
-"Ohjeet",
-"Ohjelmat",
-"Oppaat",
+"NovelsAnthologiesLinguistic corpora",""
+"Observation data",""
+"Ohjeet",""
+"Ohjelmat",""
+"Oppaat",""
 "OralCorpus","speech;corpus"
-"Other",
-"Overig",
-"Parables",
-"Paradigme (épistémologie)",
-"Parallel",
-"ParodiesFables",
-"Parole spontanée",
+"Other",""
+"Overig",""
+"Parables",""
+"Paradigme (épistémologie)",""
+"Parallel",""
+"ParodiesFables",""
+"Parole spontanée",""
 "Patristic texts -- 1st-5th century period","text"
 "Patristic texts -- England -- 6th-10th century period","text"
 "Patristic texts -- England -- 6th-10th century periodScripture commentaries -- England -- 6th-10th century period","text"
 "Patristic texts -- Italy -- 6th-10th century period","text"
-"Periodicals",
-"PeriodicalsAnthologies",
-"Petitions",
-"Philosophical texts",
-"Philosophical texts -- Great Britain -- 18th century",
-"Philosophical texts -- Great Britain -- 19th century",
-"Philosophical works",
-"Phrase books",
+"Periodicals",""
+"PeriodicalsAnthologies",""
+"Petitions",""
+"Philosophical texts",""
+"Philosophical texts -- Great Britain -- 18th century",""
+"Philosophical texts -- Great Britain -- 19th century",""
+"Philosophical works",""
+"Phrase books",""
 "PhysicalObject","physicalObject"
-"Plays",
-"Plays -- England -- 17th century",
-"PlaysAnthologies",
-"PlaysAnthologiesLinguistic corpora",
-"Poems",
-"PoemsAnthologies",
-"PoemsDevotional literature",
-"Poetry",
-"Politics",
-"Poésie",
-"Primers",
-"Printed serial",
-"Prière",
-"Protest literature",
-"Proverbs",
-"Publication en série imprimée",
-"Questionnaire grammatical",
-"Questionnaires",
-"Radio",
-"Read",
-"Romances",
-"RomancesLinguistic corpora",
-"Récit d'expériences vécues, conte",
-"Récit d'expériences vécues, conte, entretien",
-"Récit d'expériences vécues, conte, entretien, interaction entre pairs",
-"Récit d'expériences vécues, entretien",
-"Récit d'expériences vécues, interaction entre pairs",
-"Récit personnel",
-"Récitation",
-"Récits personnels",
-"Réunions",
-"SOUND","sound"
+"Plays",""
+"Plays -- England -- 17th century",""
+"PlaysAnthologies",""
+"PlaysAnthologiesLinguistic corpora",""
+"Poems",""
+"PoemsAnthologies",""
+"PoemsDevotional literature",""
+"Poetry",""
+"Politics",""
+"Poésie",""
+"Primary_text",""
+"Primers",""
+"Printed serial",""
+"Prière",""
+"Protest literature",""
+"Proverbs",""
+"Publication en série imprimée",""
+"Questionnaire grammatical",""
+"Questionnaire or survey",""
+"Questionnaires",""
+"R-code",""
+"Radio",""
+"RDF",""
+"Read",""
+"ResourceBundle",""
+"Romances",""
+"RomancesLinguistic corpora",""
+"Récit d'expériences vécues, conte",""
+"Récit d'expériences vécues, conte, entretien",""
+"Récit d'expériences vécues, conte, entretien, interaction entre pairs",""
+"Récit d'expériences vécues, entretien",""
+"Récit d'expériences vécues, interaction entre pairs",""
+"Récit personnel",""
+"Récitation",""
+"Récits personnels",""
+"Réunions",""
 "Sacred texts","text"
 "Sacred texts -- India -- B.C.","text"
-"Sacred texts -- United States -- 19th century",
-"Satires",
-"Scores",
-"Scroll",
-"Serial",
-"Sermons",
-"Service",
-"Session",
-"Short stories",
-"Short stories, Italian -- 19th century",
+"Sacred texts -- United States -- 19th century",""
+"Satires",""
+"Scores",""
+"Scroll",""
+"Serial",""
+"Sermons",""
+"Service",""
+"Session",""
+"Short stories",""
+"Short stories, Italian -- 19th century",""
 "Software","software"
-"Songs",
-"SongsAnthologiesLinguistic corpora",
+"software, webservice",""
+"Songs",""
+"SongsAnthologiesLinguistic corpora",""
+"SOUND","sound"
 "Sound","audio"
+"Sound data (recordings)",""
 "Speech","speech"
+"speech,corpus",""
 "SpeechCorpus","speech;corpus"
-"Spontaneous",
-"Starodruk",
-"Stary druk",
+"Spontaneous",""
+"Starodruk",""
+"Stary druk",""
 "StillImage","image"
-"Säännöt",
-"Séminaires (groupes de travail)",
+"structuredDataset",""
+"Säännöt",""
+"Séminaires (groupes de travail)",""
+"Tablets",""
+"Televisie",""
+"Test Data",""
 "TEXT","text"
-"Tablets",
-"Televisie",
-"Test Data",
 "Text","text"
+"Text collection",""
 "TextAnnotation","text;annotation"
-"Textbooks",
-"Tiedotteet",
-"Tijdschrift/serie",
-"Tool",
-"ToolService",
-"Tools",
-"Tragedies",
+"Textbooks",""
+"Textual corpus",""
+"Textual data",""
+"Tiedotteet",""
+"Tijdschrift/serie",""
+"Tool",""
+"Tool service",""
+"tool service",""
+"Tools",""
+"ToolService",""
+"Tragedies",""
 "Transcription","!"
 "Transcription: IPA","!"
 "Translation",""
@@ -336,10 +369,11 @@
 "Volume","!"
 "Web application","web application"
 "Web service","web service"
-"WebService", "web service"
+"WebService"," "web service""
+"webservice",""
+"Wordbooks","lexicalResource"
 "WordList","lexicalResource"
 "WordNet","lexicalResource"
-"Wordbooks","lexicalResource"
 "Written Corpus","text;corpus"
 "WrittenCorpus","text;corpus"
 "Xxx -- xxx -- xxx","!"
