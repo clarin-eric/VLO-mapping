@@ -609,4 +609,11 @@
                 <concept>http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb</concept>
 
 	</facetConcept>
+	<facetConcept name="author" multilingual="false">
+		<concept>http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-2957_877cc159-3d88-5fb7-b6ad-0b60d1546bb6</concept><!-- pseudonym -->
+		<concept>http://www.isocat.org/datcat/DC-5040</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-5040_69dea974-61a9-00c1-cbf8-c714cdee6918</concept>
+	</facetConcept>
 </facetConcepts>
