@@ -274,7 +274,6 @@
 		<!-- the DC is used in the distributionType facet -->
 		<concept>http://purl.org/dc/terms/license</concept>
 		<concept>http://purl.org/dc/terms/rights</concept>
-		<concept>http://purl.org/dc/terms/accessRights</concept>
 		
 		<!-- TEI header availability attributes -->
  		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:availability/@status</pattern>
@@ -316,7 +315,6 @@
                 <!-- the DC is used in the distributionType facet -->
 		<concept>http://purl.org/dc/terms/license</concept>
 		<concept>http://purl.org/dc/terms/rights</concept>
-		<concept>http://purl.org/dc/terms/accessRights</concept>
 		
 	</facetConcept>
 	<facetConcept name="accessInfo" allowMultipleValues="true" 
