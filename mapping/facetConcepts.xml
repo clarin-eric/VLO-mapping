@@ -328,7 +328,9 @@
 		<!-- licenceType: Indication of the type of a copyright licence. -->
 		<concept>http://www.isocat.org/datcat/DC-6846</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3</concept>
-                                               
+
+		<concept>http://purl.org/dc/terms/accessRights</concept>                   
+		
 		<!-- DASISH from DC Rights -->
 		<!-- <concept>http://www.isocat.org/datcat/DC-5439</concept>
 		     <concept>http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229</concept> -->
