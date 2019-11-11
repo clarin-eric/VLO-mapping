@@ -610,11 +610,19 @@
                 <concept>http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb</concept>
 
 	</facetConcept>
-	<facetConcept name="author" multilingual="false">
+	<facetConcept name="author" multilingual="false" description="The creator of the resource or tool" definition="The person or organization taking part in the creation process of the resource or tool.">
 		<concept>http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2957_877cc159-3d88-5fb7-b6ad-0b60d1546bb6</concept><!-- pseudonym -->
 		<concept>http://www.isocat.org/datcat/DC-5040</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-5040_69dea974-61a9-00c1-cbf8-c714cdee6918</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-5371_679ce449-31b9-cee5-6721-28e2365b3478</concept>
+		<concept>http://purl.org/dc/elements/1.1/creator</concept>
+		<concept>http://purl.org/dc/terms/creator</concept>
+		<pattern>//cmdp:Creators/cmdp:Person/cmdp:AuthoritativeIDs/cmdp:AuthoritativeID/cmdp:id/text()</pattern>
+
+		<!-- HZSK CommunicationProfile, values like "Barbara", "Mother of Barbara" etc. -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:CommunicationProfile/cmdp:SpeakerInfo/cmdp:ActorPersonal/cmdp:Pseudonym</blacklistPattern>
 	</facetConcept>
 </facetConcepts>
