@@ -237,6 +237,8 @@
 		<!-- IMS ToolProfile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:LexicalResourceProfile/cmdp:DocumentationLanguages</blacklistPattern>
 		<!-- IMS c:LexicalResourceProfile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:LexicalResourceProfile/cmdp:LexicalResource/cmdp:DocumentationLanguages</blacklistPattern>
+		<!-- LexicalResourceProfile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:MultimodalCorpus/cmdp:DocumentationLanguages</blacklistPattern>
 		<!-- IMS c:MultimodalCorpus -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:DocumentationURL/@lang</blacklistPattern>
