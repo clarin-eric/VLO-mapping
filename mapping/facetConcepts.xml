@@ -173,6 +173,8 @@
 		<!-- IDSAGD_Speaker -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:IDSAGD_Speaker/cmdp:LinguisticBackground/cmdp:Competence/cmdp:LanguageVariety/cmdp:LanguageVarietyPlace/cmdp:Location/cmdp:Country</blacklistPattern>
 		<!-- IDSAGD_Speaker -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:media-session-actors</blacklistPattern>
+		<!-- BAS media-session-profile -->
 	</facetConcept>
 	<facetConcept name="languageCode" description="The object language relevant for the resource or tool" definition="The object language relevant for the resource or tool, i.e. the language of the source material of a resource, the object language of a language description, or the language supported by a linguistic tool. If a tool is language independent, please use the ISO 639-3 'und' for 'undefined'.">
 		<concept>http://www.isocat.org/datcat/DC-2482</concept>
@@ -235,10 +237,14 @@
 		<!-- IMS ToolProfile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:LexicalResourceProfile/cmdp:DocumentationLanguages</blacklistPattern>
 		<!-- IMS c:LexicalResourceProfile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:LexicalResourceProfile/cmdp:LexicalResource/cmdp:DocumentationLanguages</blacklistPattern>
+		<!-- LexicalResourceProfile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:MultimodalCorpus/cmdp:DocumentationLanguages</blacklistPattern>
 		<!-- IMS c:MultimodalCorpus -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:DocumentationURL/@lang</blacklistPattern>
 		<!-- BAS cmdp:media-corpus-profile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:media-session-actors/cmdp:media-session-actor</blacklistPattern>
+		<!-- BAS cmdp:media-session-profile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:Soundbites/cmdp:Description/cmdp:Description/@LanguageID</blacklistPattern>
 		<!-- Meertens cmdp:Soundbites -->
 		<derivedFacet>_languageName</derivedFacet>
