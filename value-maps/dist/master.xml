@@ -18,6 +18,11 @@
 	<!-- `collection` to `collection` -->
 	<xi:include 
 		href="collection.xml" 
-	  	xpointer="element(/1/1)" />
+		xpointer="element(/1/1)" />
+
+	<!-- `creator` to `creator` -->
+        <xi:include
+                href="creator.xml"
+                xpointer="element(/1/1)" />
 
 </value-mappings>
