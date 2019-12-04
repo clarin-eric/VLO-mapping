@@ -173,6 +173,8 @@
 		<!-- IDSAGD_Speaker -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:IDSAGD_Speaker/cmdp:LinguisticBackground/cmdp:Competence/cmdp:LanguageVariety/cmdp:LanguageVarietyPlace/cmdp:Location/cmdp:Country</blacklistPattern>
 		<!-- IDSAGD_Speaker -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:media-session-actors</blacklistPattern>
+		<!-- BAS media-session-profile -->
 	</facetConcept>
 	<facetConcept name="languageCode" description="The object language relevant for the resource or tool" definition="The object language relevant for the resource or tool, i.e. the language of the source material of a resource, the object language of a language description, or the language supported by a linguistic tool. If a tool is language independent, please use the ISO 639-3 'und' for 'undefined'.">
 		<concept>http://www.isocat.org/datcat/DC-2482</concept>
@@ -235,10 +237,16 @@
 		<!-- IMS ToolProfile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:LexicalResourceProfile/cmdp:DocumentationLanguages</blacklistPattern>
 		<!-- IMS c:LexicalResourceProfile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:LexicalResourceProfile/cmdp:LexicalResource/cmdp:DocumentationLanguages</blacklistPattern>
+		<!-- LexicalResourceProfile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:LexicalResourceProfile-DLU/cmdp:DocumentationLanguages-DLU</blacklistPattern>
+		<!-- LexicalResourceProfile-DLU -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:MultimodalCorpus/cmdp:DocumentationLanguages</blacklistPattern>
 		<!-- IMS c:MultimodalCorpus -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:DocumentationURL/@lang</blacklistPattern>
 		<!-- BAS cmdp:media-corpus-profile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:media-session-actors/cmdp:media-session-actor</blacklistPattern>
+		<!-- BAS cmdp:media-session-profile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:Soundbites/cmdp:Description/cmdp:Description/@LanguageID</blacklistPattern>
 		<!-- Meertens cmdp:Soundbites -->
 		<derivedFacet>_languageName</derivedFacet>
@@ -274,7 +282,6 @@
 		<!-- the DC is used in the distributionType facet -->
 		<concept>http://purl.org/dc/terms/license</concept>
 		<concept>http://purl.org/dc/terms/rights</concept>
-		<concept>http://purl.org/dc/terms/accessRights</concept>
 		
 		<!-- TEI header availability attributes -->
  		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:availability/@status</pattern>
@@ -316,7 +323,6 @@
                 <!-- the DC is used in the distributionType facet -->
 		<concept>http://purl.org/dc/terms/license</concept>
 		<concept>http://purl.org/dc/terms/rights</concept>
-		<concept>http://purl.org/dc/terms/accessRights</concept>
 		
 	</facetConcept>
 	<facetConcept name="accessInfo" allowMultipleValues="true" 
@@ -330,7 +336,10 @@
 		<!-- licenceType: Indication of the type of a copyright licence. -->
 		<concept>http://www.isocat.org/datcat/DC-6846</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3</concept>
-                                               
+
+		<concept>http://purl.org/dc/terms/accessRights</concept>       
+		<concept>http://purl.org/dc/terms/rights</concept>            
+		
 		<!-- DASISH from DC Rights -->
 		<!-- <concept>http://www.isocat.org/datcat/DC-5439</concept>
 		     <concept>http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229</concept> -->
@@ -608,5 +617,20 @@
                 <!-- Legal Owner -->
                 <concept>http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb</concept>
 
+	</facetConcept>
+	<facetConcept name="creator" multilingual="false" description="The creator of the resource or tool" definition="The person or organization taking part in the creation process of the resource or tool.">
+		<concept>http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-2957_877cc159-3d88-5fb7-b6ad-0b60d1546bb6</concept><!-- pseudonym -->
+		<concept>http://www.isocat.org/datcat/DC-5040</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-5040_69dea974-61a9-00c1-cbf8-c714cdee6918</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-5371_679ce449-31b9-cee5-6721-28e2365b3478</concept>
+		<concept>http://purl.org/dc/elements/1.1/creator</concept>
+		<concept>http://purl.org/dc/terms/creator</concept>
+		<pattern>//cmdp:Creators/cmdp:Person/cmdp:AuthoritativeIDs/cmdp:AuthoritativeID/cmdp:id/text()</pattern>
+
+		<!-- HZSK CommunicationProfile, values like "Barbara", "Mother of Barbara" etc. -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:CommunicationProfile/cmdp:SpeakerInfo/cmdp:ActorPersonal/cmdp:Pseudonym</blacklistPattern>
 	</facetConcept>
 </facetConcepts>

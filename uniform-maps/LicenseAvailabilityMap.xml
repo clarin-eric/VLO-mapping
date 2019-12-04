@@ -2,14 +2,14 @@
 <mappings field="availability">    
     <mapping>
         <normalizedValue value="PUB" />
-		<variant value="Creative Commons Zero v1.0 Universal" /> <!-- full name -->
-		<variant value="CC0-1.0" /> <!-- ID -->
-		<variant value="http(s?):\/\/creativecommons\.org\/publicdomain\/zero\/.*" isRegExp="true" />
-		<variant value="CC-ZERO" />
-		<variant value="CC0" />
+        <variant value="Creative Commons Zero v1.0 Universal" /> <!-- CC0 full name -->
+        <variant value="CC0-1.0" /> <!-- CC0 ID -->
+        <variant value="http(s?):\/\/creativecommons\.org\/publicdomain\/zero\/.*" isRegExp="true" />
+        <variant value="CC-ZERO" />
+        <variant value="CC0" />
+        <variant value="http://creativecommons.org/publicdomain/mark/1.0/" />
 		
-		<variant value="http://creativecommons.org/publicdomain/mark/1.0/" />
-		
+        <variant value="available-unrestrictedUse" />
         <variant value="Available to all" />
         <variant value="Available to public" />
         <variant value="CLARIN_PUB" />
