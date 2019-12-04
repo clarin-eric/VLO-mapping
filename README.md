@@ -47,4 +47,6 @@ Double quotes (‘“‘) are only mandatory if the value contains a comma (‘,
 Source values are grouped into the mapping XML (see line 6 and 7)
 ````
 
+## Licensing
 
+All data in this repository is licensed under the terms of Creative Commons Attribution-4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
