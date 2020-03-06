@@ -89,7 +89,7 @@
 		<!-- Song -->
 	</facetConcept>
         	<!-- test facets -->
-	<facetConcept name="temporalCoverage" allowMultipleValues="false" description="The temporal coverage of the source material of the resource" definition="The temporal coverage of the source material of the resource, i.e. not the time within which the resource was created, but when e.g. original texts were written or speech recordings made.">
+	<facetConcept name="temporalCoverage" description="The temporal coverage of the source material of the resource" definition="The temporal coverage of the source material of the resource, i.e. not the time within which the resource was created, but when e.g. original texts were written or speech recordings made.">
 		<concept>http://www.isocat.org/datcat/DC-2502</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a</concept>
 		<!-- dc:coverage restricted to temporal coverage -->
