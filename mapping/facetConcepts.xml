@@ -148,7 +148,7 @@
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dc-date</blacklistPattern>
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dcterms-issued</blacklistPattern>
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dcterms-temporal</blacklistPattern>
-		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM//cmdp:edm-Agent</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dc-creator</blacklistPattern>
 		<!-- Europeana EDM -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:OralHistoryInterviewDANS/cmdp:InterviewContent</blacklistPattern>
 		<!-- OralHistoryInterviewDANS -->
