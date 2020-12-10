@@ -108,13 +108,33 @@
 		<concept>http://www.isocat.org/datcat/DC-3655</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-3655_bc4c2656-2946-0be9-49f0-021a811e531b</concept>
 		<!-- End range. Described as “The end of a range.” used in the component TimeCoverage http://catalog.clarin.eu/ds/ComponentRegistry/?item=clarin.eu:cr1:c_1349361150714 -->
+		<concept>http://hdl.handle.net/11459/CCR_C-6849_03a7b38d-de17-accc-8795-8dbfbf301420</concept>
+		<!-- temporal coverage - The space of time the data refers to with regard to contents or date (or period) of the data collection. (DASISH) -->
+		<concept>http://purl.org/dc/elements/1.1/date</concept>
+		<!-- DC element data (for EDM profile), maybe replace by pattern? -->
+		<concept>http://purl.org/dc/terms/temporal</concept>
+		<!-- DC term temporal ("Temporal characteristics of the resource.") (OLAC-DcmiTerms(-ref)?) -->
+		<concept>http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d</concept>
+		<!-- dateBegin ("date specifying the start of a period") -->
+		<concept>http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc</concept>
+		<!-- dateEnd ("specifies the end of a period") -->
+		<concept>http://hdl.handle.net/11459/CCR_C-2510_2402e609-046a-dfbf-c2d7-5a2f1ae6dc86</concept>
+		<!-- creation date ("The date when the resource or tool/service was created.") -->
+		<concept>http://purl.org/dc/terms/issued</concept>
+		<!--  DC term issued ("Date of formal issuance of the resource.") -->
+
 		<pattern>/cmd:CMD/cmd:Components/cmdp:OLAC-DcmiTerms/cmdp:coverage/text()</pattern>
 		<!-- dc:coverage, also contains spatial coverage info -->
-
 		<pattern>/cmd:CMD/Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:sourceDesc/cmdp:biblFull/cmdp:publicationStmt/cmdp:date[@type="publication"]/text()</pattern>
 		<!-- BBAW teiHeader -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:date[@type="publication"]/text()</pattern>
 		<!-- BBAW teiHeader -->
+		<pattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:edm-year/text()</pattern>
+		<!-- EDM -->
+		<pattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:Collection/cmdp:GeneralInfo/cmdp:TimeCoverage/cmdp:minDate/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:Collection/cmdp:GeneralInfo/cmdp:TimeCoverage/cmdp:maxDate/text()</pattern>
+		<!-- media-corpus-profile (BAS) -->
+
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:TextCorpusProfile/cmdp:Project/cmdp:Duration</blacklistPattern>
 		<!-- IMS TextCorpusProfile -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:ToolProfile/cmdp:Project/cmdp:Duration</blacklistPattern>
@@ -125,6 +145,13 @@
 		<!-- c:MultimodalCorpus -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:MultimodalCorpus/cmdp:Publications/cmdp:Publication/cmdp:PublicationDate</blacklistPattern>
 		<!-- c:MultimodalCorpus -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dc-date</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dcterms-issued</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dcterms-temporal</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:EDM/cmdp:ProvidedCHOProxy/cmdp:edm-ProvidedCHO/cmdp:dc-creator</blacklistPattern>
+		<!-- Europeana EDM -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:OralHistoryInterviewDANS/cmdp:InterviewContent</blacklistPattern>
+		<!-- OralHistoryInterviewDANS -->
 	</facetConcept>
 	<facetConcept name="continent" description="The continent of origin of the source material of the resource" definition="The continent of origin of the source material of the resource, i.e. not the continent in which the resource was created, but where e.g. original texts were written or speech recordings made.">
 		<concept>http://www.isocat.org/datcat/DC-2531</concept>
