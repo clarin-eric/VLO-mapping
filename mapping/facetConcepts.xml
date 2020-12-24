@@ -605,9 +605,6 @@
 		<pattern>/cmd:CMD/cmd:Header//text()</pattern>
 		<pattern>/cmd:CMD/cmd:Components//text()</pattern>
 	</facetConcept>
-	<facetConcept name="_componentProfile" allowMultipleValues="false">
-		<pattern>/cmd:CMD/cmd:Header/cmd:MdProfile/text()</pattern>
-	</facetConcept>
 	<facetConcept name="keywords" description="Keywords describing the resource or tool" definition="Keywords containing relevant information on the resource or tool not stated in other VLO metadata facets, consistently applied within the collection.">
                 <!-- concept 'metadata tag' -->
                 <concept>http://www.isocat.org/datcat/DC-5436</concept>
