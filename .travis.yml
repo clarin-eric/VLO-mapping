@@ -1,20 +1,37 @@
-language: java
-jdk:
-  - openjdk8
-script:
- - ./build.sh -B --settings .maven-settings.xml
- - value-maps/script/build.sh
-after_success:
- - value-maps/script/push-changes.sh
-before_deploy:
-  - export RELEASE_JAR_FILE=$(ls target/vlo-mapping-*.jar)
-  - echo "Deploying $RELEASE_JAR_FILE (if tag)"
-deploy:
-  provider: releases
-  api_key: "${DEPLOY_OAUTH_TOKEN}"
-  file_glob: true
-  file: ${RELEASE_JAR_FILE}
-  skip_cleanup: true
-  on:
-    tags: true
-    
+stages:
+  - test
+  - build
+
+jobs:
+  include:
+    - stage: test
+      language: minimal
+      # Needed for `xmllint`.
+      addons: {apt: {packages: [libxml2-utils]}}
+      script:
+        - mapping/script/validate.sh
+        - config/script/validate.sh
+    - stage: build     
+      language: java
+      jdk:
+        - openjdk8
+      script:
+       - ./build.sh -B --settings .maven-settings.xml
+       - value-maps/script/build.sh
+
+      after_success:
+       - value-maps/script/push-changes.sh
+
+      before_deploy:
+        - export RELEASE_JAR_FILE=$(ls target/vlo-mapping-*.jar)
+        - echo "Deploying $RELEASE_JAR_FILE (if tag)"
+
+      deploy:
+        provider: releases
+        api_key: "${DEPLOY_OAUTH_TOKEN}"
+        file_glob: true
+        file: ${RELEASE_JAR_FILE}
+        skip_cleanup: true
+        on:
+          tags: true
+
