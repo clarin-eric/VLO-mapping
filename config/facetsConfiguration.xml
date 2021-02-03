@@ -54,6 +54,18 @@
         <description>Language name</description>
         <definition/>
     </facet>
+    <facet name="multilingual">
+        <multilingual>false</multilingual>
+        <description>Whether the resources covers more than one language</description>
+        <conditions>
+            <condition>
+                <facetSelectionCondition>
+                    <facetName>languageCode</facetName>
+                    <selection type="anyValue"/>
+                </facetSelectionCondition>
+            </condition>
+        </conditions>
+    </facet>
     <facet name="availability">
         <description>The usage conditions for the resource or tool</description>
         <definition>A rough description of the conditions under which the resource or tool can be
