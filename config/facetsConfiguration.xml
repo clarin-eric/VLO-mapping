@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <facetsConfiguration>
 
-    <facet name="id">
-        <displayAs>technicalField</displayAs>
-        <allowMultipleValues>false</allowMultipleValues>
+	<!-- Facet fields (display order determined by VloConfig) -->
+	
+	<facet name="languageCode">
+        <displayAs>primaryFacet</displayAs>
+        <displayAs>searchResultField</displayAs>
+        <description>The object language relevant for the resource or tool</description>
+        <definition>The object language relevant for the resource or tool, i.e. the language of the
+            source material of a resource, the object language of a language description, or the
+            language supported by a linguistic tool. If a tool is language independent, please use
+            the ISO 639-3 'und' for 'undefined'.</definition>
+    </facet>
+    
+    <facet name="multilingual">
+        <displayAs>ignoredField</displayAs>
+        <multilingual>false</multilingual>
+        <description>Whether the resources covers more than one language</description>
+        <conditions>
+            <condition>
+                <facetSelectionCondition>
+                    <facetName>languageCode</facetName>
+                    <selection type="anyValue"/>
+                </facetSelectionCondition>
+            </condition>
+        </conditions>
     </facet>
 
     <facet name="collection">
@@ -16,6 +37,95 @@
             share basic metadata vocabularies for the information displayed in the VLO.</definition>
     </facet>
     
+    <facet name="resourceClass">
+        <displayAs>primaryFacet</displayAs>
+        <description>The type of the resource or tool (e.g. corpus, lexicon, grammar,
+            tool...)</description>
+        <definition>The type of the resource or tool (e.g. corpus, lexicon, grammar,
+            tool...).</definition>
+    </facet>
+    
+    <facet name="modality">
+        <displayAs>primaryFacet</displayAs>
+        <displayAs>searchResultField</displayAs>
+        <allowMultipleValues>true</allowMultipleValues>
+        <caseInsensitive>true</caseInsensitive>
+        <description>The modality of the content of the resource or intended for the
+            tool</description>
+        <definition>The channel by which the signs in the content of the resource were transmitted
+            or the modality for which a tool is intended, e.g. to regonize speech, gestures or
+            entities of a text.</definition>
+    </facet>
+    
+    <facet name="format">
+        <displayAs>primaryFacet</displayAs>
+        <displayAs>ignoredField</displayAs>
+        <description>The mime types used in the resource or by the tool</description>
+        <definition>The mime types of the files in the resource or consumed/produced by the
+            tool.</definition>
+    </facet>
+    
+    <facet name="keywords">
+        <displayAs>primaryFacet</displayAs>
+        <description>Keywords describing the resource or tool</description>
+        <definition>Keywords containing relevant information on the resource or tool not stated in
+            other VLO metadata facets, consistently applied within the collection.</definition>
+    </facet>
+    
+    <facet name="genre">
+        <displayAs>secondaryFacet</displayAs>
+        <displayAs>searchResultField</displayAs>
+        <allowMultipleValues>true</allowMultipleValues>
+        <caseInsensitive>true</caseInsensitive>
+        <description>The genre of the content of the resource</description>
+        <definition>The conventionalized discourse or text type of the content of the resource,
+            consistently applied within the collection.</definition>
+    </facet>
+    
+    <facet name="subject">
+        <displayAs>secondaryFacet</displayAs>
+        <displayAs>searchResultField</displayAs>
+        <allowMultipleValues>true</allowMultipleValues>
+        <caseInsensitive>true</caseInsensitive>
+        <description>The subject or topic of the content of the resource</description>
+        <definition>The subject or topic of the content of the resource, consistently applied within
+            the collection.</definition>
+    </facet>
+    
+    <facet name="country">
+        <displayAs>secondaryFacet</displayAs>
+        <displayAs>searchResultField</displayAs>
+        <description>The country of origin of the source material of the resource</description>
+        <definition>The country of origin of the source material of the resource, i.e. not the
+            country in which the resource was created, but where e.g. original texts were written or
+            speech recordings made.</definition>
+    </facet>
+    
+    <facet name="organisation">
+        <displayAs>secondaryFacet</displayAs>
+        <displayAs>searchResultField</displayAs>
+        <description>The organisation currently responsible for the resource or tool</description>
+        <definition>The name of the organisation currently responsible for the resource or tool,
+            i.e. to be contacted with any questions or requests regarding the metadata or access to
+            the resource/tool.</definition>
+    </facet>
+    
+    <facet name="dataProvider">
+        <displayAs>secondaryFacet</displayAs>
+    </facet>
+    
+    <facet name="nationalProject">
+        <displayAs>secondaryFacet</displayAs>
+        <displayAs>searchResultField</displayAs>
+    </facet>
+    
+    <!-- Non-facet fields -->
+
+    <facet name="id">
+        <displayAs>technicalField</displayAs>
+        <allowMultipleValues>false</allowMultipleValues>
+    </facet>
+    
     <facet name="projectName">
         <displayAs>ignoredField</displayAs>
         <description>The project within which the resource or tool was created</description>
@@ -25,7 +135,6 @@
     </facet>
     
     <facet name="name">
-        <displayAs>secondaryFacet</displayAs>
         <displayAs>searchResultField</displayAs>
         <allowMultipleValues>false</allowMultipleValues>
         <multilingual>true</multilingual>
@@ -47,43 +156,10 @@
             or speech recordings made.</definition>
     </facet>
     
-    <facet name="country">
-        <displayAs>secondaryFacet</displayAs>
-        <displayAs>searchResultField</displayAs>
-        <description>The country of origin of the source material of the resource</description>
-        <definition>The country of origin of the source material of the resource, i.e. not the
-            country in which the resource was created, but where e.g. original texts were written or
-            speech recordings made.</definition>
-    </facet>
-    
-    <facet name="languageCode">
-        <displayAs>primaryFacet</displayAs>
-        <displayAs>searchResultField</displayAs>
-        <description>The object language relevant for the resource or tool</description>
-        <definition>The object language relevant for the resource or tool, i.e. the language of the
-            source material of a resource, the object language of a language description, or the
-            language supported by a linguistic tool. If a tool is language independent, please use
-            the ISO 639-3 'und' for 'undefined'.</definition>
-    </facet>
-    
     <facet name="_languageName">
         <displayAs>ignoredField</displayAs>
         <description>Language name</description>
         <definition/>
-    </facet>
-    
-    <facet name="multilingual">
-        <displayAs>ignoredField</displayAs>
-        <multilingual>false</multilingual>
-        <description>Whether the resources covers more than one language</description>
-        <conditions>
-            <condition>
-                <facetSelectionCondition>
-                    <facetName>languageCode</facetName>
-                    <selection type="anyValue"/>
-                </facetSelectionCondition>
-            </condition>
-        </conditions>
     </facet>
     
     <facet name="availability">
@@ -116,77 +192,13 @@
         <definition>TODO...</definition>
     </facet>
     
-    <facet name="organisation">
-        <displayAs>secondaryFacet</displayAs>
-        <displayAs>searchResultField</displayAs>
-        <description>The organisation currently responsible for the resource or tool</description>
-        <definition>The name of the organisation currently responsible for the resource or tool,
-            i.e. to be contacted with any questions or requests regarding the metadata or access to
-            the resource/tool.</definition>
-    </facet>
-    
-    <facet name="genre">
-        <displayAs>secondaryFacet</displayAs>
-        <displayAs>searchResultField</displayAs>
-        <allowMultipleValues>true</allowMultipleValues>
-        <caseInsensitive>true</caseInsensitive>
-        <description>The genre of the content of the resource</description>
-        <definition>The conventionalized discourse or text type of the content of the resource,
-            consistently applied within the collection.</definition>
-    </facet>
-    
-    <facet name="modality">
-        <displayAs>primaryFacet</displayAs>
-        <displayAs>searchResultField</displayAs>
-        <allowMultipleValues>true</allowMultipleValues>
-        <caseInsensitive>true</caseInsensitive>
-        <description>The modality of the content of the resource or intended for the
-            tool</description>
-        <definition>The channel by which the signs in the content of the resource were transmitted
-            or the modality for which a tool is intended, e.g. to regonize speech, gestures or
-            entities of a text.</definition>
-    </facet>
-    
-    <facet name="subject">
-        <displayAs>secondaryFacet</displayAs>
-        <displayAs>searchResultField</displayAs>
-        <allowMultipleValues>true</allowMultipleValues>
-        <caseInsensitive>true</caseInsensitive>
-        <description>The subject or topic of the content of the resource</description>
-        <definition>The subject or topic of the content of the resource, consistently applied within
-            the collection.</definition>
-    </facet>
-    
     <facet name="description">
         <description>A general description of the resource or tool</description>
         <definition>A general description of the resource or tool apropriate for the VLO context,
             i.e. for a specific language resource or tool.</definition>
     </facet>
     
-    <facet name="resourceClass">
-        <displayAs>primaryFacet</displayAs>
-        <description>The type of the resource or tool (e.g. corpus, lexicon, grammar,
-            tool...)</description>
-        <definition>The type of the resource or tool (e.g. corpus, lexicon, grammar,
-            tool...).</definition>
-    </facet>
-    
-    <facet name="format">
-        <displayAs>primaryFacet</displayAs>
-        <displayAs>ignoredField</displayAs>
-        <description>The mime types used in the resource or by the tool</description>
-        <definition>The mime types of the files in the resource or consumed/produced by the
-            tool.</definition>
-    </facet>
-    
     <facet name="text"/>
-    
-    <facet name="keywords">
-        <displayAs>primaryFacet</displayAs>
-        <description>Keywords describing the resource or tool</description>
-        <definition>Keywords containing relevant information on the resource or tool not stated in
-            other VLO metadata facets, consistently applied within the collection.</definition>
-    </facet>
     
     <facet name="lifeCycleStatus">
         <description>The status in the life cycle of the resource or tool</description>
@@ -211,15 +223,6 @@
         <description>The creator of the resource or tool</description>
         <definition>The person or organization taking part in the creation process of the resource
             or tool.</definition>
-    </facet>
-    
-    <facet name="dataProvider">
-        <displayAs>secondaryFacet</displayAs>
-    </facet>
-    
-    <facet name="nationalProject">
-        <displayAs>secondaryFacet</displayAs>
-        <displayAs>searchResultField</displayAs>
     </facet>
 
     <facet name="_selfLink">
