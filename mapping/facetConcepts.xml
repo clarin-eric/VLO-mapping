@@ -70,6 +70,8 @@
 		<!-- no concept in lrt schema -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:titleInfo/title/text()</pattern>
 
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/TitleInfo/title/text()</pattern>
 
 		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:sourceDesc/cmdp:bibl/text()</pattern>
 		<!-- BBAW teiHeader -->
@@ -134,6 +136,11 @@
 		<pattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:Collection/cmdp:GeneralInfo/cmdp:TimeCoverage/cmdp:minDate/text()</pattern>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:Collection/cmdp:GeneralInfo/cmdp:TimeCoverage/cmdp:maxDate/text()</pattern>
 		<!-- media-corpus-profile (BAS) -->
+
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/TemporalCoverage/Start/date/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/TemporalCoverage/End/date/text()</pattern>
+
 
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:TextCorpusProfile/cmdp:Project/cmdp:Duration</blacklistPattern>
 		<!-- IMS TextCorpusProfile -->
@@ -312,6 +319,10 @@
 		
 		<!-- TEI header availability attributes -->
  		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:availability/@status</pattern>
+ 		
+ 		<!-- CLARIN core components -->
+ 		<pattern>/cmd:CMD/cmd:Components/*/AccessInfo/condition/text()</pattern>
+ 		
 	</facetConcept>
         <facetConcept name="licenseType">
             <concept>http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229</concept>
@@ -372,6 +383,12 @@
 		     <concept>http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229</concept> -->
 		<!-- the DC is used in the distributionType facet -->
 		<!--<concept>http://purl.org/dc/terms/license</concept>-->
+		
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/AccessInfo/condition/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/AccessInfo/accessRights/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/AccessInfo/otherAccessInfo/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/AccessInfo/accessRequirement/text()</pattern>	
 	</facetConcept>
 	<facetConcept name="organisation">
 		<concept>http://www.isocat.org/datcat/DC-2459</concept>
@@ -394,6 +411,10 @@
 		<!--  IDS WebLichtWebService -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:WebLichtWebService/cmdp:Service/cmdp:Creation/cmdp:Creators/cmdp:Creator</blacklistPattern>
 		<!--  IDS WebLichtWebService -->
+		
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/AccessInfo/Contact/AgentInfo/OrganisationInfo/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/DistributionInfo/Distributor/label/text()</pattern>
 	</facetConcept>
 	<facetConcept name="genre">
 		<concept>http://www.isocat.org/datcat/DC-2470</concept>
@@ -446,6 +467,10 @@
 		<!-- IDS IDSAGD_Corpus -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:profileDesc/cmdp:textClass</blacklistPattern>
 		<!-- BBAW -->
+		
+		<!-- CLARIN core components -->
+		<!-- <pattern>/cmd:CMD/cmd:Components/*/Subject/identifier/text()</pattern> -->
+		<pattern>/cmd:CMD/cmd:Components/*/Subject/label/text()</pattern>
 	</facetConcept>
 	<facetConcept name="description">
 		<concept>http://www.isocat.org/datcat/DC-2520</concept>
@@ -465,6 +490,11 @@
 		<!-- IDS IDSAGD_Corpus -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:IDSAGD_Corpus/cmdp:Collection/cmdp:Project/cmdp:Description/cmdp:Description/text()</pattern>
 		<!-- IDS IDSAGD_Corpus -->
+
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/Description/description/text()</pattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:ADP-DDI/cmdp:Subresource</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:ADP-DDI/cmdp:AccessInfo</blacklistPattern>
 
 		<blacklistPattern>/cmdp:HZSKAssociatedFile/cmdp:Type</blacklistPattern>
 		<blacklistPattern>/cmdp:SpokenCorpusProfile/cmdp:CorpusInfo/cmdp:Content/cmdp:AnnotationTypes/cmdp:AnnotationType/cmdp:Descriptions/</blacklistPattern>
@@ -594,6 +624,10 @@
 		<pattern>/cmd:CMD/cmd:Components/cmdp:OLAC-DcmiTerms/cmdp:type/@olac-linguistic-type</pattern>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:typeOfResource/text()</pattern>
 
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/ResourceType/label/text()</pattern>
+		<!-- <pattern>/cmd:CMD/cmd:Components/*/ResourceType/identifier/text()</pattern> -->
+
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:TextCorpusProfile/cmdp:Creation/cmdp:Source/cmdp:MediaFiles</blacklistPattern>
 	</facetConcept>
 	<facetConcept name="format">
@@ -620,6 +654,10 @@
 		<!--  BAS -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:Collection/cmdp:Project/cmdp:Title/text()</pattern>
 		<!--  BAS -->
+		
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/Keyword/label/text()</pattern>
+		<!-- <pattern>/cmd:CMD/cmd:Components/*/Keyword/identifier/text()</pattern> -->
 	</facetConcept>
 
         <!-- test facets -->
@@ -654,6 +692,10 @@
 		<concept>http://purl.org/dc/terms/creator</concept>
 		<pattern>//cmdp:Creators/cmdp:Person/cmdp:AuthoritativeIDs/cmdp:AuthoritativeID/cmdp:id/text()</pattern>
 
+		<!-- CLARIN core components -->
+		<pattern>/cmd:CMD/cmd:Components/*/Creator/label/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/Creator/AgentInfo/PersonInfo/name/text()</pattern>
+		
 		<!-- HZSK CommunicationProfile, values like "Barbara", "Mother of Barbara" etc. -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:CommunicationProfile/cmdp:SpeakerInfo/cmdp:ActorPersonal/cmdp:Pseudonym</blacklistPattern>
 	</facetConcept>
