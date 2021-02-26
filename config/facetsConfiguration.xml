@@ -14,6 +14,7 @@
     </facet>
     
     <facet name="multilingual">
+        <displayAs>secondaryFacet</displayAs>
         <displayAs>ignoredField</displayAs>
         <multilingual>false</multilingual>
         <description>Whether the resources covers more than one language</description>
