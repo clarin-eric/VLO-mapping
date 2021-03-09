@@ -25,4 +25,9 @@
                 href="creator.xml"
                 xpointer="element(/1/1)" />
 
+	<!-- `subject` to `subject` -->
+        <xi:include
+                href="subject.xml"
+                xpointer="element(/1/1)" />
+
 </value-mappings>
