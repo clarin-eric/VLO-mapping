@@ -1,0 +1,3 @@
+<def>
+    <target-facet name="subject" removeSourceValue="true" overrideExistingValues="false"/>
+</def>

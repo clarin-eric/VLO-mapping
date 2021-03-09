@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><value-mappings><origin-facet name="subject"><value-map><target-facet name="subject" removeSourceValue="true" overrideExistingValues="false"/><target-value-set><target-value facet="subject" removeSourceValue="true"/><source-value isRegex="true">\/direct\/[0-9]+$</source-value></target-value-set></value-map></origin-facet></value-mappings>
