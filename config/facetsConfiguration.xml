@@ -12,21 +12,6 @@
             language supported by a linguistic tool. If a tool is language independent, please use
             the ISO 639-3 'und' for 'undefined'.</definition>
     </facet>
-    
-    <facet name="multilingual">
-        <displayAs>secondaryFacet</displayAs>
-        <displayAs>ignoredField</displayAs>
-        <multilingual>false</multilingual>
-        <description>Whether the resources covers more than one language</description>
-        <conditions>
-            <condition>
-                <facetSelectionCondition>
-                    <facetName>languageCode</facetName>
-                    <selection type="anyValue"/>
-                </facetSelectionCondition>
-            </condition>
-        </conditions>
-    </facet>
 
     <facet name="collection">
         <displayAs>primaryFacet</displayAs>
@@ -71,6 +56,21 @@
         <description>Keywords describing the resource or tool</description>
         <definition>Keywords containing relevant information on the resource or tool not stated in
             other VLO metadata facets, consistently applied within the collection.</definition>
+    </facet>
+    
+    <facet name="multilingual">
+        <displayAs>secondaryFacet</displayAs>
+        <displayAs>ignoredField</displayAs>
+        <multilingual>false</multilingual>
+        <description>Whether the resources covers more than one language</description>
+        <conditions>
+            <condition>
+                <facetSelectionCondition>
+                    <facetName>languageCode</facetName>
+                    <selection type="anyValue"/>
+                </facetSelectionCondition>
+            </condition>
+        </conditions>
     </facet>
     
     <facet name="genre">
