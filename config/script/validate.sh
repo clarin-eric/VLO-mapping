@@ -1,7 +1,7 @@
 #!/bin/bash
 CONFIG_FILE="$(cd $(dirname "$0")/.. && pwd)/facetsConfiguration.xml"
 
-SCHEMA_URL="https://raw.githubusercontent.com/clarin-eric/VLO/issue318/vlo-commons/src/main/resources/facetsConfiguration.xsd"
+SCHEMA_URL="https://raw.githubusercontent.com/clarin-eric/VLO/master/vlo-commons/src/main/resources/facetsConfiguration.xsd"
 
 # check XML well-formedness
 
