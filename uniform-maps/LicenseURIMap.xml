@@ -342,6 +342,7 @@
 		<variant value="http(s?):\/\/creativecommons\.org\/publicdomain\/zero\/1\.0\/.*" isRegExp="true" />
 		<variant value="CC-ZERO" />
 		<variant value="CC0" />
+		<variant value="cc0" />
 	</mapping>
 	
 	<mapping>
