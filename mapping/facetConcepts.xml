@@ -139,7 +139,10 @@
 
 		<!-- CLARIN core components -->
 		<pattern>/cmd:CMD/cmd:Components/*/TemporalCoverage/Start/date/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/TemporalCoverage/Start/year/text()</pattern>
 		<pattern>/cmd:CMD/cmd:Components/*/TemporalCoverage/End/date/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/TemporalCoverage/End/year/text()</pattern>
+		<pattern>/cmd:CMD/cmd:Components/*/TemporalCoverage/label/text()</pattern>
 
 
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:TextCorpusProfile/cmdp:Project/cmdp:Duration</blacklistPattern>
@@ -499,8 +502,8 @@
 
 		<!-- CLARIN core components -->
 		<pattern>/cmd:CMD/cmd:Components/*/Description/description/text()</pattern>
-		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:ADP-DDI/cmdp:Subresource</blacklistPattern>
-		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:ADP-DDI/cmdp:AccessInfo</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/*/cmdp:Subresource</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/*/cmdp:AccessInfo</blacklistPattern>
 
 		<blacklistPattern>/cmdp:HZSKAssociatedFile/cmdp:Type</blacklistPattern>
 		<blacklistPattern>/cmdp:SpokenCorpusProfile/cmdp:CorpusInfo/cmdp:Content/cmdp:AnnotationTypes/cmdp:AnnotationType/cmdp:Descriptions/</blacklistPattern>
