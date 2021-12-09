@@ -243,6 +243,9 @@
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:language/cmdp:languageTerm/text()</pattern>
 
 
+ 		<!-- CLARIN core components -->
+ 		<pattern>/cmd:CMD/cmd:Components/*/Language/code/text()</pattern>
+
 		<!--  <concept>http://www.isocat.org/datcat/DC-2468</concept>
 		      <concept>http://hdl.handle.net/11459/CCR_C-2468_e4135e12-c272-171e-a8a2-48339228387b</concept> -->
 		<!-- BAS REMOVED because of component SubjectLanguages -->
