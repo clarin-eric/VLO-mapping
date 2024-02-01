@@ -289,10 +289,24 @@
 		<!-- IMS c:MultimodalCorpus -->
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:DocumentationURL/@lang</blacklistPattern>
 		<!-- BAS cmdp:media-corpus-profile -->
-		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:media-session-actors/cmdp:media-session-actor</blacklistPattern>
+
+		<!-- MPI-PL SL-TLA profile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:SL-TLA/cmdp:SL-ActorSigner</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:SL-TLA/cmdp:SL-ActorResearcher</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:SL-TLA/cmdp:Actor</blacklistPattern>
+
+		<!-- MPI-PL lat-session profile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:lat-session/cmdp:Actors/cmdp:Actor</blacklistPattern>
+		
+		<!-- MPI-PL lat-SL-session profile -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:lat-SL-session/cmdp:SL-Actors/cmdp:SL-Actor</blacklistPattern>
+		
 		<!-- BAS cmdp:media-session-profile -->
-		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:Soundbites/cmdp:Description/cmdp:Description/@LanguageID</blacklistPattern>
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:media-session-actors/cmdp:media-session-actor</blacklistPattern>
+
 		<!-- Meertens cmdp:Soundbites -->
+		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:Soundbites/cmdp:Description/cmdp:Description/@LanguageID</blacklistPattern>
+		
 		<derivedFacet>_languageName</derivedFacet>
 	</facetConcept>
 	<facetConcept name="_languageName">
