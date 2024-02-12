@@ -315,6 +315,7 @@
     <mapping>
         <normalizedValue value="PUB;Other" />
         <variant value="http://rightsstatements.org/vocab/NoC-OKLR/1.0/" />
+	<variant value="Openly available via the the Endangered Languages Archive, Terms of Use available at the Endangered Languages Archive." />
     </mapping>
     
     <mapping>
@@ -456,6 +457,8 @@
         <variant value="http(s?):\/\/kitwiki.csc.fi\/twiki\/bin\/view\/FinCLARIN\/ClarinEulaRes" isRegExp="true" />
 	    <variant value="CineMedia; Teleac/NOT" />
         <variant value="Voor informatie over het gebruik van archiefmateriaal kunt u contact opnemen met de Klantenservice van het Nederlands Instituut voor Beeld en Geluid: klantenservice@beeldengeluid.nl" />
+	<variant value="Available to registered users of the Endangered Languages Archive, Terms of Use available at the Endangered Languages Archive." />
+	<variant value="Available upon request via the the Endangered Languages Archive, Terms of Use available at the Endangered Languages Archive." />
     </mapping>
     <mapping>
         <normalizedValue value="RES;BY;NC;PRIV" />
@@ -512,6 +515,8 @@
         <variant value="some concept definitions are open" />
         <variant value="special license" />
         <variant value="video not available, transcript only available" />
+	<variant value="Please consult the Endangered Languages Archive for information on availability." />
+	<variant value="The information on availability and Terms of Use for the materials in the collection is available at the Endangered Languages Archive." />
     </mapping>    
     <mapping>
         <normalizedValue value="BY" />
