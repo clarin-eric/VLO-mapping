@@ -319,4 +319,8 @@
         <displayAs>ignoredField</displayAs>
     </facet>
     
+    <facet name="_normalizedSelfLink">
+        <displayAs>ignoredField</displayAs>
+    </facet>
+    
 </facetsConfiguration>

@@ -7,6 +7,11 @@
 	</facetConcept>
 	<facetConcept name="_selfLink">
 		<pattern>/cmd:CMD/cmd:Header/cmd:MdSelfLink/text()</pattern>
+                
+		<derivedFacet>_normalizedSelfLink</derivedFacet>
+	</facetConcept>
+	<facetConcept name="_normalizedSelfLink">
+		<!-- No mapping, values derived from 'languageCode' -->
 	</facetConcept>
 	<facetConcept name="collection">
 		<pattern>/cmd:CMD/cmd:Header/cmd:MdCollectionDisplayName/text()</pattern>
