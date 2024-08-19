@@ -484,6 +484,8 @@
 		<concept>http://www.isocat.org/datcat/DC-2503</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785</concept>
 
+		<concept>http://hdl.handle.net/11459/CCR_C-6838_6a67f2cc-037c-ac1c-a1a7-c74b83595efa</concept>
+
 		<concept>http://www.loc.gov/standards/mods/userguide/subject.html#topic</concept>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:OLAC-DcmiTerms/cmdp:subject/@olac-linguistic-field</pattern>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:OLAC-DcmiTerms/cmdp:subject[@dcterms-type="LCSH"]/text()</pattern>
@@ -680,7 +682,7 @@
 		<concept>http://hdl.handle.net/11459/CCR_C-5436_6ab57c2c-5f8d-3561-6db6-d75da23d2637</concept>
                 <!-- concept 'keyword' -->
                 <concept>http://www.isocat.org/datcat/DC-278</concept>
-		<concept>http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71"</concept>
+		<concept>http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71</concept>
 		<!-- not an official ISOcat PID - added to support LrtInventoryResource, should be removed in the future -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:classification/text()</pattern>
 
