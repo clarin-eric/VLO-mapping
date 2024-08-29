@@ -291,6 +291,10 @@
         <displayAs>ignoredField</displayAs>
     </facet>
     
+    <facet name="_metadataDirectory">
+        <displayAs>ignoredField</displayAs>
+    </facet>
+    
     <facet name="_hasPart">
         <displayAs>ignoredField</displayAs>
     </facet>
@@ -312,6 +316,10 @@
     </facet>
     
     <facet name="temporalCoverage_e">
+        <displayAs>ignoredField</displayAs>
+    </facet>
+    
+    <facet name="_normalizedSelfLink">
         <displayAs>ignoredField</displayAs>
     </facet>
     
