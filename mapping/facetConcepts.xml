@@ -11,7 +11,7 @@
 		<derivedFacet>_normalizedSelfLink</derivedFacet>
 	</facetConcept>
 	<facetConcept name="_normalizedSelfLink">
-		<!-- No mapping, values derived from 'languageCode' -->
+		<!-- No mapping, values derived from '_selfLink' -->
 	</facetConcept>
 	<facetConcept name="collection">
 		<pattern>/cmd:CMD/cmd:Header/cmd:MdCollectionDisplayName/text()</pattern>
