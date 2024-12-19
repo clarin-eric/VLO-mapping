@@ -48,6 +48,7 @@
         <variant value="Public" />
         <variant value="PUC" />
         <variant value="This resource can be used online http://retro.dwds.de/?corpus=1&amp;cc=OSTWEST" />
+        <variant value="https://www.kielipankki.fi/support/clarin-eula/#text_pub" />
         <variant value="http(s?):\/\/kitwiki.csc.fi\/twiki\/bin\/view\/FinCLARIN\/ClarinEulaPub" isRegExp="true" />
     </mapping>
 	
@@ -398,6 +399,7 @@
         <variant value="Registrierung erforderlich, eingeschränkte Nutzung für nicht- akademische und kommerzielle Nutzung" />
         <variant value="Vrij beschikbaar voor dialectologisch, fonetisch, historisch of ander onderzoek. Onderzoekers wordt gevraagd bij publicatie als bron deze website te vermelden. Neem voor andersoortig gebruik contact op met het Meertens Instituut" />
         <variant value="L'exploitation des données est limitée à des fins scientifiques. Les personnes utilisant le corpus s'engagent à ne pas utiliser le corpus en dehors de leur travail scientifique et à ne pas diffuser le corpus." />
+        <variant value="https://www.kielipankki.fi/support/clarin-eula/#text_aca" />
         <variant value="http(s?):\/\/kitwiki.csc.fi\/twiki\/bin\/view\/FinCLARIN\/ClarinEulaAca" isRegExp="true" />
     </mapping>
     <mapping>
@@ -454,6 +456,7 @@
         <variant value="restricted 2009" />
         <variant value="Restricted" />
         <variant value="restricted - only available for licence owners" />
+	<variant value="https://www.kielipankki.fi/support/clarin-eula/#text_res" />
         <variant value="http(s?):\/\/kitwiki.csc.fi\/twiki\/bin\/view\/FinCLARIN\/ClarinEulaRes" isRegExp="true" />
 	    <variant value="CineMedia; Teleac/NOT" />
         <variant value="Voor informatie over het gebruik van archiefmateriaal kunt u contact opnemen met de Klantenservice van het Nederlands Instituut voor Beeld en Geluid: klantenservice@beeldengeluid.nl" />
