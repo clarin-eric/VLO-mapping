@@ -412,9 +412,6 @@
 		<!-- TEI header license -->
 		<concept>http://hdl.handle.net/11459/CCR_C-5362_8cffd964-f57e-09ed-daed-eeabbf2d22c0</concept>
 
-		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-5362_8cffd964-f57e-09ed-daed-eeabbf2d22c0-->
-		<concept>http://www.wikidata.org/entity/Q79719</concept>
-
 		<!-- TEI header availability -->
 		<concept>http://hdl.handle.net/11459/CCR_C-5302_8dfad601-5387-7317-57d1-1f0e65b75af2</concept>
 
@@ -471,10 +468,6 @@
 		<!-- TEI header -->
 		<concept>http://hdl.handle.net/11459/CCR_C-5362_8cffd964-f57e-09ed-daed-eeabbf2d22c0</concept>
 
-		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-5362_8cffd964-f57e-09ed-daed-eeabbf2d22c0-->
-		<concept>http://www.wikidata.org/entity/Q79719</concept>
-
-
 		<!-- the DC is used in the distributionType facet -->
 		<concept>http://purl.org/dc/terms/license</concept>
 		<concept>http://purl.org/dc/terms/rights</concept>
@@ -519,9 +512,6 @@
 
 		<concept>http://www.isocat.org/datcat/DC-2979</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50</concept>
-
-		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50-->
-		<concept>http://www.wikidata.org/entity/Q43229</concept>
 
 		<concept>http://www.isocat.org/datcat/DC-6134</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-6134_72c22724-2615-fd70-2eff-8cd3cb59e91d</concept>
@@ -868,9 +858,6 @@
 		<!-- pseudonym -->
 		<concept>http://www.isocat.org/datcat/DC-5040</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-5040_69dea974-61a9-00c1-cbf8-c714cdee6918</concept>
-
-		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-5040_69dea974-61a9-00c1-cbf8-c714cdee6918-->
-		<concept>http://www.wikidata.org/entity/Q482980</concept>
 
 		<concept>http://hdl.handle.net/11459/CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-5371_679ce449-31b9-cee5-6721-28e2365b3478</concept>
