@@ -143,6 +143,13 @@
         <definition>The full public name of the resource or tool.</definition>
     </facet>
     
+    <facet name="alternativeName">
+        <allowMultipleValues>true</allowMultipleValues>
+        <multilingual>true</multilingual>
+        <description>An alternative name</description>
+        <definition>An alternative name for the resource or tool.</definition>
+    </facet>
+    
     <facet name="temporalCoverage">
         <description>The temporal coverage of the source material of the resource</description>
         <definition>The temporal coverage of the source material of the resource, i.e. not the time
