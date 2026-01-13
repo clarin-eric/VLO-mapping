@@ -254,6 +254,10 @@
         <displayAs>technicalField</displayAs>
     </facet>
     
+    <facet name="_firstSeen">
+        <displayAs>technicalField</displayAs>
+    </facet>
+    
     <facet name="_lastSeen">
         <displayAs>technicalField</displayAs>
     </facet>
