@@ -14,7 +14,7 @@ jobs:
     - stage: build     
       language: java
       jdk:
-        - openjdk8
+        - openjdk21
       script:
        - ./build.sh -B --settings .maven-settings.xml
        - value-maps/script/build.sh
