@@ -22,21 +22,21 @@ jobs:
       after_success:
        - value-maps/script/push-changes.sh
 
-      before_deploy:
-        - export RELEASE_JAR_FILE=$(ls target/vlo-mapping-*.jar)
-        - echo "Deploying $RELEASE_JAR_FILE (if tag)"
-        - yes | gem update --system --force
-        - gem install bundler
-        - gem install faraday-net_http -v '3.3.0' # Fix faraday version
-        - gem install uri
-        - gem install logger        
-
-      deploy:
-        provider: releases
-        api_key: "${DEPLOY_OAUTH_TOKEN}"
-        file_glob: true
-        file: ${RELEASE_JAR_FILE}
-        skip_cleanup: true
-        on:
-          tags: true
+#       before_deploy:
+#         - export RELEASE_JAR_FILE=$(ls target/vlo-mapping-*.jar)
+#         - echo "Deploying $RELEASE_JAR_FILE (if tag)"
+#         - yes | gem update --system --force
+#         - gem install bundler
+#         - gem install faraday-net_http -v '3.3.0' # Fix faraday version
+#         - gem install uri
+#         - gem install logger        
+# 
+#       deploy:
+#         provider: releases
+#         api_key: "${DEPLOY_OAUTH_TOKEN}"
+#         file_glob: true
+#         file: ${RELEASE_JAR_FILE}
+#         skip_cleanup: true
+#         on:
+#           tags: true
 
