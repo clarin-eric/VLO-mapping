@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><facetConcepts>
+<?xml version="1.0" encoding="UTF-8"?>
+<facetConcepts>
 	<facetConcept name="id">
 		<concept>http://www.isocat.org/datcat/DC-2573</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2</concept>
@@ -30,8 +31,6 @@
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-5414_55fd7a9e-edae-d8ad-a64f-c8e1058e7a6d-->
 		<concept>http://www.wikidata.org/entity/P859</concept>
 
-
-
 		<pattern>/cmd:CMD/cmd:Components/cmdp:teiHeader/cmdp:fileDesc/cmdp:publicationStmt/cmdp:publisher/cmdp:orgName/cmdp:orgName[@role="project"]/text()</pattern>
 		<!-- BBAW teiHeader -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:Corpus</pattern>
@@ -62,7 +61,6 @@
 
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-4114_747bf046-1208-940d-36ba-297e4de49e0c-->
 		<concept>http://www.wikidata.org/entity/Q115534925</concept>
-
 
 		<!-- book title -->
 
@@ -125,8 +123,8 @@
 		<concept>http://www.isocat.org/datcat/DC-4343</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-4343_0d6e80e7-6f6c-5497-eac6-29b95a5fa9ec</concept>
 
-<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-4343_0d6e80e7-6f6c-5497-eac6-29b95a5fa9ec-->
-<concept>http://www.wikidata.org/entity/Q186081</concept>
+		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-4343_0d6e80e7-6f6c-5497-eac6-29b95a5fa9ec-->
+		<concept>http://www.wikidata.org/entity/Q186081</concept>
 
 		<!-- Intervall. Described as “a : a space of time between events or states” -->
 		<concept>http://www.isocat.org/datcat/DC-5742</concept>
@@ -216,7 +214,6 @@
 
 		<concept>http://www.isocat.org/datcat/DC-3791</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-3791_8f409aa8-2d57-5fc6-23f0-f490471807d8</concept>
-
 
 		<blacklistPattern>/cmdp:HZSKCorpus/cmdp:Collection/cmdp:OriginLocation/cmdp:Location/cmdp:Continent</blacklistPattern>
 		<!-- HZSK -->
@@ -313,11 +310,9 @@
 			<concept>http://hdl.handle.net/11459/CCR_C-4146_5ccc45c8-d729-c180-2bf1-fccc56dde24d</concept>
 		</rejectableContext>
 
-
 		<pattern>/cmd:CMD/cmd:Components//cmdp:OLAC-DcmiTerms/cmdp:subject/@olac-language</pattern>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:LrtInventoryResource/cmdp:LrtCommon/cmdp:Languages/cmdp:ISO639/cmdp:iso-639-3-code/text()</pattern>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:language/cmdp:languageTerm/text()</pattern>
-
 
 		<!-- CLARIN core components -->
 		<pattern>/cmd:CMD/cmd:Components/*/Language/code/text()</pattern>
@@ -457,7 +452,6 @@
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6-->
 		<concept>http://www.wikidata.org/entity/Q79719</concept>
 
-
 		<!-- licence type
 		Possibly with filtering:
                 A description of the terms of availability of the resource in simple words. -->
@@ -519,8 +513,8 @@
 		<concept>http://www.isocat.org/datcat/DC-6134</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-6134_72c22724-2615-fd70-2eff-8cd3cb59e91d</concept>
 
-<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-6134_72c22724-2615-fd70-2eff-8cd3cb59e91d-->
-<concept>http://www.wikidata.org/entity/P123</concept>
+		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-6134_72c22724-2615-fd70-2eff-8cd3cb59e91d-->
+		<concept>http://www.wikidata.org/entity/P123</concept>
 
 		<concept>http://www.isocat.org/datcat/DC-6702</concept>
 		<!-- distribution rights holder -->
@@ -530,7 +524,6 @@
 		<concept>http://www.wikidata.org/entity/Q122625839</concept>
 
 		<!-- data provider -->
-
 
 		<pattern>/cmd:CMD/Components/cmdp:WebLichtWebService/cmdp:Service/cmdp:Contact/cmdp:Organisation/text()</pattern>
 		<!--  IDS WebLichtWebService -->
@@ -598,8 +591,8 @@
 		<concept>http://www.isocat.org/datcat/DC-2503</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785</concept>
 
-<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785-->
-<concept>http://www.wikidata.org/entity/Q26256810</concept>
+		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785-->
+		<concept>http://www.wikidata.org/entity/Q26256810</concept>
 
 
 		<concept>http://hdl.handle.net/11459/CCR_C-6838_6a67f2cc-037c-ac1c-a1a7-c74b83595efa</concept>
@@ -635,7 +628,6 @@
 		<concept>http://www.isocat.org/datcat/DC-6124</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-6124_2e45fdf9-ced2-89c9-a09d-b4769e9fede6</concept>
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:abstract/text()</pattern>
-
 
 		<pattern>/cmd:CMD/cmd:Components/cmdp:IDSAGD_Corpus/cmdp:Collection/cmdp:GeneralInfo/cmdp:Description/text()</pattern>
 		<!-- IDS IDSAGD_Corpus -->
@@ -774,7 +766,6 @@
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-3786_21c37142-994f-63a8-5a5b-a9fce07681a7-->
 		<concept>http://www.wikidata.org/entity/Q166142</concept>
 
-
 		<!-- Meta-Share resource type -->
 		<concept>http://hdl.handle.net/11459/CCR_C-6582_2ab1561d-1162-08fd-f7c2-2a706e8c65f9</concept>
 
@@ -820,7 +811,6 @@
 		<!-- not an official ISOcat PID - added to support LrtInventoryResource, should be removed in the future -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:mods/cmdp:classification/text()</pattern>
 
-
 		<pattern>/cmd:CMD/cmd:Components/cmdp:media-session-profile/cmdp:media-session/cmdp:Corpus/text()</pattern>
 		<!--  BAS -->
 		<pattern>/cmd:CMD/cmd:Components/cmdp:media-corpus-profile/cmdp:Collection/cmdp:Project/cmdp:Title/text()</pattern>
@@ -852,8 +842,6 @@
 
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb-->
 		<concept>http://www.wikidata.org/entity/Q12794619</concept>
-
-
 	</facetConcept>
 	<facetConcept name="creator">
 		<concept>http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786</concept>
@@ -863,8 +851,8 @@
 
 		<concept>http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e</concept>
 
-<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e-->
-<concept>http://www.wikidata.org/entity/P50</concept>
+		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e-->
+		<concept>http://www.wikidata.org/entity/P50</concept>
 
 		<concept>http://hdl.handle.net/11459/CCR_C-2957_877cc159-3d88-5fb7-b6ad-0b60d1546bb6</concept>
 
@@ -876,8 +864,8 @@
 
 		<concept>http://hdl.handle.net/11459/CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92</concept>
 
-<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92-->
-<concept>http://www.wikidata.org/entity/P170</concept>
+		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92-->
+		<concept>http://www.wikidata.org/entity/P170</concept>
 
 		<concept>http://hdl.handle.net/11459/CCR_C-5371_679ce449-31b9-cee5-6721-28e2365b3478</concept>
 		<concept>http://purl.org/dc/elements/1.1/creator</concept>
