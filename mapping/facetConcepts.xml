@@ -112,6 +112,12 @@
 		<blacklistPattern>/cmd:CMD/cmd:Components/cmdp:Song/cmdp:Source</blacklistPattern>
 		<!-- Song -->
 	</facetConcept>
+	<facetConcept name="alternativeName">
+		<!-- resource name -->
+		<concept>http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5</concept>
+                <!-- TEI alternative name -->
+		<concept>http://hdl.handle.net/11459/CCR_C-6824_ca741307-9b86-95d8-60db-3c912d199464</concept>
+        </facetConcept>
 	<!-- test facets -->
 	<facetConcept name="temporalCoverage">
 		<concept>http://www.isocat.org/datcat/DC-2502</concept>
