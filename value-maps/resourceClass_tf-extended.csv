@@ -182,3 +182,6 @@
 "speech,corpus","corpus",,,,,
 "tool service","software, webservice",,,,,
 "Text/tg.edition+tg.aggregation+xml","dataset",,,,,
+"speech,corpus","corpus",,,,,
+"Newspaper corpus","corpus",,,,,
+"Enregistrement sonore","audio",,"Sound recording",,,
