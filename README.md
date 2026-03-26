@@ -33,7 +33,7 @@ OralCorpus,"audioRecording",
 
 Following restrictions on the structure of the CSV apply:
 
-````
+```
 Row 1: column headers referring to facets
 Column A: source
 Column B and higher: targets, each facet should appear only once
@@ -45,8 +45,14 @@ Double quote (‘“‘) in the value can be escaped by doubling ("foo""bar") (s
 Double quotes (‘“‘) are only mandatory if the value contains a comma (‘,’) (cf. line 7 vs. 8)
 
 Source values are grouped into the mapping XML (see line 6 and 7)
-````
+```
 
 ## Licensing
 
 All data in this repository is licensed under the terms of Creative Commons Attribution-4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+
+### Building
+The XML maps can be (re)generated from the CSV files using the
+[VLO-mapping-creator tool](https://github.com/clarin-eric/VLO-mapping-creator). The scripts
+in `value-maps/script` automates the building and calling of this utility. The set of files
+processed and their templates are defined in [build-maps.inc.sh](./value-maps/script/build-maps.inc.sh).
