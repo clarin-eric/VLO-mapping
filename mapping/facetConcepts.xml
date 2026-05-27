@@ -39,13 +39,18 @@
 		<!-- BAS media-corpus-profile -->
 	</facetConcept>
 	<facetConcept name="name">
+		<!-- 
+		    Wikidata property P2561: name the subject is known by; preferably use a more specific subproperty if available 
+		    (aka, also known as, known as, label, be known as, be referred as, referred to as)
+		-->
+		<concept>http://www.wikidata.org/entity/P2561</concept>
+		
+		<!-- title statement -->
 		<concept>http://www.isocat.org/datcat/DC-5428</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-5428_65670fd6-3426-68ac-8f29-faef6ffd02ce</concept>
-
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-5428_65670fd6-3426-68ac-8f29-faef6ffd02ce-->
 		<concept>http://www.wikidata.org/entity/Q60558001</concept>
 
-		<!-- title statement -->
 
 		<concept>http://www.isocat.org/datcat/DC-5127</concept>
 		<concept>http://hdl.handle.net/11459/CCR_C-5127_f2721b23-921c-46ba-8d4d-88b46aef6976</concept>
