@@ -170,7 +170,6 @@
 "Software, multimedia","software;multimedia",,,,,
 "Info:eu-repo/semantics/other","other",,,,,
 "Info: eu-repo/semantics/other","other",,,,,
-"Text/vnd.dariah.dhrep.collection+turtle","!",,,,,
 "Tools","software",,,,,
 "Image/jpeg","image",,,,,
 "Image/tiff","image",,,,,
@@ -186,3 +185,5 @@
 "Newspaper corpus","corpus",,,,,
 "Enregistrement sonore","audio",,"Sound recording",,,
 "~^\(aad\).+","!",,"Arbeitsgemeinschaft Alte Drucke (aad) values",,,
+"~^Application\/.+","!",,"Mime types",,,
+"~^Text\/.+","!",,"Mime types",,,
