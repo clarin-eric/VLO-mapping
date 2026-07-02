@@ -185,3 +185,4 @@
 "speech,corpus","corpus",,,,,
 "Newspaper corpus","corpus",,,,,
 "Enregistrement sonore","audio",,"Sound recording",,,
+"~^\(aad\).+","!",,"Arbeitsgemeinschaft Alte Drucke (aad) values",,,
