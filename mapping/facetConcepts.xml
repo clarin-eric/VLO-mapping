@@ -297,6 +297,7 @@
 		<concept>http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d</concept>
 
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d-->
+		<!-- Wikidata entity: "linguonym" -->
 		<concept>http://www.wikidata.org/entity/Q3109261</concept>
 
 		<!-- language name -->
@@ -307,8 +308,21 @@
 		<concept>http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818</concept>
 
 		<!--Wikidata mapping from http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818-->
+		<!-- Wikidata entity: "language" -->
 		<concept>http://www.wikidata.org/entity/Q34770</concept>
 
+		<!-- Wikidata property: "ISO 639-3 code" -->
+		<concept>http://www.wikidata.org/entity/P220</concept>
+
+		<!-- Wikidata entity: "ISO 639-3 code" -->
+		<concept>https://www.wikidata.org/wiki/Q56217712</concept>
+		
+		<!-- Wikidata property: "ISO 639-2 code" -->
+		<concept>http://www.wikidata.org/entity/P219</concept>
+
+		<!-- Wikidata entity: "ISO 639-2 code" -->
+		<concept>https://www.wikidata.org/wiki/Q56217678</concept>
+		
 		<!--language (TEI) - MENZO: added for CLARIN-DK -->
 
 		<concept>http://purl.org/dc/terms/language</concept>
