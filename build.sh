@@ -15,11 +15,11 @@ else
         echo "Nexus credentials not set. Skipping Maven deployment!"
     else
     	#if snapshot OR tag, deploy
-    	if [ ! -z "${TRAVIS_TAG}" ] || (head -n 10 pom.xml | egrep -q "<version>.*SNAPSHOT</version>")
+    	if [ ! -z "${CI_TAG}" ] || (head -n 10 pom.xml | egrep -q "<version>.*SNAPSHOT</version>")
     	then
 	        MVN_GOAL="deploy"
-	        if [[ "${TRAVIS_TAG}" ]]; then
-	        	mvn versions:set -DnewVersion="${TRAVIS_TAG}" versions:commit
+	        if [[ "${CI_TAG}" ]]; then
+	        	mvn versions:set -DnewVersion="${CI_TAG}" versions:commit
 	        fi
 	    else
 	    	echo "Not a snapshot release or tagged revision. Skipping Maven deployment!"
