@@ -11,8 +11,15 @@ concurrency:
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
-  validate:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      CI_TAG: ${{ github.ref_type == 'tag' && github.ref_name || '' }}
+      # Only set for pushes, so that pull request builds neither deploy nor push
+      CI_BRANCH: ${{ github.event_name == 'push' && github.ref_type == 'branch' && github.ref_name || '' }}
+      CI_BUILD_NUMBER: ${{ github.run_number }}
     steps:
       - uses: actions/checkout@v7
 
@@ -24,19 +31,6 @@ jobs:
 
       - name: Validate configuration
         run: config/script/validate.sh
-
-  build:
-    needs: validate
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    env:
-      CI_TAG: ${{ github.ref_type == 'tag' && github.ref_name || '' }}
-      # Only set for pushes, so that pull request builds neither deploy nor push
-      CI_BRANCH: ${{ github.event_name == 'push' && github.ref_type == 'branch' && github.ref_name || '' }}
-      CI_BUILD_NUMBER: ${{ github.run_number }}
-    steps:
-      - uses: actions/checkout@v7
 
       - uses: actions/setup-java@v6
         with:

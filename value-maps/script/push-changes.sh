@@ -13,8 +13,7 @@ if [[ `git status --porcelain "${MAPS_DIR}"` ]]; then
 	if [[ "$CI_BRANCH" ]]; then
 		if [ "$CI_BRANCH" = "development" ] \
 			|| [ "$CI_BRANCH" = "beta" ] \
-			|| [ "$CI_BRANCH" = "master" ] \
-            || [ "$CI_BRANCH" = "github-actions" ]
+			|| [ "$CI_BRANCH" = "master" ]
 		then
 			echo "Will try to commit and push changes on '${CI_BRANCH}' branch"
 		else
