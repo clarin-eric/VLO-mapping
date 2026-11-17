@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+    tags: ['*']
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      CI_TAG: ${{ github.ref_type == 'tag' && github.ref_name || '' }}
+      # Only set for pushes, so that pull request builds neither deploy nor push
+      CI_BRANCH: ${{ github.event_name == 'push' && github.ref_type == 'branch' && github.ref_name || '' }}
+      CI_BUILD_NUMBER: ${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install xmllint
+        run: sudo apt-get update -q && sudo apt-get install -y -q libxml2-utils
+
+      - name: Validate mapping
+        run: mapping/script/validate.sh
+
+      - name: Validate configuration
+        run: config/script/validate.sh
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+
+      - name: Build and deploy to Nexus
+        run: ./build.sh -B --settings .maven-settings.xml
+        env:
+          NEXUS_DEPLOY_USERNAME: ${{ github.event_name == 'push' && secrets.NEXUS_DEPLOY_USERNAME || '' }}
+          NEXUS_DEPLOY_PASSWORD: ${{ github.event_name == 'push' && secrets.NEXUS_DEPLOY_PASSWORD || '' }}
+
+      - name: Build value maps
+        run: value-maps/script/build.sh
+
+      - name: Push built value maps
+        run: value-maps/script/push-changes.sh
+        env:
+          GIT_COMMIT_USER_NAME: github-actions[bot]
+          GIT_COMMIT_USER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
