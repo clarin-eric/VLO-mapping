@@ -3,31 +3,26 @@ set -e
 
 MAPS_DIR=$(dirname "$0")/..
 
-if [[ "$TRAVIS_TAG" ]]; then
+if [[ "$CI_TAG" ]]; then
 	echo "Skipping pushing of changes since we are on a tag"
 	exit 0
 fi
 
 if [[ `git status --porcelain "${MAPS_DIR}"` ]]; then
 
-	if [[ "$TRAVIS_BRANCH" ]]; then
-		if [ "$TRAVIS_BRANCH" = "development" ] \
-			|| [ "$TRAVIS_BRANCH" = "beta" ] \
-			|| [ "$TRAVIS_BRANCH" = "master" ]
+	if [[ "$CI_BRANCH" ]]; then
+		if [ "$CI_BRANCH" = "development" ] \
+			|| [ "$CI_BRANCH" = "beta" ] \
+			|| [ "$CI_BRANCH" = "master" ]
 		then
-			echo "Will try to commit and push changes on '${TRAVIS_BRANCH}' branch"
+			echo "Will try to commit and push changes on '${CI_BRANCH}' branch"
 		else
-			echo "Branch '${TRAVIS_BRANCH}' is not configured for auto commit and push"
+			echo "Branch '${CI_BRANCH}' is not configured for auto commit and push"
 			exit 0
 		fi
 	else
-		echo "TRAVIS_BRANCH not set; will not commit and push changes"
+		echo "CI_BRANCH not set; will not commit and push changes"
 		exit 0
-	fi
-
-	if ! [[ "$GH_TOKEN" ]] || ! [[ "$GH_USER" ]]; then
-		echo "Error: GH_TOKEN and/or GH_USER not set"
-		exit 1
 	fi
 
 	echo "Committing changes"
@@ -40,16 +35,11 @@ if [[ `git status --porcelain "${MAPS_DIR}"` ]]; then
 		git config user.name "$GIT_COMMIT_USER_NAME"
 	fi
 	
-	git checkout "${TRAVIS_BRANCH}"
-	
 	#commit
-	git commit "${MAPS_DIR}" -m "Automatic commit of built changes in value maps (Travis build ${TRAVIS_BUILD_NUMBER})"
-	
-	#push
-	URL=`git remote get-url origin`
-	echo "Remote: ${URL}"
-	git remote add target "https://${GH_USER}:${GH_TOKEN}@${URL#https://}"
-	git push -q target 
+	git commit "${MAPS_DIR}" -m "Automatic commit of built changes in value maps (CI build ${CI_BUILD_NUMBER})"
+
+	#push (uses the credentials stored by actions/checkout)
+	git push -q origin "HEAD:refs/heads/${CI_BRANCH}"
 else
 	echo "Nothing to commit"
 fi
